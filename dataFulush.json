@@ -1,0 +1,7193 @@
+[
+  {
+    "tanggal": "2026-04-02T22:58",
+    "nominal": "14000",
+    "kategori": "lain-lain",
+    "keterangan": "Tip mijat",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "98nubu"
+  },
+  {
+    "tanggal": "2026-03-31T22:59",
+    "nominal": "435000",
+    "kategori": "lain-lain",
+    "keterangan": "",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "8qoae5"
+  },
+  {
+    "tanggal": "2026-04-01T23:02",
+    "nominal": "5000",
+    "kategori": "jajan",
+    "keterangan": "Minuman",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "cv4a1t"
+  },
+  {
+    "tanggal": "2026-04-01T23:03",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Lauk/dengen sangu",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "sj25c7"
+  },
+  {
+    "tanggal": "2026-04-02T23:03",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Lauk dengen sangu ikan gurame",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "q9jt0q"
+  },
+  {
+    "tanggal": "2026-04-02T23:04",
+    "nominal": "6000",
+    "kategori": "makan",
+    "keterangan": "Galon",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "yy1jba"
+  },
+  {
+    "tanggal": "2026-04-02T20:06",
+    "nominal": "7000",
+    "kategori": "makan",
+    "keterangan": "Mie 2",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "8xykyq"
+  },
+  {
+    "tanggal": "2026-04-02T20:07",
+    "nominal": "4000",
+    "kategori": "makan",
+    "keterangan": "Telor 2",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "wmcwoh"
+  },
+  {
+    "tanggal": "2026-04-03T12:07",
+    "nominal": "50000",
+    "kategori": "lain-lain",
+    "keterangan": "Tips",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "0tt70r"
+  },
+  {
+    "tanggal": "2026-04-03T21:31",
+    "nominal": "5000",
+    "kategori": "belanja",
+    "keterangan": "Gunting",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "swvu91"
+  },
+  {
+    "tanggal": "2026-04-04T22:05",
+    "nominal": "58000",
+    "kategori": "hibah",
+    "keterangan": "Tip mijat",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "9haaxf"
+  },
+  {
+    "tanggal": "2026-04-04T22:06",
+    "nominal": "9000",
+    "kategori": "hibah",
+    "keterangan": "Tip mijat",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "qvjd3s"
+  },
+  {
+    "tanggal": "2026-04-04T16:16",
+    "nominal": "6000",
+    "kategori": "jajan",
+    "keterangan": "Jagung 1",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "wngzvv"
+  },
+  {
+    "tanggal": "2026-04-04T16:14",
+    "nominal": "6000",
+    "kategori": "jajan",
+    "keterangan": "Ubi/Hui 2",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "43nrc9"
+  },
+  {
+    "tanggal": "2026-04-04T22:41",
+    "nominal": "10000",
+    "kategori": "jajan",
+    "keterangan": "Tahu bulat",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "nvfl81"
+  },
+  {
+    "id": "xz7f7u",
+    "jenis": "keluar",
+    "nominal": "11000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Tahu gejrot",
+    "tanggal": "2026-04-04T15:42"
+  },
+  {
+    "tanggal": "2026-04-04T22:45",
+    "nominal": "25000",
+    "kategori": "sodara",
+    "keterangan": "Sesa",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "i83n6v"
+  },
+  {
+    "tanggal": "2026-04-01T08:03",
+    "nominal": "125000",
+    "kategori": "pulsa&internet",
+    "keterangan": "Kuota",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "6lxyv4"
+  },
+  {
+    "tanggal": "2026-03-29T08:05",
+    "nominal": "31500",
+    "kategori": "makan",
+    "keterangan": "Beras",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "nvljkp"
+  },
+  {
+    "tanggal": "2026-04-05T12:34",
+    "nominal": "28000",
+    "kategori": "hibah",
+    "keterangan": "Tip",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "i7axke"
+  },
+  {
+    "tanggal": "2026-04-05T16:41",
+    "nominal": "8000",
+    "kategori": "makan",
+    "keterangan": "Ayam",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "ay7q8p"
+  },
+  {
+    "tanggal": "2026-04-05T21:40",
+    "nominal": "20000",
+    "kategori": "hibah",
+    "keterangan": "Tip",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "5qw6uh"
+  },
+  {
+    "tanggal": "2026-04-06T10:41",
+    "nominal": "500",
+    "kategori": "lain-lain",
+    "keterangan": "",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "syr866"
+  },
+  {
+    "tanggal": "2026-04-06T13:54",
+    "nominal": "20000",
+    "kategori": "lain-lain",
+    "keterangan": "Tip",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "56yqfi"
+  },
+  {
+    "tanggal": "2026-04-06T18:55",
+    "nominal": "8000",
+    "kategori": "makan",
+    "keterangan": "Ayam",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "4a41bq"
+  },
+  {
+    "id": "rfdpne",
+    "jenis": "keluar",
+    "nominal": "3000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Mie gelas 2",
+    "tanggal": "2026-04-06T11:55"
+  },
+  {
+    "tanggal": "2026-04-06T19:27",
+    "nominal": "8000",
+    "kategori": "makan",
+    "keterangan": "Ayam",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "yjqraj"
+  },
+  {
+    "tanggal": "2026-04-07T13:15",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "6fu8hs"
+  },
+  {
+    "tanggal": "2026-04-07T13:18",
+    "nominal": "2000",
+    "kategori": "lain-lain",
+    "keterangan": "Duka",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "n42ad9"
+  },
+  {
+    "tanggal": "2026-04-07T21:07",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "7xqdlf"
+  },
+  {
+    "tanggal": "2026-04-07T21:07",
+    "nominal": "12000",
+    "kategori": "makan",
+    "keterangan": "Nasi ayam",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "basqqg"
+  },
+  {
+    "tanggal": "2026-04-07T21:07",
+    "nominal": "15000",
+    "kategori": "hibah",
+    "keterangan": "Tip",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "k5071i"
+  },
+  {
+    "tanggal": "2026-04-08T11:21",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "cvdro7"
+  },
+  {
+    "tanggal": "2026-04-08T18:17",
+    "nominal": "12000",
+    "kategori": "makan",
+    "keterangan": "Somay",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "w8w80m"
+  },
+  {
+    "tanggal": "2026-04-08T22:18",
+    "nominal": "24000",
+    "kategori": "jajan",
+    "keterangan": "Jajan",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "pdyzgq"
+  },
+  {
+    "tanggal": "2026-04-09T14:52",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "mxqhx9"
+  },
+  {
+    "tanggal": "2026-04-09T14:52",
+    "nominal": "9000",
+    "kategori": "hibah",
+    "keterangan": "Tip",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "apabr2"
+  },
+  {
+    "tanggal": "2026-04-09T20:58",
+    "nominal": "10000",
+    "kategori": "jajan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "1gqoxy"
+  },
+  {
+    "id": "gq3kk2",
+    "jenis": "keluar",
+    "nominal": "2000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Jajan",
+    "tanggal": "2026-04-09T14:02"
+  },
+  {
+    "tanggal": "2026-04-10T21:11",
+    "nominal": "6000",
+    "kategori": "belanja",
+    "keterangan": "Galon",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "d1tx7z"
+  },
+  {
+    "tanggal": "2026-04-10T21:12",
+    "nominal": "6000",
+    "kategori": "makan",
+    "keterangan": "Roti 2",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "sxk3fm"
+  },
+  {
+    "tanggal": "2026-04-10T21:12",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Nasi + ikan +kangkung",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "o4jjop"
+  },
+  {
+    "tanggal": "2026-04-11T07:33",
+    "nominal": "17000",
+    "kategori": "jajan",
+    "keterangan": "Mie 2 + telor 2 dan susu kotak",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "ntyp8i"
+  },
+  {
+    "tanggal": "2026-04-12T11:33",
+    "nominal": "42000",
+    "kategori": "makan",
+    "keterangan": "Beras merah 3 liter",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "4zny8p"
+  },
+  {
+    "id": "ocfe88",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Singkong Thailand ",
+    "tanggal": "2026-04-11T21:34"
+  },
+  {
+    "tanggal": "2026-04-12T11:34",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "kx6vx3"
+  },
+  {
+    "tanggal": "2026-04-13T08:34",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor ",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "g480t4"
+  },
+  {
+    "tanggal": "2026-04-14T09:21",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "ir5ic1"
+  },
+  {
+    "id": "14bqc6",
+    "jenis": "keluar",
+    "nominal": "32000",
+    "alokasi": "Krom",
+    "kategori": "lain-lain",
+    "keterangan": "Undefined ",
+    "tanggal": "2026-03-28T22:23"
+  },
+  {
+    "tanggal": "2026-04-14T17:18",
+    "nominal": "4000",
+    "kategori": "lain-lain",
+    "keterangan": "Tip",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "kcadam"
+  },
+  {
+    "tanggal": "2026-04-14T20:54",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Tahu krispi ",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "zn3qz1"
+  },
+  {
+    "tanggal": "2026-04-15T08:12",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "vib33n"
+  },
+  {
+    "tanggal": "2026-04-15T08:12",
+    "nominal": "10000",
+    "kategori": "jajan",
+    "keterangan": "Singtai",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "b3nlac"
+  },
+  {
+    "tanggal": "2026-04-16T08:37",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "m8ft5c"
+  },
+  {
+    "tanggal": "2026-04-16T19:04",
+    "nominal": "10000",
+    "kategori": "lain-lain",
+    "keterangan": "Tip",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "izbnoy"
+  },
+  {
+    "tanggal": "2026-04-16T19:04",
+    "nominal": "20000",
+    "kategori": "lain-lain",
+    "keterangan": "Tip dari pak Riki",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "ob8rls"
+  },
+  {
+    "tanggal": "2026-04-17T14:42",
+    "nominal": "10000",
+    "kategori": "jajan",
+    "keterangan": "Singtai ",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "higugp"
+  },
+  {
+    "tanggal": "2026-04-17T14:42",
+    "nominal": "5000",
+    "kategori": "jajan",
+    "keterangan": "Bakso ikan",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "own7px"
+  },
+  {
+    "tanggal": "2026-04-17T14:42",
+    "nominal": "5000",
+    "kategori": "jajan",
+    "keterangan": "Cilor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "2l8cy9"
+  },
+  {
+    "id": "z1hwa2",
+    "jenis": "keluar",
+    "nominal": "11000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Tahu gejrot",
+    "tanggal": "2026-04-17T07:55"
+  },
+  {
+    "tanggal": "2026-04-17T14:56",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "04tcsi"
+  },
+  {
+    "tanggal": "2026-04-17T08:07",
+    "nominal": "10000",
+    "kategori": "hibah",
+    "keterangan": "Tip",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "62k0gl"
+  },
+  {
+    "tanggal": "2026-04-17T11:46",
+    "nominal": "155000",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat ",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "41mabl"
+  },
+  {
+    "tanggal": "2026-04-18T11:47",
+    "nominal": "25000",
+    "kategori": "hibah",
+    "keterangan": "Tip dari pak Kade",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "lxgx16"
+  },
+  {
+    "tanggal": "2026-04-18T09:21",
+    "nominal": "135000",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "t2vs4u"
+  },
+  {
+    "tanggal": "2026-04-18T16:17",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Baso/cilok kuah ",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "jdlvne"
+  },
+  {
+    "tanggal": "2026-04-18T16:17",
+    "nominal": "20000",
+    "kategori": "hibah",
+    "keterangan": "Tip dari pak Raditya ",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "rm8xqs"
+  },
+  {
+    "tanggal": "2026-04-18T15:43",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Sayur asem",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "0xb9v4"
+  },
+  {
+    "tanggal": "2026-04-19T15:43",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "4ic70f"
+  },
+  {
+    "id": "cwov9e",
+    "jenis": "masuk",
+    "nominal": "17000",
+    "alokasi": "Superbank",
+    "kategori": "lain-lain",
+    "keterangan": "-",
+    "tanggal": "2026-03-28T18:54"
+  },
+  {
+    "tanggal": "2026-04-19T17:14",
+    "nominal": "30000",
+    "kategori": "belanja",
+    "keterangan": "Dicukur",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "urewhe"
+  },
+  {
+    "id": "c2rose",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Ocak-otak",
+    "tanggal": "2026-04-19T10:15"
+  },
+  {
+    "tanggal": "2026-04-19T19:20",
+    "nominal": "6000",
+    "kategori": "belanja",
+    "keterangan": "Galon",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "zgjnf9"
+  },
+  {
+    "tanggal": "2026-04-19T22:32",
+    "nominal": "50000",
+    "kategori": "lain-lain",
+    "keterangan": "Tips Dari Pak Rizcky",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "0bwuv0"
+  },
+  {
+    "tanggal": "2026-04-19T07:38",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Cilor ",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "hyijae"
+  },
+  {
+    "tanggal": "2026-04-20T12:05",
+    "nominal": "6000",
+    "kategori": "belanja",
+    "keterangan": "Lampu",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "xmgoqg"
+  },
+  {
+    "tanggal": "2026-04-20T12:05",
+    "nominal": "7000",
+    "kategori": "makan",
+    "keterangan": "Mie",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "iiafny"
+  },
+  {
+    "tanggal": "2026-04-20T12:05",
+    "nominal": "595000",
+    "kategori": "freelancer",
+    "keterangan": "Gajian pijat",
+    "alokasi": "Superbank",
+    "jenis": "masuk",
+    "id": "tqm9le"
+  },
+  {
+    "tanggal": "2026-04-20T12:06",
+    "nominal": "173306",
+    "kategori": "belanja",
+    "keterangan": "Bayar shopee pay later",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "stb0io"
+  },
+  {
+    "tanggal": "2026-04-20T21:49",
+    "nominal": "6000",
+    "kategori": "jajan",
+    "keterangan": "Teajus dan top ive",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "byswgp"
+  },
+  {
+    "tanggal": "2026-04-20T21:50",
+    "nominal": "100000",
+    "kategori": "hibah",
+    "keterangan": "Tip bang rivan",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "vb95ea"
+  },
+  {
+    "tanggal": "2026-04-21T08:46",
+    "nominal": "8000",
+    "kategori": "makan",
+    "keterangan": "Sayur",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "cfe4ie"
+  },
+  {
+    "tanggal": "2026-04-21T14:38",
+    "nominal": "21000",
+    "kategori": "belanja",
+    "keterangan": "Beras putih 2 liter",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "di3end"
+  },
+  {
+    "tanggal": "2026-04-21T14:38",
+    "nominal": "10000",
+    "kategori": "jajan",
+    "keterangan": "Bakso ikan",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "38ilfs"
+  },
+  {
+    "tanggal": "2026-04-22T02:06",
+    "nominal": "10000",
+    "kategori": "jajan",
+    "keterangan": "Cilor ",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "eesub4"
+  },
+  {
+    "tanggal": "2026-04-22T11:52",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "da4tb8"
+  },
+  {
+    "tanggal": "2026-04-22T17:33",
+    "nominal": "50000",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Yaser",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "wzdbyc"
+  },
+  {
+    "tanggal": "2026-04-22T08:47",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Cilor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "5w1dqj"
+  },
+  {
+    "id": "99s12s",
+    "jenis": "keluar",
+    "nominal": "3000",
+    "alokasi": "Krom",
+    "kategori": "Gebloh",
+    "keterangan": "Pengamen",
+    "tanggal": "2026-04-22T08:48"
+  },
+  {
+    "tanggal": "2026-04-23T08:48",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Sayur telor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "lzsr52"
+  },
+  {
+    "tanggal": "2026-04-23T08:49",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Bihun",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "3omekz"
+  },
+  {
+    "tanggal": "2026-04-23T16:33",
+    "nominal": "17000",
+    "kategori": "hibah",
+    "keterangan": "Tip dari pak Zulfi",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "zxe6jg"
+  },
+  {
+    "tanggal": "2026-04-23T16:35",
+    "nominal": "228000",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "r153rz"
+  },
+  {
+    "tanggal": "2026-04-23T21:16",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf cash ke dana",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "f2cfos"
+  },
+  {
+    "tanggal": "2026-04-23T21:16",
+    "nominal": 500000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke dana",
+    "alokasi": "Krom_ke_Superbank",
+    "jenis": "transfer",
+    "id": "t8dsf2"
+  },
+  {
+    "tanggal": "2026-04-23T21:19",
+    "nominal": "5000",
+    "kategori": "jajan",
+    "keterangan": "Cilor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "p4cyiw"
+  },
+  {
+    "tanggal": "2026-04-24T09:42",
+    "nominal": "272000",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "alokasi": "Superbank",
+    "jenis": "masuk",
+    "id": "sd063l"
+  },
+  {
+    "tanggal": "2026-04-24T18:34",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "p0pmk8"
+  },
+  {
+    "tanggal": "2026-04-24T18:34",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Bacil kuah",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "359zjw"
+  },
+  {
+    "tanggal": "2026-04-24T18:34",
+    "nominal": "10000",
+    "kategori": "jajan",
+    "keterangan": "Singtai",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "eg0igw"
+  },
+  {
+    "tanggal": "2026-04-25T10:37",
+    "nominal": "200000",
+    "kategori": "lain-lain",
+    "keterangan": "Ngirim KA ema",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "a49ou2"
+  },
+  {
+    "tanggal": "2026-04-25T10:37",
+    "nominal": "5000",
+    "kategori": "lain-lain",
+    "keterangan": "Admin girim KA ema",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "7fbvs5"
+  },
+  {
+    "tanggal": "2026-04-25T07:38",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "r97bez"
+  },
+  {
+    "tanggal": "2026-04-25T06:57",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Cilor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "l5gm3w"
+  },
+  {
+    "tanggal": "2026-04-26T11:15",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "55aw8u"
+  },
+  {
+    "tanggal": "2026-04-26T11:15",
+    "nominal": "33000",
+    "kategori": "lain-lain",
+    "keterangan": "Tip dari Pak dicky",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "oqmq9r"
+  },
+  {
+    "id": "twk6a0",
+    "jenis": "masuk",
+    "nominal": "40000",
+    "alokasi": "Krom",
+    "kategori": "hibah",
+    "keterangan": "Tip pak agil",
+    "tanggal": "2026-04-26T14:00"
+  },
+  {
+    "tanggal": "2026-04-26T21:14",
+    "nominal": "5000",
+    "kategori": "lain-lain",
+    "keterangan": "Tip dari suami Bu ocha",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "fm1ro9"
+  },
+  {
+    "tanggal": "2026-04-26T21:23",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Bakso bakwan",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "spryxt"
+  },
+  {
+    "tanggal": "2026-04-26T21:23",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Cilor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "yvl7ta"
+  },
+  {
+    "tanggal": "2026-04-27T09:04",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "5aev0m"
+  },
+  {
+    "tanggal": "2026-04-27T22:21",
+    "nominal": "35000",
+    "kategori": "belanja",
+    "keterangan": "Kaos ijo",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "gsy2o0"
+  },
+  {
+    "tanggal": "2026-04-27T22:22",
+    "nominal": "6000",
+    "kategori": "kos",
+    "keterangan": "Galon",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "opt2pb"
+  },
+  {
+    "tanggal": "2026-04-27T22:23",
+    "nominal": "30000",
+    "kategori": "hibah",
+    "keterangan": "Tips dari pak jess",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "fes4yi"
+  },
+  {
+    "tanggal": "2026-04-28T11:46",
+    "nominal": "20000",
+    "kategori": "lain-lain",
+    "keterangan": "Tip dari pak suaminya bunga",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "izc54k"
+  },
+  {
+    "tanggal": "2026-04-28T12:35",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Telor ",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "lb7omd"
+  },
+  {
+    "tanggal": "2026-04-28T16:27",
+    "nominal": "15000",
+    "kategori": "makan",
+    "keterangan": "Mie ayam",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "or7ts3"
+  },
+  {
+    "id": "ynrx5c",
+    "jenis": "keluar",
+    "nominal": "15000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Susu kotak 2",
+    "tanggal": "2026-04-28T09:27"
+  },
+  {
+    "id": "g4se38",
+    "jenis": "keluar",
+    "nominal": "12000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Jus durian",
+    "tanggal": "2026-04-28T16:06"
+  },
+  {
+    "tanggal": "2026-04-28T23:07",
+    "nominal": "18000",
+    "kategori": "makan",
+    "keterangan": "Ketoprak telor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "e27za8"
+  },
+  {
+    "tanggal": "2026-04-29T00:42",
+    "nominal": "124954",
+    "kategori": "pulsa&internet",
+    "keterangan": "Kuota",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "6a88fa"
+  },
+  {
+    "tanggal": "2026-04-27T00:45",
+    "nominal": "10995",
+    "kategori": "pulsa&internet",
+    "keterangan": "Pulsa",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "x0ruw3"
+  },
+  {
+    "tanggal": "2026-04-29T19:03",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "8qrzap"
+  },
+  {
+    "tanggal": "2026-04-29T19:18",
+    "nominal": "130000",
+    "kategori": "freelancer",
+    "keterangan": "Kasbon gaji",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "ikdnpb"
+  },
+  {
+    "tanggal": "2026-04-29T19:20",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf cash ke dana",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "inys61"
+  },
+  {
+    "tanggal": "2026-04-29T19:20",
+    "nominal": 150000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke dana",
+    "alokasi": "Krom_ke_Superbank",
+    "jenis": "transfer",
+    "id": "g1mltt"
+  },
+  {
+    "id": "8n87ph",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Superbank",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-04-29T12:20"
+  },
+  {
+    "tanggal": "2026-04-29T23:32",
+    "nominal": "15000",
+    "kategori": "hibah",
+    "keterangan": "Tip anjar",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "tk07ia"
+  },
+  {
+    "tanggal": "2026-05-01T11:16",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "r432ub"
+  },
+  {
+    "tanggal": "2026-05-01T16:59",
+    "nominal": "50000",
+    "kategori": "hibah",
+    "keterangan": "Tip pak agung",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "0asir4"
+  },
+  {
+    "tanggal": "2026-05-01T21:11",
+    "nominal": "50000",
+    "kategori": "hibah",
+    "keterangan": "Tip pak ayaseer",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "p31z1s"
+  },
+  {
+    "tanggal": "2026-05-02T00:06",
+    "nominal": "15000",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "dekgk7"
+  },
+  {
+    "tanggal": "2026-05-02T11:53",
+    "nominal": "14500",
+    "kategori": "makan",
+    "keterangan": "Beras merah 1 liter",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "vlyr5l"
+  },
+  {
+    "tanggal": "2026-05-02T11:53",
+    "nominal": "21000",
+    "kategori": "makan",
+    "keterangan": "Beras putih 2 liter ",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "xfjndm"
+  },
+  {
+    "tanggal": "2026-05-02T12:37",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Bakso kuah",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "seeehu"
+  },
+  {
+    "id": "y2m5he",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Cilor",
+    "tanggal": "2026-05-02T12:24"
+  },
+  {
+    "tanggal": "2026-05-03T13:26",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "iaq6s3"
+  },
+  {
+    "tanggal": "2026-05-03T13:26",
+    "nominal": "20000",
+    "kategori": "hibah",
+    "keterangan": "Tip pak yunus",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "c0x7cq"
+  },
+  {
+    "tanggal": "2026-05-03T16:39",
+    "nominal": "9000",
+    "kategori": "hibah",
+    "keterangan": "Tip pak kholiq",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "yrjy8h"
+  },
+  {
+    "tanggal": "2026-05-03T22:33",
+    "nominal": "25000",
+    "kategori": "hibah",
+    "keterangan": "Tip Suami Bu cia",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "zr50im"
+  },
+  {
+    "tanggal": "2026-05-03T22:47",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Cilor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "zsefgw"
+  },
+  {
+    "tanggal": "2026-05-04T13:02",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Baso",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "6kgy2q"
+  },
+  {
+    "tanggal": "2026-05-04T13:04",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "w5y0a2"
+  },
+  {
+    "id": "5ivw78",
+    "jenis": "keluar",
+    "nominal": "105000",
+    "alokasi": "Superbank",
+    "kategori": "Asuransi",
+    "keterangan": "Bayar BPJS",
+    "tanggal": "2026-05-05T09:47"
+  },
+  {
+    "tanggal": "2026-05-04T09:57",
+    "nominal": "41000",
+    "kategori": "hibah",
+    "keterangan": "Tip pak gilang",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "msfyao"
+  },
+  {
+    "id": "07r79p",
+    "jenis": "keluar",
+    "nominal": "11000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab t",
+    "tanggal": "2026-05-04T16:02"
+  },
+  {
+    "tanggal": "2026-05-05T14:04",
+    "nominal": "7000",
+    "kategori": "hibah",
+    "keterangan": "Tip",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "6wz5r0"
+  },
+  {
+    "tanggal": "2026-05-05T14:05",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Telor ",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "3zr3gg"
+  },
+  {
+    "tanggal": "2026-05-05T14:05",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "jf29mm"
+  },
+  {
+    "id": "wt5uhs",
+    "jenis": "keluar",
+    "nominal": "20000",
+    "alokasi": "Superbank",
+    "kategori": "jajan",
+    "keterangan": "Jajan cornito es krim",
+    "tanggal": "2026-05-05T13:41"
+  },
+  {
+    "tanggal": "2026-05-06T08:12",
+    "nominal": "5000",
+    "kategori": "jajan",
+    "keterangan": "Dadar gulung 3",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "4idmz3"
+  },
+  {
+    "tanggal": "2026-05-06T08:13",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "o8ebl8"
+  },
+  {
+    "tanggal": "2026-05-06T08:13",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "k2d8dh"
+  },
+  {
+    "tanggal": "2026-05-06T08:13",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Mie",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "sl7xoe"
+  },
+  {
+    "tanggal": "2026-05-06T17:27",
+    "nominal": 3000,
+    "kategori": "keluar",
+    "keterangan": "admin tf cash ke dana",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "rk1woh"
+  },
+  {
+    "tanggal": "2026-05-06T17:27",
+    "nominal": 47000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke dana",
+    "alokasi": "Krom_ke_Superbank",
+    "jenis": "transfer",
+    "id": "hw3ryg"
+  },
+  {
+    "tanggal": "2026-05-06T07:24",
+    "nominal": "6000",
+    "kategori": "makan",
+    "keterangan": "Galon",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "1mu0n2"
+  },
+  {
+    "id": "ekwj8g",
+    "jenis": "keluar",
+    "nominal": "2000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Top ice 3",
+    "tanggal": "2026-05-06T00:24"
+  },
+  {
+    "tanggal": "2026-05-07T13:14",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Rencang",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "dh6ap1"
+  },
+  {
+    "tanggal": "2026-05-07T13:14",
+    "nominal": "22900",
+    "kategori": "jajan",
+    "keterangan": "Susu fisionflag",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "x1gcgm"
+  },
+  {
+    "tanggal": "2026-05-07T13:31",
+    "nominal": "219491",
+    "kategori": "belanja",
+    "keterangan": "Bayar spaylater",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "vm21u6"
+  },
+  {
+    "tanggal": "2026-05-07T19:06",
+    "nominal": "5000",
+    "kategori": "belanja",
+    "keterangan": "Jusangga",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "cdy64d"
+  },
+  {
+    "id": "3rf3rb",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-05-07T13:40"
+  },
+  {
+    "tanggal": "2026-05-07T20:55",
+    "nominal": "10000",
+    "kategori": "jajan",
+    "keterangan": "Cilor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "s2px5j"
+  },
+  {
+    "tanggal": "2026-05-08T14:19",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "moo3tw"
+  },
+  {
+    "tanggal": "2026-05-08T14:19",
+    "nominal": "20000",
+    "kategori": "hibah",
+    "keterangan": "Tip pak candra",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "nnbji1"
+  },
+  {
+    "id": "1eng03",
+    "jenis": "keluar",
+    "nominal": "7000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Candil ",
+    "tanggal": "2026-05-08T07:20"
+  },
+  {
+    "tanggal": "2026-05-08T23:33",
+    "nominal": "1000",
+    "kategori": "jajan",
+    "keterangan": "Frienti",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "nia66d"
+  },
+  {
+    "id": "nxu9rl",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab ",
+    "tanggal": "2026-05-08T13:33"
+  },
+  {
+    "tanggal": "2026-05-08T23:33",
+    "nominal": "250000",
+    "kategori": "freelancer",
+    "keterangan": "Freelancer pijat",
+    "alokasi": "Superbank",
+    "jenis": "masuk",
+    "id": "eohk8x"
+  },
+  {
+    "tanggal": "2026-05-09T12:31",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Telur dan mie",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "103eqi"
+  },
+  {
+    "id": "5d9dc8",
+    "jenis": "masuk",
+    "nominal": "874",
+    "alokasi": "Superbank",
+    "kategori": "lain-lain",
+    "keterangan": "Duka timana",
+    "tanggal": "2026-05-09T05:41"
+  },
+  {
+    "tanggal": "2026-05-14T08:32",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "3uqdgc"
+  },
+  {
+    "tanggal": "2026-05-10T14:32",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "u561u3"
+  },
+  {
+    "tanggal": "2026-05-10T22:35",
+    "nominal": "10000",
+    "kategori": "hibah",
+    "keterangan": "Tip pak nana",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "7gp60q"
+  },
+  {
+    "id": "5upqdu",
+    "jenis": "keluar",
+    "nominal": "12000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-05-10T15:35"
+  },
+  {
+    "id": "o4bbyr",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Otak-otak ",
+    "tanggal": "2026-05-10T15:40"
+  },
+  {
+    "tanggal": "2026-05-11T10:57",
+    "nominal": "10000",
+    "kategori": "lain-lain",
+    "keterangan": "Ebook cuan",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "gw4kxg"
+  },
+  {
+    "id": "ngn351",
+    "jenis": "keluar",
+    "nominal": "21000",
+    "alokasi": "Superbank",
+    "kategori": "lain-lain",
+    "keterangan": "Ebook merdeka dan test",
+    "tanggal": "2026-05-11T03:57"
+  },
+  {
+    "tanggal": "2026-05-11T18:03",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Telor ceplok, kentang",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "p232ha"
+  },
+  {
+    "tanggal": "2026-05-11T18:03",
+    "nominal": "6000",
+    "kategori": "makan",
+    "keterangan": "telor asin",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "ogkjkt"
+  },
+  {
+    "id": "ivhevk",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Juice",
+    "tanggal": "2026-05-11T11:04"
+  },
+  {
+    "tanggal": "2026-05-12T06:01",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "xvpsjh"
+  },
+  {
+    "id": "c07zv6",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Singtai matha",
+    "tanggal": "2026-05-11T23:01"
+  },
+  {
+    "id": "d98uui",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-05-11T23:02"
+  },
+  {
+    "id": "7f0o9x",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-05-13T08:09"
+  },
+  {
+    "id": "ltv3hv",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Singtai",
+    "tanggal": "2026-05-13T08:09"
+  },
+  {
+    "id": "dv5sb6",
+    "jenis": "keluar",
+    "nominal": "19044",
+    "alokasi": "Krom",
+    "kategori": "lain-lain",
+    "keterangan": "Tidak diketahui",
+    "tanggal": "2026-05-13T08:19"
+  },
+  {
+    "tanggal": "2026-05-13T15:49",
+    "nominal": "150000",
+    "kategori": "freelancer",
+    "keterangan": "Kasbon gaji pijat",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "chs01o"
+  },
+  {
+    "tanggal": "2026-05-13T19:43",
+    "nominal": "20000",
+    "kategori": "hibah",
+    "keterangan": "Tip Suhadi",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "jy6hcf"
+  },
+  {
+    "id": "5bn0bd",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-05-14T12:09"
+  },
+  {
+    "tanggal": "2026-05-08T19:10",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "286md1"
+  },
+  {
+    "tanggal": "2026-05-15T09:06",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Nasi telur",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "6wiy39"
+  },
+  {
+    "tanggal": "2026-05-15T14:10",
+    "nominal": "20000",
+    "kategori": "hibah",
+    "keterangan": "Tip Didan",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "em2ffu"
+  },
+  {
+    "tanggal": "2026-05-15T16:55",
+    "nominal": "1238",
+    "kategori": "lain-lain",
+    "keterangan": "Bunga merenan",
+    "alokasi": "Superbank",
+    "jenis": "masuk",
+    "id": "sla8eo"
+  },
+  {
+    "tanggal": "2026-05-16T11:24",
+    "nominal": "23000",
+    "kategori": "makan",
+    "keterangan": "Bakso",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "e3f26k"
+  },
+  {
+    "tanggal": "2026-05-16T11:24",
+    "nominal": "2000",
+    "kategori": "makan",
+    "keterangan": "NU ngamen brengsek",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "mvs453"
+  },
+  {
+    "tanggal": "2026-05-16T11:34",
+    "nominal": "20000",
+    "kategori": "lain-lain",
+    "keterangan": "Duka",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "2o8s6y"
+  },
+  {
+    "id": "d62q5m",
+    "jenis": "keluar",
+    "nominal": "7000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Susu darurat",
+    "tanggal": "2026-05-16T09:49"
+  },
+  {
+    "tanggal": "2026-05-16T16:52",
+    "nominal": 52000,
+    "kategori": "transfer",
+    "keterangan": "dana ke cash",
+    "alokasi": "Superbank_ke_Krom",
+    "jenis": "transfer",
+    "id": "u3z9p6"
+  },
+  {
+    "id": "ugcq5b",
+    "jenis": "keluar",
+    "nominal": "16800",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Cireng",
+    "tanggal": "2026-05-16T09:52"
+  },
+  {
+    "id": "2cll5t",
+    "jenis": "masuk",
+    "nominal": "15000",
+    "alokasi": "Krom",
+    "kategori": "hibah",
+    "keterangan": "Tip Herry ",
+    "tanggal": "2026-05-16T15:28"
+  },
+  {
+    "tanggal": "2026-05-16T23:00",
+    "nominal": 7000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke darurat",
+    "alokasi": "Krom_ke_Tunai",
+    "jenis": "transfer",
+    "id": "1kiq1j"
+  },
+  {
+    "tanggal": "2026-05-17T10:07",
+    "nominal": "12000",
+    "kategori": "belanja",
+    "keterangan": "Odol 255 g",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "ziuc2k"
+  },
+  {
+    "id": "j7szzj",
+    "jenis": "keluar",
+    "nominal": "35500",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Beli beras 1 liter merah, 2 liter putih",
+    "tanggal": "2026-05-17T03:08"
+  },
+  {
+    "tanggal": "2026-05-17T10:11",
+    "nominal": "2000",
+    "kategori": "makan",
+    "keterangan": "Kontol!!! duka bayaran admin duka urang salha ketik. Ker bayar pake qris",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "wufl7n"
+  },
+  {
+    "tanggal": "2026-05-17T10:12",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Lauk",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "cwpjtj"
+  },
+  {
+    "tanggal": "2026-05-17T12:59",
+    "nominal": "1800",
+    "kategori": "makan",
+    "keterangan": "Admin kegoblokan",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "72ln3k"
+  },
+  {
+    "tanggal": "2026-05-17T22:43",
+    "nominal": "15000",
+    "kategori": "makan",
+    "keterangan": "Ketoprak ",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "gr8hoe"
+  },
+  {
+    "tanggal": "2026-05-18T14:00",
+    "nominal": "25000",
+    "kategori": "hibah",
+    "keterangan": "Tip Alvin",
+    "alokasi": "Tunai",
+    "jenis": "masuk",
+    "id": "5pn2j7"
+  },
+  {
+    "tanggal": "2026-05-18T08:10",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "iz66ss"
+  },
+  {
+    "id": "fdje4y",
+    "jenis": "keluar",
+    "nominal": "7000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Susu ultra",
+    "tanggal": "2026-05-18T07:10"
+  },
+  {
+    "tanggal": "2026-05-18T19:46",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Cilor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "k4xws7"
+  },
+  {
+    "tanggal": "2026-05-18T22:10",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf cash ke dana",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "66mg49"
+  },
+  {
+    "tanggal": "2026-05-18T22:10",
+    "nominal": 91356,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke dana",
+    "alokasi": "Krom_ke_Superbank",
+    "jenis": "transfer",
+    "id": "h3xfe2"
+  },
+  {
+    "tanggal": "2026-05-19T10:48",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "ne1fyk"
+  },
+  {
+    "id": "4581ax",
+    "jenis": "keluar",
+    "nominal": "14500",
+    "alokasi": "Superbank",
+    "kategori": "jajan",
+    "keterangan": "Susu 2",
+    "tanggal": "2026-05-19T10:33"
+  },
+  {
+    "tanggal": "2026-05-19T22:14",
+    "nominal": "100000",
+    "kategori": "freelancer",
+    "keterangan": "Freelancer pijat",
+    "alokasi": "Tunai",
+    "jenis": "masuk",
+    "id": "66dp2s"
+  },
+  {
+    "tanggal": "2026-05-19T23:09",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf dana ke darurat",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "6f8mgg"
+  },
+  {
+    "tanggal": "2026-05-19T23:09",
+    "nominal": 100000,
+    "kategori": "transfer",
+    "keterangan": "tf dana ke darurat",
+    "alokasi": "Superbank_ke_Tunai",
+    "jenis": "transfer",
+    "id": "1qp67z"
+  },
+  {
+    "tanggal": "2026-05-20T00:24",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin dana ke cash",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "y9vkv4"
+  },
+  {
+    "tanggal": "2026-05-20T00:24",
+    "nominal": 352121,
+    "kategori": "transfer",
+    "keterangan": "dana ke cash",
+    "alokasi": "Superbank_ke_Krom",
+    "jenis": "transfer",
+    "id": "nqilxq"
+  },
+  {
+    "tanggal": "2026-05-20T10:13",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "7c0kqb"
+  },
+  {
+    "tanggal": "2026-05-21T10:04",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "fhekca"
+  },
+  {
+    "id": "vm9h35",
+    "jenis": "keluar",
+    "nominal": "7000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Es doger",
+    "tanggal": "2026-05-21T06:39"
+  },
+  {
+    "tanggal": "2026-05-21T18:57",
+    "nominal": "12000",
+    "kategori": "makan",
+    "keterangan": "Cireng 6",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "6czs1p"
+  },
+  {
+    "tanggal": "2026-05-21T23:36",
+    "nominal": "575000",
+    "kategori": "freelancer",
+    "keterangan": "Gajipijat",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "qyo5gh"
+  },
+  {
+    "tanggal": "2026-05-21T23:40",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf cash ke dana",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "tw6nwo"
+  },
+  {
+    "tanggal": "2026-05-21T23:40",
+    "nominal": 500000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke dana",
+    "alokasi": "Krom_ke_Superbank",
+    "jenis": "transfer",
+    "id": "vs3pcy"
+  },
+  {
+    "tanggal": "2026-05-17T06:31",
+    "nominal": "5235",
+    "kategori": "lain-lain",
+    "keterangan": "Duka",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "lpjivg"
+  },
+  {
+    "tanggal": "2026-05-22T08:23",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Telor ",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "nn81re"
+  },
+  {
+    "id": "28kzlj",
+    "jenis": "masuk",
+    "nominal": "50000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Suami Viral .. ",
+    "tanggal": "2026-05-22T04:31"
+  },
+  {
+    "tanggal": "2026-05-22T15:32",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Nasi mie",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "sst02a"
+  },
+  {
+    "id": "vpvbdu",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Ti pak andre",
+    "tanggal": "2026-05-22T08:32"
+  },
+  {
+    "tanggal": "2026-05-22T16:11",
+    "nominal": "2000",
+    "kategori": "hibah",
+    "keterangan": "Angsul balanya sinzui",
+    "alokasi": "Tunai",
+    "jenis": "masuk",
+    "id": "n0xc8s"
+  },
+  {
+    "tanggal": "2026-05-23T14:51",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "fjk88c"
+  },
+  {
+    "id": "g4s6i0",
+    "jenis": "keluar",
+    "nominal": "15000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Cireng",
+    "tanggal": "2026-05-23T12:03"
+  },
+  {
+    "id": "scy49h",
+    "jenis": "keluar",
+    "nominal": "7000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Susu ultra",
+    "tanggal": "2026-05-23T12:03"
+  },
+  {
+    "tanggal": "2026-05-24T09:22",
+    "nominal": "6000",
+    "kategori": "makan",
+    "keterangan": "Telor semur",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "7k8kou"
+  },
+  {
+    "tanggal": "2026-05-24T09:22",
+    "nominal": "1000",
+    "kategori": "belanja",
+    "keterangan": "Lakban",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "4dvmvn"
+  },
+  {
+    "tanggal": "2026-05-24T09:22",
+    "nominal": "30899",
+    "kategori": "belanja",
+    "keterangan": "Shopeepaylater",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "jadtwm"
+  },
+  {
+    "tanggal": "2026-05-24T10:23",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf cash ke dana",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "q1aic2"
+  },
+  {
+    "tanggal": "2026-05-24T10:23",
+    "nominal": 100000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke dana",
+    "alokasi": "Krom_ke_Superbank",
+    "jenis": "transfer",
+    "id": "mdjpoo"
+  },
+  {
+    "id": "01tw4u",
+    "jenis": "keluar",
+    "nominal": "13000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab telor",
+    "tanggal": "2026-05-24T11:05"
+  },
+  {
+    "tanggal": "2026-05-24T20:59",
+    "nominal": 20000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke darurat",
+    "alokasi": "Krom_ke_Tunai",
+    "jenis": "transfer",
+    "id": "sq96tj"
+  },
+  {
+    "tanggal": "2026-05-24T23:00",
+    "nominal": "5140",
+    "kategori": "pulsa&internet",
+    "keterangan": "Pulsa 3",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "22n6z3"
+  },
+  {
+    "tanggal": "2026-05-24T23:04",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf cash ke dana",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "pitsw9"
+  },
+  {
+    "tanggal": "2026-05-24T23:04",
+    "nominal": 100000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke dana",
+    "alokasi": "Krom_ke_Superbank",
+    "jenis": "transfer",
+    "id": "sqvxub"
+  },
+  {
+    "tanggal": "2026-05-25T09:00",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "220wfa"
+  },
+  {
+    "id": "foqf47",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Jajan sekaligus uji coba Kris bank saqu",
+    "tanggal": "2026-05-25T02:01"
+  },
+  {
+    "tanggal": "2026-05-25T18:42",
+    "nominal": "6000",
+    "kategori": "lain-lain",
+    "keterangan": "Galon",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "xavpf7"
+  },
+  {
+    "id": "2fgs14",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Cilor",
+    "tanggal": "2026-05-25T11:43"
+  },
+  {
+    "id": "1oqs3k",
+    "jenis": "keluar",
+    "nominal": "13000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab telor",
+    "tanggal": "2026-05-25T11:43"
+  },
+  {
+    "tanggal": "2026-05-25T18:51",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf cash ke dana",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "ve841t"
+  },
+  {
+    "tanggal": "2026-05-25T18:51",
+    "nominal": 50000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke dana",
+    "alokasi": "Krom_ke_Superbank",
+    "jenis": "transfer",
+    "id": "lucf3m"
+  },
+  {
+    "tanggal": "2026-05-26T09:42",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "0obs8h"
+  },
+  {
+    "tanggal": "2026-05-26T10:04",
+    "nominal": "500000",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "alokasi": "Superbank",
+    "jenis": "masuk",
+    "id": "lm6psu"
+  },
+  {
+    "tanggal": "2026-05-26T10:05",
+    "nominal": "500",
+    "kategori": "lain-lain",
+    "keterangan": "Admin TF gaji",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "tadsrm"
+  },
+  {
+    "tanggal": "2026-05-26T20:02",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Cilor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "ssp0th"
+  },
+  {
+    "tanggal": "2026-05-26T22:56",
+    "nominal": "19000",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Suparlan",
+    "alokasi": "Tunai",
+    "jenis": "masuk",
+    "id": "zb3jxd"
+  },
+  {
+    "tanggal": "2026-05-26T22:57",
+    "nominal": "151000",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "alokasi": "Tunai",
+    "jenis": "masuk",
+    "id": "ppfi89"
+  },
+  {
+    "tanggal": "2026-05-26T23:46",
+    "nominal": 150000,
+    "kategori": "transfer",
+    "keterangan": "tf daruat ke cash",
+    "alokasi": "Tunai_ke_Krom",
+    "jenis": "transfer",
+    "id": "cs5pvu"
+  },
+  {
+    "tanggal": "2026-05-26T23:47",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf cash ke dana",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "ajtw2o"
+  },
+  {
+    "tanggal": "2026-05-26T23:47",
+    "nominal": 150000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke dana",
+    "alokasi": "Krom_ke_Superbank",
+    "jenis": "transfer",
+    "id": "flcp19"
+  },
+  {
+    "tanggal": "2026-05-26T23:47",
+    "nominal": "2000",
+    "kategori": "bisnis",
+    "keterangan": "Affiliate ",
+    "alokasi": "Superbank",
+    "jenis": "masuk",
+    "id": "3p7kin"
+  },
+  {
+    "id": "h6bdz1",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "di-pinjam",
+    "keterangan": "Dipinjam kang Yudha",
+    "tanggal": "2026-05-26T16:50"
+  },
+  {
+    "tanggal": "2026-05-26T23:54",
+    "nominal": 55000,
+    "kategori": "transfer",
+    "keterangan": "tf daruat ke cash",
+    "alokasi": "Tunai_ke_Krom",
+    "jenis": "transfer",
+    "id": "ds8n3e"
+  },
+  {
+    "id": "3accpa",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-05-26T17:16"
+  },
+  {
+    "tanggal": "2026-05-27T08:57",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "14dpr2"
+  },
+  {
+    "id": "8pvfr8",
+    "jenis": "keluar",
+    "nominal": "100000",
+    "alokasi": "Superbank",
+    "kategori": "pulsa&internet",
+    "keterangan": "Pulsa",
+    "tanggal": "2026-05-27T18:57"
+  },
+  {
+    "id": "jm8zy1",
+    "jenis": "keluar",
+    "nominal": "14000",
+    "alokasi": "Krom",
+    "kategori": "pulsa&internet",
+    "keterangan": "Beli masa aktif telkomsel",
+    "tanggal": "2026-05-27T20:02"
+  },
+  {
+    "tanggal": "2026-05-27T10:08",
+    "nominal": 9000,
+    "kategori": "transfer",
+    "keterangan": "tf daruat ke cash",
+    "alokasi": "Tunai_ke_Krom",
+    "jenis": "transfer",
+    "id": "w79nm0"
+  },
+  {
+    "tanggal": "2026-05-27T15:33",
+    "nominal": 100000,
+    "kategori": "transfer",
+    "keterangan": "tf daruat ke cash",
+    "alokasi": "Tunai_ke_Krom",
+    "jenis": "transfer",
+    "id": "beua6b"
+  },
+  {
+    "tanggal": "2026-05-27T15:34",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf cash ke dana",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "v286vq"
+  },
+  {
+    "tanggal": "2026-05-27T15:34",
+    "nominal": 100000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke dana",
+    "alokasi": "Krom_ke_Superbank",
+    "jenis": "transfer",
+    "id": "5x7cye"
+  },
+  {
+    "tanggal": "2026-05-27T15:35",
+    "nominal": "900",
+    "kategori": "sodara",
+    "keterangan": "Bunga tabungan neo",
+    "alokasi": "Superbank",
+    "jenis": "masuk",
+    "id": "yj2r3t"
+  },
+  {
+    "tanggal": "2026-05-27T20:41",
+    "nominal": "37000",
+    "kategori": "perabot",
+    "keterangan": "Adaptor charger ",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "3v0rcp"
+  },
+  {
+    "tanggal": "",
+    "nominal": "50000",
+    "kategori": "makan",
+    "keterangan": "tf daruat ke cash",
+    "alokasi": "Krom",
+    "jenis": "",
+    "id": "netus5"
+  },
+  {
+    "tanggal": "2026-05-28T21:44",
+    "nominal": "119000",
+    "kategori": "sodara",
+    "keterangan": "Sesa",
+    "alokasi": "Tunai",
+    "jenis": "masuk",
+    "id": "jxuv5t"
+  },
+  {
+    "tanggal": "2026-05-28T21:44",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "w0kvbv"
+  },
+  {
+    "tanggal": "2026-05-29T21:45",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor ",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "8i487z"
+  },
+  {
+    "tanggal": "2026-05-29T21:46",
+    "nominal": "147000",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat ",
+    "alokasi": "Tunai",
+    "jenis": "masuk",
+    "id": "tw3bgg"
+  },
+  {
+    "id": "5f08x3",
+    "jenis": "masuk",
+    "nominal": "3000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip",
+    "tanggal": "2026-05-29T14:46"
+  },
+  {
+    "tanggal": "2026-05-29T21:47",
+    "nominal": "500",
+    "kategori": "lain-lain",
+    "keterangan": "Admin pijat Bu Mayang ",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "peckpx"
+  },
+  {
+    "id": "v4pzpb",
+    "jenis": "masuk",
+    "nominal": "28382",
+    "alokasi": "Superbank",
+    "kategori": "lain-lain",
+    "keterangan": "Teuing ah pokokna mah kurang",
+    "tanggal": "2026-03-28T01:03"
+  },
+  {
+    "tanggal": "2026-05-29T22:10",
+    "nominal": 1500,
+    "kategori": "keluar",
+    "keterangan": "admin dana ke cash",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "0ncrjv"
+  },
+  {
+    "tanggal": "",
+    "nominal": "21410",
+    "kategori": "makan",
+    "keterangan": "dana ke cash",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "v1dvpn"
+  },
+  {
+    "id": "a79z3u",
+    "jenis": "masuk",
+    "nominal": "6410",
+    "alokasi": "Krom",
+    "kategori": "lain-lain",
+    "keterangan": "-",
+    "tanggal": "2026-03-28T22:12"
+  },
+  {
+    "id": "dcb97j",
+    "jenis": "keluar",
+    "nominal": "25000",
+    "alokasi": "Tunai",
+    "kategori": "lain-lain",
+    "keterangan": "Dukalah",
+    "tanggal": "2026-02-19T22:15"
+  },
+  {
+    "id": "8jd6fi",
+    "jenis": "keluar",
+    "nominal": "23000",
+    "alokasi": "Superbank",
+    "kategori": "makan",
+    "keterangan": "-",
+    "tanggal": "2026-03-28T22:18"
+  },
+  {
+    "id": "jn48mu",
+    "jenis": "masuk",
+    "nominal": "24910",
+    "alokasi": "Krom",
+    "kategori": "lain-lain",
+    "keterangan": "-",
+    "tanggal": "2026-03-28T15:20"
+  },
+  {
+    "tanggal": "2026-05-30T09:52",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Cilok kuahhhh ",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "8fce6d"
+  },
+  {
+    "tanggal": "2026-05-30T14:51",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf dana ke darurat",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "xlcsrb"
+  },
+  {
+    "tanggal": "2026-05-30T14:51",
+    "nominal": 15000,
+    "kategori": "transfer",
+    "keterangan": "tf dana ke darurat",
+    "alokasi": "Superbank_ke_Tunai",
+    "jenis": "transfer",
+    "id": "xg6y0a"
+  },
+  {
+    "id": "l8r5g8",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "belanja",
+    "keterangan": "Lakban",
+    "tanggal": "2026-05-30T07:51"
+  },
+  {
+    "id": "nx1pha",
+    "jenis": "keluar",
+    "nominal": "3000",
+    "alokasi": "Tunai",
+    "kategori": "belanja",
+    "keterangan": "Gasolin",
+    "tanggal": "2026-05-30T07:51"
+  },
+  {
+    "tanggal": "2026-05-30T14:53",
+    "nominal": "328",
+    "kategori": "lain-lain",
+    "keterangan": "Bunga neo",
+    "alokasi": "Superbank",
+    "jenis": "masuk",
+    "id": "7aiiod"
+  },
+  {
+    "tanggal": "2026-05-30T21:37",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "mgdgsp"
+  },
+  {
+    "id": "qa2mki",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Jus",
+    "tanggal": "2026-05-30T14:38"
+  },
+  {
+    "tanggal": "2026-05-30T21:38",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "15al66"
+  },
+  {
+    "tanggal": "2026-05-30T21:38",
+    "nominal": "25000",
+    "kategori": "hibah",
+    "keterangan": "Tip pak suhadi",
+    "alokasi": "Tunai",
+    "jenis": "masuk",
+    "id": "5xnx4r"
+  },
+  {
+    "tanggal": "2026-05-30T22:21",
+    "nominal": 50000,
+    "kategori": "transfer",
+    "keterangan": "tf daruat ke cash",
+    "alokasi": "Tunai_ke_Krom",
+    "jenis": "transfer",
+    "id": "n2i82v"
+  },
+  {
+    "tanggal": "2026-05-30T22:21",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf cash ke dana",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "5meovd"
+  },
+  {
+    "tanggal": "2026-05-30T22:21",
+    "nominal": 50000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke dana",
+    "alokasi": "Krom_ke_Superbank",
+    "jenis": "transfer",
+    "id": "xrvakt"
+  },
+  {
+    "tanggal": "2026-05-31T13:30",
+    "nominal": "185000",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "alokasi": "Superbank",
+    "jenis": "masuk",
+    "id": "8w64d1"
+  },
+  {
+    "id": "9fmzxh",
+    "jenis": "masuk",
+    "nominal": "15000",
+    "alokasi": "Superbank",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Ajum",
+    "tanggal": "2026-05-31T06:30"
+  },
+  {
+    "tanggal": "2026-05-31T16:47",
+    "nominal": "20000",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Dadan",
+    "alokasi": "Tunai",
+    "jenis": "masuk",
+    "id": "1tf5vz"
+  },
+  {
+    "tanggal": "2026-05-31T16:50",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "5rqof0"
+  },
+  {
+    "tanggal": "2026-05-31T18:06",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Telor sama pare",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "femf97"
+  },
+  {
+    "tanggal": "2026-05-31T18:09",
+    "nominal": 27000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke darurat",
+    "alokasi": "Krom_ke_Tunai",
+    "jenis": "transfer",
+    "id": "2560ki"
+  },
+  {
+    "tanggal": "2026-05-31T18:10",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin dana ke cash",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "8ro1ei"
+  },
+  {
+    "tanggal": "2026-05-31T18:10",
+    "nominal": 100000,
+    "kategori": "transfer",
+    "keterangan": "dana ke cash",
+    "alokasi": "Superbank_ke_Krom",
+    "jenis": "transfer",
+    "id": "ovvpj2"
+  },
+  {
+    "tanggal": "2026-05-31T22:38",
+    "nominal": "7500",
+    "kategori": "jajan",
+    "keterangan": "Cilor",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "hafrio"
+  },
+  {
+    "tanggal": "2026-06-01T06:12",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin dana ke cash",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "e57job"
+  },
+  {
+    "tanggal": "2026-06-01T06:12",
+    "nominal": 50000,
+    "kategori": "transfer",
+    "keterangan": "dana ke cash",
+    "alokasi": "Superbank_ke_Krom",
+    "jenis": "transfer",
+    "id": "sqd7ct"
+  },
+  {
+    "tanggal": "2026-06-01T06:12",
+    "nominal": 50000,
+    "kategori": "transfer",
+    "keterangan": "tf cash ke darurat",
+    "alokasi": "Krom_ke_Tunai",
+    "jenis": "transfer",
+    "id": "ejoj50"
+  },
+  {
+    "tanggal": "2026-06-01T07:20",
+    "nominal": "16182",
+    "kategori": "belanja",
+    "keterangan": "Autan",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "4emaa6"
+  },
+  {
+    "tanggal": "2026-06-01T07:22",
+    "nominal": "7715",
+    "kategori": "belanja",
+    "keterangan": "Sabun nuvo 2",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "921s0b"
+  },
+  {
+    "tanggal": "2026-06-01T12:30",
+    "nominal": "42000",
+    "kategori": "belanja",
+    "keterangan": "Beras putih 4 liter",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "47wmdd"
+  },
+  {
+    "tanggal": "2026-06-01T12:31",
+    "nominal": "3500",
+    "kategori": "makan",
+    "keterangan": "Mie",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "m7x6d8"
+  },
+  {
+    "tanggal": "2026-06-01T12:32",
+    "nominal": "7000",
+    "kategori": "makan",
+    "keterangan": "Semur telor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "1cevnz"
+  },
+  {
+    "tanggal": "2026-06-01T20:19",
+    "nominal": "10000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "bg7efj"
+  },
+  {
+    "tanggal": "2026-06-01T20:19",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Ubi",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "0sbr51"
+  },
+  {
+    "tanggal": "2026-06-02T08:50",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "4rd72o"
+  },
+  {
+    "tanggal": "2026-06-02T08:50",
+    "nominal": "10000",
+    "kategori": "jajan",
+    "keterangan": "Singtai",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "zz1j8i"
+  },
+  {
+    "tanggal": "2026-06-02T16:22",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin tf dana ke darurat",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "zfkeot"
+  },
+  {
+    "tanggal": "2026-06-02T16:22",
+    "nominal": 50000,
+    "kategori": "transfer",
+    "keterangan": "tf dana ke darurat",
+    "alokasi": "Superbank_ke_Tunai",
+    "jenis": "transfer",
+    "id": "nupg9m"
+  },
+  {
+    "tanggal": "2026-06-02T07:02",
+    "nominal": "6000",
+    "kategori": "belanja",
+    "keterangan": "Galon",
+    "alokasi": "Tunai",
+    "jenis": "keluar",
+    "id": "3xoud3"
+  },
+  {
+    "tanggal": "2026-06-02T07:03",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Sop",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "d2233p"
+  },
+  {
+    "tanggal": "2026-06-03T08:18",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Ati",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "ciu9ga"
+  },
+  {
+    "tanggal": "2026-06-03T16:14",
+    "nominal": 0,
+    "kategori": "keluar",
+    "keterangan": "admin dana ke cash",
+    "alokasi": "Superbank",
+    "jenis": "keluar",
+    "id": "e5fqoo"
+  },
+  {
+    "tanggal": "2026-06-03T16:14",
+    "nominal": 20000,
+    "kategori": "transfer",
+    "keterangan": "dana ke cash",
+    "alokasi": "Superbank_ke_Krom",
+    "jenis": "transfer",
+    "id": "oleglz"
+  },
+  {
+    "id": "wmbza3",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-06-03T10:41"
+  },
+  {
+    "tanggal": "2026-06-03T17:42",
+    "nominal": "5000",
+    "kategori": "hibah",
+    "keterangan": "Foucher superbank",
+    "alokasi": "Krom",
+    "jenis": "masuk",
+    "id": "b343xx"
+  },
+  {
+    "tanggal": "2026-06-03T22:21",
+    "nominal": "25000",
+    "kategori": "hibah",
+    "keterangan": "Tip ziad",
+    "alokasi": "Tunai",
+    "jenis": "masuk",
+    "id": "eq1fer"
+  },
+  {
+    "tanggal": "2026-06-04T21:51",
+    "nominal": "5000",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "f6cykn"
+  },
+  {
+    "tanggal": "2026-06-04T21:52",
+    "nominal": "6000",
+    "kategori": "makan",
+    "keterangan": "Cireng 3",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "edc146"
+  },
+  {
+    "tanggal": "2026-06-04T21:52",
+    "nominal": "25000",
+    "kategori": "hibah",
+    "keterangan": "Tip suami fauziah",
+    "alokasi": "Tunai",
+    "jenis": "masuk",
+    "id": "rkrkod"
+  },
+  {
+    "tanggal": "2026-06-04T22:37",
+    "nominal": "16000",
+    "kategori": "jajan",
+    "keterangan": "Kebab sedang",
+    "alokasi": "Krom",
+    "jenis": "keluar",
+    "id": "p0ptvz"
+  },
+  {
+    "id": "plx8s7mq0shdo6",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-06-05T10:36"
+  },
+  {
+    "id": "cqvm7dmq0skc0k",
+    "jenis": "transfer",
+    "nominal": "5000",
+    "alokasi": "Tunai_ke_Jaringan",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Pulsa Dan Kuota",
+    "tanggal": "2026-06-05T17:38"
+  },
+  {
+    "id": "xdsv7smq0snkpm",
+    "jenis": "transfer",
+    "nominal": "34500",
+    "alokasi": "Tunai_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Transit",
+    "tanggal": "2026-06-05T17:41"
+  },
+  {
+    "id": "v7pkrhmq0soc48",
+    "jenis": "transfer",
+    "nominal": "2000000",
+    "alokasi": "Superbank_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Superbank ke Amar",
+    "tanggal": "2026-06-05T17:41"
+  },
+  {
+    "id": "xytxvhmq0sq2xx",
+    "jenis": "transfer",
+    "nominal": "8000",
+    "alokasi": "Tunai_ke_Beras",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Beras",
+    "tanggal": "2026-06-05T17:43"
+  },
+  {
+    "id": "kqjjulmq0swdjh",
+    "jenis": "transfer",
+    "nominal": "81022",
+    "alokasi": "Tunai_ke_Lain Lain",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Lain Lain",
+    "tanggal": "2026-06-05T17:48"
+  },
+  {
+    "id": "9jhxummq0sy7c4",
+    "jenis": "transfer",
+    "nominal": "38410",
+    "alokasi": "Krom_ke_Superbank",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Superbank",
+    "tanggal": "2026-06-05T17:49"
+  },
+  {
+    "id": "e04a8mmq0tdduj",
+    "jenis": "transfer",
+    "nominal": "30110",
+    "alokasi": "Superbank_ke_Tunai",
+    "kategori": "transfer",
+    "keterangan": "tf Superbank ke Tunai",
+    "tanggal": "2026-06-05T18:01"
+  },
+  {
+    "id": "ut23brmq0ti8ln",
+    "jenis": "transfer",
+    "nominal": "120000",
+    "alokasi": "Tunai_ke_Jaringan",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Pulsa Dan Kuota",
+    "tanggal": "2026-06-05T18:05"
+  },
+  {
+    "id": "b5j1krmq0w1u24",
+    "jenis": "transfer",
+    "nominal": "9500",
+    "alokasi": "Tunai_ke_Happiness",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Happiness",
+    "tanggal": "2026-06-05T19:16"
+  },
+  {
+    "id": "2tseznmq0xpyv1",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Superbank",
+    "kategori": "makan",
+    "keterangan": "Cirenh",
+    "tanggal": "2026-06-05T13:03"
+  },
+  {
+    "id": "no2es3mq13eitm",
+    "jenis": "masuk",
+    "nominal": "131000",
+    "alokasi": "Lain Lain",
+    "kategori": "freelancer",
+    "keterangan": "-gaji pijat",
+    "tanggal": "2026-06-05T18:42"
+  },
+  {
+    "id": "3njpysmq13txnz",
+    "jenis": "transfer",
+    "nominal": "32410",
+    "alokasi": "Superbank_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Superbank ke Krom",
+    "tanggal": "2026-06-05T22:54"
+  },
+  {
+    "id": "npe4nlmq1q1uxy",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Telor ceplok",
+    "tanggal": "2026-06-06T09:15"
+  },
+  {
+    "id": "lbyn30mq1y6p2s",
+    "jenis": "masuk",
+    "nominal": "25000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Edo",
+    "tanggal": "2026-06-06T13:02"
+  },
+  {
+    "id": "22l1ftmq205tuk",
+    "jenis": "transfer",
+    "nominal": "22",
+    "alokasi": "Lain Lain_ke_Happiness",
+    "kategori": "transfer",
+    "keterangan": "tf Lain Lain ke Happiness",
+    "tanggal": "2026-06-06T13:59"
+  },
+  {
+    "id": "39bcq0mq2097r0",
+    "jenis": "transfer",
+    "nominal": "410",
+    "alokasi": "Krom_ke_Happiness",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Happiness",
+    "tanggal": "2026-06-06T14:01"
+  },
+  {
+    "id": "5dqp0ymq224r4r",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Happiness",
+    "kategori": "jajan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-06-06T14:54"
+  },
+  {
+    "id": "m433bqmq26gzuo",
+    "jenis": "masuk",
+    "nominal": "87000",
+    "alokasi": "Seabank",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "tanggal": "2026-06-06T16:55"
+  },
+  {
+    "id": "bz58iumq27m3tl",
+    "jenis": "transfer",
+    "nominal": "212000",
+    "alokasi": "Lain Lain_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Lain Lain ke Seabank",
+    "tanggal": "2026-06-06T17:27"
+  },
+  {
+    "id": "3azvl6mq2awan4",
+    "jenis": "keluar",
+    "nominal": "7000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Cireng",
+    "tanggal": "2026-06-06T18:59"
+  },
+  {
+    "id": "o028gzmq2awn41",
+    "jenis": "keluar",
+    "nominal": "1000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Cireng",
+    "tanggal": "2026-06-06T18:59"
+  },
+  {
+    "id": "2urpnbmq33xsko",
+    "jenis": "masuk",
+    "nominal": "78",
+    "alokasi": "Happiness",
+    "kategori": "sodara",
+    "keterangan": "Bunga",
+    "tanggal": "2026-06-07T08:32"
+  },
+  {
+    "id": "aedq9cmq375z4n",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Telor sama mie",
+    "tanggal": "2026-06-07T10:02"
+  },
+  {
+    "id": "n62irvmq3773x6",
+    "jenis": "keluar",
+    "nominal": "35500",
+    "alokasi": "Seabank",
+    "kategori": "Asuransi",
+    "keterangan": "Bayar bpjs",
+    "tanggal": "2026-06-07T10:03"
+  },
+  {
+    "id": "y3m63umq3hbwg1",
+    "jenis": "keluar",
+    "nominal": "199000",
+    "alokasi": "Seabank",
+    "kategori": "lain-lain",
+    "keterangan": "Konsul pria 100%",
+    "tanggal": "2026-06-07T20:47"
+  },
+  {
+    "id": "yq1l1zmq3vtczt",
+    "jenis": "keluar",
+    "nominal": "13000",
+    "alokasi": "Happiness",
+    "kategori": "jajan",
+    "keterangan": "Kebab telor",
+    "tanggal": "2026-06-07T21:32"
+  },
+  {
+    "id": "7znazsmq3vtvei",
+    "jenis": "transfer",
+    "nominal": "10000",
+    "alokasi": "Krom_ke_Happiness",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Happiness",
+    "tanggal": "2026-06-07T21:33"
+  },
+  {
+    "id": "cu5u9amq3vvox7",
+    "jenis": "transfer",
+    "nominal": "13000",
+    "alokasi": "Tunai_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Transit",
+    "tanggal": "2026-06-07T21:34"
+  },
+  {
+    "id": "bhtxxqmq3w426q",
+    "jenis": "",
+    "nominal": "115000",
+    "alokasi": "",
+    "kategori": "",
+    "keterangan": "tf Jaringan ke Krom",
+    "tanggal": "2026-06-07T14:41"
+  },
+  {
+    "id": "urobvlmq3w5x96",
+    "jenis": "transfer",
+    "nominal": "115000",
+    "alokasi": "Jaringan_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Jaringan ke Krom",
+    "tanggal": "2026-06-07T21:42"
+  },
+  {
+    "id": "7p2nxsmq509la5",
+    "jenis": "masuk",
+    "nominal": "80000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Dandy",
+    "tanggal": "2026-06-08T09:25"
+  },
+  {
+    "id": "fi8vqimq5ce6m5",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip suami revilina",
+    "tanggal": "2026-06-08T08:04"
+  },
+  {
+    "id": "a8zvdmmq5dzmo9",
+    "jenis": "keluar",
+    "nominal": "41500",
+    "alokasi": "Tunai",
+    "kategori": "belanja",
+    "keterangan": "Minyak zaitun",
+    "tanggal": "2026-06-08T15:48"
+  },
+  {
+    "id": "ypdunfmq5e2ub0",
+    "jenis": "transfer",
+    "nominal": "164000",
+    "alokasi": "Seabank_ke_Neo",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Amar",
+    "tanggal": "2026-06-08T22:52"
+  },
+  {
+    "id": "tnxvirmq5h9012",
+    "jenis": "transfer",
+    "nominal": "5000",
+    "alokasi": "Krom_ke_Happiness",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Happiness",
+    "tanggal": "2026-06-09T00:20"
+  },
+  {
+    "id": "9ym4t0mq5h9ar2",
+    "jenis": "transfer",
+    "nominal": "5000",
+    "alokasi": "Krom_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Transit",
+    "tanggal": "2026-06-09T00:21"
+  },
+  {
+    "id": "w6j7g9mq5xkr1s",
+    "jenis": "",
+    "nominal": "100000",
+    "alokasi": "",
+    "kategori": "",
+    "keterangan": "tf Tunai ke Seabank",
+    "tanggal": "2026-06-08T00:57"
+  },
+  {
+    "id": "iexc8amq5xoq0u",
+    "jenis": "transfer",
+    "nominal": "100000",
+    "alokasi": "Tunai_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Seabank",
+    "tanggal": "2026-06-09T08:01"
+  },
+  {
+    "id": "bmw5qgmq5xrt1d",
+    "jenis": "transfer",
+    "nominal": "900000",
+    "alokasi": "Seabank_ke_Neo",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Amar",
+    "tanggal": "2026-06-09T08:03"
+  },
+  {
+    "id": "oikr0xmq62mqii",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Semur telor",
+    "tanggal": "2026-06-09T10:19"
+  },
+  {
+    "id": "ow8phumq62n3d3",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Oseng tahun dan kulit",
+    "tanggal": "2026-06-09T10:19"
+  },
+  {
+    "id": "wggglfmq62nrgd",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Bakpia",
+    "tanggal": "2026-06-09T10:19"
+  },
+  {
+    "id": "5nbulwmq6cp4g4",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Juice 2",
+    "tanggal": "2026-06-09T08:00"
+  },
+  {
+    "id": "x3ii27mq7e1m8g",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak andre",
+    "tanggal": "2026-06-09T11:26"
+  },
+  {
+    "id": "aczvhbmq7e2sbi",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Burcang",
+    "tanggal": "2026-06-09T08:27"
+  },
+  {
+    "id": "9xh4spmq7jk8bt",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Telor sama oseng tahu dan kulit",
+    "tanggal": "2026-06-10T21:00"
+  },
+  {
+    "id": "yzn7x3mq7ktbei",
+    "jenis": "transfer",
+    "nominal": "1000500",
+    "alokasi": "Seabank_ke_Neo",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Amar",
+    "tanggal": "2026-06-10T11:36"
+  },
+  {
+    "id": "9e9d8rmq8tphfn",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Cireng",
+    "tanggal": "2026-06-10T08:32"
+  },
+  {
+    "id": "3nr540mq8tqd3n",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Mie + telor",
+    "tanggal": "2026-06-11T08:32"
+  },
+  {
+    "id": "v7aujwmq8tqhsx",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Galon",
+    "tanggal": "2026-06-11T08:33"
+  },
+  {
+    "id": "7tqna9mq9936ge",
+    "jenis": "keluar",
+    "nominal": "11500",
+    "alokasi": "Seabank",
+    "kategori": "lain-lain",
+    "keterangan": "Materai 10 ribu",
+    "tanggal": "2026-06-11T08:43"
+  },
+  {
+    "id": "v7gundmq9ohvun",
+    "jenis": "masuk",
+    "nominal": "41000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tips dari Pak Gilang",
+    "tanggal": "2026-06-11T15:54"
+  },
+  {
+    "id": "0ar81emq9oihdy",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-06-11T22:55"
+  },
+  {
+    "id": "9qp336mqa8core",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Usus+balso",
+    "tanggal": "2026-06-12T08:10"
+  },
+  {
+    "id": "esm14emqaqho8a",
+    "jenis": "masuk",
+    "nominal": "100000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Rizky",
+    "tanggal": "2026-06-12T16:37"
+  },
+  {
+    "id": "jwu3z9mqbpxvhu",
+    "jenis": "keluar",
+    "nominal": "15000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab keju slice",
+    "tanggal": "2026-06-12T12:10"
+  },
+  {
+    "id": "4exueumqc3vshp",
+    "jenis": "masuk",
+    "nominal": "12000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "-tip pak tamam",
+    "tanggal": "2026-06-13T08:40"
+  },
+  {
+    "id": "4wydi9mqc3w8s6",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Transit",
+    "kategori": "jajan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-06-12T21:41"
+  },
+  {
+    "id": "wu36rgmqc3we5g",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-06-13T08:41"
+  },
+  {
+    "id": "nio0rtmqc3xoy2",
+    "jenis": "transfer",
+    "nominal": "200000",
+    "alokasi": "Tunai_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Seabank",
+    "tanggal": "2026-06-13T15:42"
+  },
+  {
+    "id": "smjawnmqc3yju2",
+    "jenis": "keluar",
+    "nominal": "40000",
+    "alokasi": "Seabank",
+    "kategori": "lain-lain",
+    "keterangan": "Jahit kontol",
+    "tanggal": "2026-06-13T08:43"
+  },
+  {
+    "id": "jvfv1dmqd4cx1s",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-06-14T01:42"
+  },
+  {
+    "id": "abj5psmqd4dc5j",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Seabank",
+    "kategori": "jajan",
+    "keterangan": "Jus jeruk peras",
+    "tanggal": "2026-06-12T18:42"
+  },
+  {
+    "id": "qjvpfumqd4eh50",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Seabank",
+    "kategori": "jajan",
+    "keterangan": "Es teler goblok",
+    "tanggal": "2026-06-13T07:42"
+  },
+  {
+    "id": "vmg1mhmqda1um5",
+    "jenis": "masuk",
+    "nominal": "15000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip dari Pak oki",
+    "tanggal": "2026-06-14T21:21"
+  },
+  {
+    "id": "8hmab9mqdxozwx",
+    "jenis": "masuk",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip dari Pak Kholik",
+    "tanggal": "2026-06-14T22:23"
+  },
+  {
+    "id": "ffae36mqdxpfid",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Nasi dan urab",
+    "tanggal": "2026-06-14T15:23"
+  },
+  {
+    "id": "wupt70mqdxqg45",
+    "jenis": "keluar",
+    "nominal": "13000",
+    "alokasi": "Seabank",
+    "kategori": "jajan",
+    "keterangan": "Kebab ori",
+    "tanggal": "2026-06-14T22:24"
+  },
+  {
+    "id": "rjw0wymqehsguw",
+    "jenis": "masuk",
+    "nominal": "155000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Kasbon",
+    "tanggal": "2026-06-14T07:45"
+  },
+  {
+    "id": "83043fmqejuak1",
+    "jenis": "transfer",
+    "nominal": "8000",
+    "alokasi": "Transit_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Transit ke Krom",
+    "tanggal": "2026-06-15T08:43"
+  },
+  {
+    "id": "y2wneomqejx8z3",
+    "jenis": "transfer",
+    "nominal": "64000",
+    "alokasi": "Neo_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Amar ke Seabank",
+    "tanggal": "2026-06-15T08:45"
+  },
+  {
+    "id": "sqhzpjmqeksdi6",
+    "jenis": "transfer",
+    "nominal": "34639",
+    "alokasi": "Seabank_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Krom",
+    "tanggal": "2026-06-15T09:09"
+  },
+  {
+    "id": "bj4gwqmqel01tv",
+    "jenis": "transfer",
+    "nominal": "36000",
+    "alokasi": "Seabank_ke_Tunai",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Tunai",
+    "tanggal": "2026-06-15T09:15"
+  },
+  {
+    "id": "n2cxjomqevz9jx",
+    "jenis": "masuk",
+    "nominal": "17000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Faizil",
+    "tanggal": "2026-06-15T07:22"
+  },
+  {
+    "id": "naq7w5mqevznx8",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Nasi usus",
+    "tanggal": "2026-06-15T07:23"
+  },
+  {
+    "id": "gsq376mqeyf4dy",
+    "jenis": "transfer",
+    "nominal": "88361",
+    "alokasi": "Seabank_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Krom",
+    "tanggal": "2026-06-15T15:31"
+  },
+  {
+    "id": "enm2hymqeygqqf",
+    "jenis": "transfer",
+    "nominal": "10000",
+    "alokasi": "Krom_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Transit",
+    "tanggal": "2026-06-15T15:32"
+  },
+  {
+    "id": "6rc4bamqf1kk6i",
+    "jenis": "keluar",
+    "nominal": "30000",
+    "alokasi": "Seabank",
+    "kategori": "lain-lain",
+    "keterangan": "Dicukur",
+    "tanggal": "2026-06-15T09:59"
+  },
+  {
+    "id": "tyu3wamqf1kxr8",
+    "jenis": "transfer",
+    "nominal": "125000",
+    "alokasi": "Tunai_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Seabank",
+    "tanggal": "2026-06-15T16:59"
+  },
+  {
+    "id": "g7if3dmqf4vs3k",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Nasi telor ",
+    "tanggal": "2026-06-15T11:32"
+  },
+  {
+    "id": "7k7svnmqfztct1",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Nasi telor ceplok",
+    "tanggal": "2026-06-16T08:58"
+  },
+  {
+    "id": "w7n5gwmqfztrcs",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Singkong Thailand matcha",
+    "tanggal": "2026-06-16T18:58"
+  },
+  {
+    "id": "b3qj4tmqggrwbs",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "🍞 roti",
+    "tanggal": "2026-06-15T12:52"
+  },
+  {
+    "id": "hxw2ixmqgjy466",
+    "jenis": "keluar",
+    "nominal": "3000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Roti",
+    "tanggal": "2026-06-15T04:21"
+  },
+  {
+    "id": "wvf1esmqgjyjw1",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Nasi ayam terong",
+    "tanggal": "2026-06-16T14:22"
+  },
+  {
+    "id": "5zukgnmqgjzghb",
+    "jenis": "keluar",
+    "nominal": "2000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Top ice 3",
+    "tanggal": "2026-06-15T21:22"
+  },
+  {
+    "id": "1t7g3smqhffgl2",
+    "jenis": "masuk",
+    "nominal": "30000",
+    "alokasi": "Seabank",
+    "kategori": "hibah",
+    "keterangan": "Tip pak yaseer",
+    "tanggal": "2026-06-16T19:02"
+  },
+  {
+    "id": "ruhwvpmqhlvuj6",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Nasi telur oseng",
+    "tanggal": "2026-06-17T12:03"
+  },
+  {
+    "id": "1so0zkmqhlw4bi",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Tahu oseng",
+    "tanggal": "2026-06-17T12:03"
+  },
+  {
+    "id": "eh1x9smqhovgd1",
+    "jenis": "masuk",
+    "nominal": "26000",
+    "alokasi": "Superbank",
+    "kategori": "lain-lain",
+    "keterangan": "Kode referal bank saqu",
+    "tanggal": "2026-05-28T13:26"
+  },
+  {
+    "id": "lb580omqhox4tv",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Lain Lain",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "tanggal": "2026-05-28T13:28"
+  },
+  {
+    "id": "2218e3mqhozf02",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Superbank",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-04-30T02:30"
+  },
+  {
+    "id": "ehn0msmqhp1aem",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Superbank",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-04-30T23:31"
+  },
+  {
+    "id": "4sns0amqhptafz",
+    "jenis": "transfer",
+    "nominal": "10000",
+    "alokasi": "Krom_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Transit",
+    "tanggal": "2026-06-17T13:53"
+  },
+  {
+    "id": "u09p53mqhqbi6h",
+    "jenis": "transfer",
+    "nominal": "39000",
+    "alokasi": "Krom_ke_Superbank",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Superbank",
+    "tanggal": "2026-06-17T14:08"
+  },
+  {
+    "id": "rj66mrmqhqpqdt",
+    "jenis": "transfer",
+    "nominal": "158034",
+    "alokasi": "Tunai_ke_Superbank",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Superbank",
+    "tanggal": "2026-06-17T14:19"
+  },
+  {
+    "id": "ayuz1omqhqvdpe",
+    "jenis": "transfer",
+    "nominal": "5000",
+    "alokasi": "Krom_ke_Lain Lain",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Lain Lain",
+    "tanggal": "2026-06-17T14:23"
+  },
+  {
+    "id": "85ncismqhqy8yd",
+    "jenis": "transfer",
+    "nominal": "38000",
+    "alokasi": "Superbank_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Superbank ke Krom",
+    "tanggal": "2026-06-17T14:25"
+  },
+  {
+    "id": "hhpdcomqhzw0ux",
+    "jenis": "transfer",
+    "nominal": "20000",
+    "alokasi": "Krom_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Transit",
+    "tanggal": "2026-06-17T18:35"
+  },
+  {
+    "id": "5s5dcqmqi7ow0o",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Tunai",
+    "kategori": "belanja",
+    "keterangan": "Galon",
+    "tanggal": "2026-06-17T15:14"
+  },
+  {
+    "id": "1u4u88mqi8uytt",
+    "jenis": "transfer",
+    "nominal": "15000",
+    "alokasi": "Krom_ke_Superbank",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Superbank",
+    "tanggal": "2026-06-17T22:47"
+  },
+  {
+    "id": "9k1n76mqis68rf",
+    "jenis": "transfer",
+    "nominal": "20000",
+    "alokasi": "Krom_ke_Superbank",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Superbank",
+    "tanggal": "2026-06-18T07:47"
+  },
+  {
+    "id": "emufpqmqixxf8s",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Telor ceplok oseng & oseng kulit tahu",
+    "tanggal": "2026-06-18T10:28"
+  },
+  {
+    "id": "ch6t22mqk436o7",
+    "jenis": "keluar",
+    "nominal": "15000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-06-18T23:08"
+  },
+  {
+    "id": "org0v2mqkaa4pl",
+    "jenis": "keluar",
+    "nominal": "44760",
+    "alokasi": "Seabank",
+    "kategori": "perabot",
+    "keterangan": "Senter ",
+    "tanggal": "2026-06-19T09:01"
+  },
+  {
+    "id": "xcepnlmqkaaxkk",
+    "jenis": "keluar",
+    "nominal": "170000",
+    "alokasi": "Seabank",
+    "kategori": "lain-lain",
+    "keterangan": "Transfer ka ema",
+    "tanggal": "2026-06-19T19:02"
+  },
+  {
+    "id": "kwlvh6mqkab9od",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Seabank",
+    "kategori": "lain-lain",
+    "keterangan": "Admin TF ka ema",
+    "tanggal": "2026-06-19T09:03"
+  },
+  {
+    "id": "bkgiujmqkabwlc",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "lain-lain",
+    "keterangan": "Oseng telur dan oseng tahu kulit",
+    "tanggal": "2026-06-19T09:03"
+  },
+  {
+    "id": "k5xgo7mqkawh95",
+    "jenis": "keluar",
+    "nominal": "28000",
+    "alokasi": "Tunai",
+    "kategori": "belanja",
+    "keterangan": "Pokonamah balanja",
+    "tanggal": "2026-06-12T19:19"
+  },
+  {
+    "id": "dkncvfmqkaylf7",
+    "jenis": "keluar",
+    "nominal": "12500",
+    "alokasi": "Transit",
+    "kategori": "belanja",
+    "keterangan": "Pokonamah balannya",
+    "tanggal": "2026-06-14T12:21"
+  },
+  {
+    "id": "iqklg8mqkb5n7l",
+    "jenis": "transfer",
+    "nominal": "22000",
+    "alokasi": "Transit_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Transit ke Seabank",
+    "tanggal": "2026-06-19T09:26"
+  },
+  {
+    "id": "vhaddwmqm04bxf",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak suparlan",
+    "tanggal": "2026-06-19T17:52"
+  },
+  {
+    "id": "gd68x5mqm04pbj",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-06-20T06:53"
+  },
+  {
+    "id": "wcfnn4mqm04wi1",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Oseng telur",
+    "tanggal": "2026-06-20T13:53"
+  },
+  {
+    "id": "iwujndmqm05r4c",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Bubur kacang ijo",
+    "tanggal": "2026-06-17T23:54"
+  },
+  {
+    "id": "hmh96bmqm6mb4l",
+    "jenis": "masuk",
+    "nominal": "25000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip Rifqi",
+    "tanggal": "2026-06-20T16:55"
+  },
+  {
+    "id": "odttlmmqm8unk6",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Nasi, usus, mie, teromg",
+    "tanggal": "2026-06-20T10:57"
+  },
+  {
+    "id": "87gyo6mqm8xs7u",
+    "jenis": "transfer",
+    "nominal": "10000",
+    "alokasi": "Krom_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Transit",
+    "tanggal": "2026-06-20T18:00"
+  },
+  {
+    "id": "gtjw1tmqmhx597",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Transit",
+    "kategori": "jajan",
+    "keterangan": "Bubur kacang ijo",
+    "tanggal": "2026-06-20T15:11"
+  },
+  {
+    "id": "urvdvumqnfoa39",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-06-21T23:56"
+  },
+  {
+    "id": "wunmurmqnfomkq",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Nasi telor",
+    "tanggal": "2026-06-21T13:56"
+  },
+  {
+    "id": "tf8yuomqnouvhj",
+    "jenis": "masuk",
+    "nominal": "50000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak hendra",
+    "tanggal": "2026-06-21T18:13"
+  },
+  {
+    "id": "vl1nqsmqnoy9w5",
+    "jenis": "keluar",
+    "nominal": "12000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Nasi ayam",
+    "tanggal": "2026-06-21T18:16"
+  },
+  {
+    "id": "ky56l0mqp0dvys",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Nasi telor osenb",
+    "tanggal": "2026-06-22T16:23"
+  },
+  {
+    "id": "oc6iu9mqp0ealr",
+    "jenis": "masuk",
+    "nominal": "7000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak wicak",
+    "tanggal": "2026-06-22T16:24"
+  },
+  {
+    "id": "fn38eumqp0kebm",
+    "jenis": "transfer",
+    "nominal": "148000",
+    "alokasi": "Neo_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Neo ke Seabank",
+    "tanggal": "2026-06-22T16:29"
+  },
+  {
+    "id": "gppbsjmqp0qphk",
+    "jenis": "keluar",
+    "nominal": "188997",
+    "alokasi": "Seabank",
+    "kategori": "belanja",
+    "keterangan": "Bayar shopee paylater later",
+    "tanggal": "2026-06-22T16:33"
+  },
+  {
+    "id": "y5ey05mqpa19n9",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Nasi telor",
+    "tanggal": "2026-06-22T20:54"
+  },
+  {
+    "id": "puqtonmqpxn226",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Antalngin",
+    "tanggal": "2026-06-22T12:54"
+  },
+  {
+    "id": "xegdt1mqq2txwb",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Nasi telor",
+    "tanggal": "2026-06-23T10:20"
+  },
+  {
+    "id": "j6wtopmqq7q21p",
+    "jenis": "keluar",
+    "nominal": "6500",
+    "alokasi": "Happiness",
+    "kategori": "jajan",
+    "keterangan": "Roti 2",
+    "tanggal": "2026-06-23T22:37"
+  },
+  {
+    "id": "qlbx2vmqqb6o5l",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Nasi udus",
+    "tanggal": "2026-06-23T14:14"
+  },
+  {
+    "id": "l0nfhemqqb6x3f",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Transit",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-06-23T14:14"
+  },
+  {
+    "id": "sxbqgvmqrie6n9",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Nasi jamur mie",
+    "tanggal": "2026-06-24T10:23"
+  },
+  {
+    "id": "udk2v9mqriedep",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-06-24T20:23"
+  },
+  {
+    "id": "ieun5amqrzz8eo",
+    "jenis": "keluar",
+    "nominal": "1000",
+    "alokasi": "Krom",
+    "kategori": "pulsa&internet",
+    "keterangan": "Paket nelepon",
+    "tanggal": "2026-06-24T11:35"
+  },
+  {
+    "id": "v8aba7mqs0fd06",
+    "jenis": "keluar",
+    "nominal": "101000",
+    "alokasi": "Neo",
+    "kategori": "pulsa&internet",
+    "keterangan": "Pulsa dan kuota",
+    "tanggal": "2026-06-23T11:48"
+  },
+  {
+    "id": "x0i068mqs8cj2k",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Transit",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-06-24T22:30"
+  },
+  {
+    "id": "relgjsmqswqjxp",
+    "jenis": "transfer",
+    "nominal": "1751500",
+    "alokasi": "Neo_ke_Superbank",
+    "kategori": "transfer",
+    "keterangan": "tf Neo ke Superbank",
+    "tanggal": "2026-06-25T09:53"
+  },
+  {
+    "id": "5nqopgmqswr2i0",
+    "jenis": "keluar",
+    "nominal": "52500",
+    "alokasi": "Superbank",
+    "kategori": "makan",
+    "keterangan": "Beas 5 leter",
+    "tanggal": "2026-06-25T19:53"
+  },
+  {
+    "id": "x429bvmqswrmi3",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Transit",
+    "kategori": "makan",
+    "keterangan": "Telor sama angeun kulit",
+    "tanggal": "2026-06-25T09:53"
+  },
+  {
+    "id": "oitw9umqugjjln",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Transit",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-06-26T11:55"
+  },
+  {
+    "id": "91xh1xmquipfd4",
+    "jenis": "masuk",
+    "nominal": "1000",
+    "alokasi": "Superbank",
+    "kategori": "lain-lain",
+    "keterangan": "Nambahan saldo nu ngalengit",
+    "tanggal": "2026-06-26T05:55"
+  },
+  {
+    "id": "nuh9rpmquiv1us",
+    "jenis": "transfer",
+    "nominal": "200000",
+    "alokasi": "Superbank_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Superbank ke Seabank",
+    "tanggal": "2026-06-26T13:00"
+  },
+  {
+    "id": "w6nej6mquivvnz",
+    "jenis": "keluar",
+    "nominal": "32000",
+    "alokasi": "Seabank",
+    "kategori": "lain-lain",
+    "keterangan": "Merel pulsa ka si ila",
+    "tanggal": "2026-06-26T13:00"
+  },
+  {
+    "id": "fr045qmquiy87o",
+    "jenis": "keluar",
+    "nominal": "10750",
+    "alokasi": "Seabank",
+    "kategori": "perabot",
+    "keterangan": "Adaptor headset",
+    "tanggal": "2026-06-25T13:02"
+  },
+  {
+    "id": "fxkucvmqusn49a",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Dana",
+    "kategori": "hibah",
+    "keterangan": "Tip pak andre",
+    "tanggal": "2026-06-25T17:33"
+  },
+  {
+    "id": "k1xuibmqusnkr7",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab ",
+    "tanggal": "2026-06-25T23:34"
+  },
+  {
+    "id": "g47drjmquubi4p",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Dana",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-06-26T11:20"
+  },
+  {
+    "id": "xu7fwrmqvue2rz",
+    "jenis": "keluar",
+    "nominal": "15000",
+    "alokasi": "Seabank",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-06-27T11:10"
+  },
+  {
+    "id": "zrkt0smqw50p12",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Seabank",
+    "kategori": "jajan",
+    "keterangan": "Jus alpukat ",
+    "tanggal": "2026-06-27T16:08"
+  },
+  {
+    "id": "uxv1fimqwl9fus",
+    "jenis": "masuk",
+    "nominal": "7000",
+    "alokasi": "Tunai",
+    "kategori": "sodara",
+    "keterangan": "Tip pak Mario",
+    "tanggal": "2026-06-27T23:42"
+  },
+  {
+    "id": "qvnew8mqwla8wn",
+    "jenis": "masuk",
+    "nominal": "7000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Mesack",
+    "tanggal": "2026-06-27T16:43"
+  },
+  {
+    "id": "7b1f4pmqwlc0nt",
+    "jenis": "masuk",
+    "nominal": "286000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat ",
+    "tanggal": "2026-06-27T23:43"
+  },
+  {
+    "id": "glnm6mmqwlhxq2",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Galon",
+    "tanggal": "2026-06-27T23:49"
+  },
+  {
+    "id": "oxomesmqwpqgb1",
+    "jenis": "transfer",
+    "nominal": "300000",
+    "alokasi": "Tunai_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Seabank",
+    "tanggal": "2026-06-28T01:48"
+  },
+  {
+    "id": "q6oucrmqwptcgo",
+    "jenis": "transfer",
+    "nominal": "8918",
+    "alokasi": "Seabank_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Krom",
+    "tanggal": "2026-06-28T01:50"
+  },
+  {
+    "id": "ms58q7mqxf2gyw",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Seabank",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-06-28T13:37"
+  },
+  {
+    "id": "pa1e2xmqxf2olt",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Seabank",
+    "kategori": "makan",
+    "keterangan": "Jajan ",
+    "tanggal": "2026-06-28T13:37"
+  },
+  {
+    "id": "pzac6mmqxf37ul",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak dimas",
+    "tanggal": "2026-06-28T13:37"
+  },
+  {
+    "id": "ah1hjcmqxl8kus",
+    "jenis": "masuk",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Raka",
+    "tanggal": "2026-06-28T16:29"
+  },
+  {
+    "id": "eqm3c7mqxl90sk",
+    "jenis": "masuk",
+    "nominal": "155000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat ",
+    "tanggal": "2026-06-28T16:30"
+  },
+  {
+    "id": "txbc1dmqxuc9hn",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Seabank",
+    "kategori": "pulsa&internet",
+    "keterangan": "Paket nelepon",
+    "tanggal": "2026-06-28T13:44"
+  },
+  {
+    "id": "rqi0m4mqyvt79k",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Seabank",
+    "kategori": "makan",
+    "keterangan": "Telor & usus",
+    "tanggal": "2026-06-29T14:13"
+  },
+  {
+    "id": "yuf1hlmqyvtsna",
+    "jenis": "masuk",
+    "nominal": "26000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Wahyu ",
+    "tanggal": "2026-06-29T14:13"
+  },
+  {
+    "id": "356oizmqzcwoc5",
+    "jenis": "masuk",
+    "nominal": "155000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat ",
+    "tanggal": "2026-06-29T22:12"
+  },
+  {
+    "id": "9pwmotmqzcxc3j",
+    "jenis": "masuk",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Tip pak Khaliq ",
+    "tanggal": "2026-06-29T22:12"
+  },
+  {
+    "id": "ki5l5rmqze9xtq",
+    "jenis": "masuk",
+    "nominal": "1000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Buka tip buka di mana ah lieur",
+    "tanggal": "2026-06-29T08:49"
+  },
+  {
+    "id": "vksuz4mqzf3aae",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "tanggal": "2026-06-29T23:13"
+  },
+  {
+    "id": "o9zzkgmqzf3qsd",
+    "jenis": "transfer",
+    "nominal": "300000",
+    "alokasi": "Tunai_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Seabank",
+    "tanggal": "2026-06-29T23:13"
+  },
+  {
+    "id": "aqaia2mqzf5aiu",
+    "jenis": "transfer",
+    "nominal": "500000",
+    "alokasi": "Superbank_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Superbank ke Amar",
+    "tanggal": "2026-06-29T23:15"
+  },
+  {
+    "id": "5bh1g2mqzf7ddx",
+    "jenis": "transfer",
+    "nominal": "10000",
+    "alokasi": "Dana_ke_Tunai",
+    "kategori": "transfer",
+    "keterangan": "tf Dana ke Tunai",
+    "tanggal": "2026-06-29T23:16"
+  },
+  {
+    "id": "wlf7l7mqzfl5d3",
+    "jenis": "transfer",
+    "nominal": "105000",
+    "alokasi": "Seabank_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Krom",
+    "tanggal": "2026-06-29T23:27"
+  },
+  {
+    "id": "qbytzsmqzflxf5",
+    "jenis": "transfer",
+    "nominal": "15000",
+    "alokasi": "Seabank_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Transit",
+    "tanggal": "2026-06-29T23:28"
+  },
+  {
+    "id": "9uszw5mqzv3k1r",
+    "jenis": "transfer",
+    "nominal": "1000000",
+    "alokasi": "Superbank_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Superbank ke Amar",
+    "tanggal": "2026-06-30T06:41"
+  },
+  {
+    "id": "asgc67mqzv605z",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Jaringan",
+    "kategori": "jajan",
+    "keterangan": "Duka ah tidak diketahui undefined",
+    "tanggal": "2026-06-26T06:42"
+  },
+  {
+    "id": "8marofmqzznv17",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Batagor 2",
+    "tanggal": "2026-06-30T08:49"
+  },
+  {
+    "id": "go9tj4mqzzoa1a",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Sintai singkong Thailand",
+    "tanggal": "2026-06-30T08:49"
+  },
+  {
+    "id": "bxzqlimr11hea1",
+    "jenis": "keluar",
+    "nominal": "4000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-06-30T12:27"
+  },
+  {
+    "id": "wzbm03mr1zvfmd",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-07-01T18:30"
+  },
+  {
+    "id": "zglwa8mr270d9m",
+    "jenis": "masuk",
+    "nominal": "165000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat ",
+    "tanggal": "2026-07-01T21:50"
+  },
+  {
+    "id": "em4cvzmr270vy1",
+    "jenis": "masuk",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak irfan",
+    "tanggal": "2026-07-01T21:50"
+  },
+  {
+    "id": "j2ltsimr294zd2",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Cireng",
+    "tanggal": "2026-07-01T22:49"
+  },
+  {
+    "id": "jlt6v1mr296pf5",
+    "jenis": "transfer",
+    "nominal": "100000",
+    "alokasi": "Tunai_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Seabank",
+    "tanggal": "2026-07-01T22:51"
+  },
+  {
+    "id": "jfec8smr29ed6u",
+    "jenis": "transfer",
+    "nominal": "5000",
+    "alokasi": "Krom_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Transit",
+    "tanggal": "2026-07-01T22:57"
+  },
+  {
+    "id": "dagmtomr2yoakz",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-07-02T10:44"
+  },
+  {
+    "id": "4dvvyjmr3nws8v",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "tanggal": "2026-07-02T08:31"
+  },
+  {
+    "id": "dhyqhwmr4dr9yc",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Tahu oseng",
+    "tanggal": "2026-07-03T10:34"
+  },
+  {
+    "id": "khtlo7mr4tg79u",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-07-03T17:54"
+  },
+  {
+    "id": "pk5nlzmr4up9s1",
+    "jenis": "keluar",
+    "nominal": "12000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Makan",
+    "tanggal": "2026-07-03T18:29"
+  },
+  {
+    "id": "651wbhmr523d24",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Bubur kacang burcang",
+    "tanggal": "2026-07-03T14:56"
+  },
+  {
+    "id": "tgwcn2mr5q84cf",
+    "jenis": "keluar",
+    "nominal": "2000",
+    "alokasi": "Tunai",
+    "kategori": "lain-lain",
+    "keterangan": "Namba ban",
+    "tanggal": "2026-07-03T02:11"
+  },
+  {
+    "id": "zaefrwmr5rhv82",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Telor 2",
+    "tanggal": "2026-07-04T12:47"
+  },
+  {
+    "id": "a5tb2pmr5rwc29",
+    "jenis": "masuk",
+    "nominal": "100000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "tanggal": "2026-07-04T09:58"
+  },
+  {
+    "id": "2ld8o2mr5wldcb",
+    "jenis": "transfer",
+    "nominal": "200000",
+    "alokasi": "Seabank_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Amar",
+    "tanggal": "2026-07-04T12:10"
+  },
+  {
+    "id": "53af31mr5wlrhg",
+    "jenis": "transfer",
+    "nominal": "15000",
+    "alokasi": "Tunai_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Seabank",
+    "tanggal": "2026-07-04T12:10"
+  },
+  {
+    "id": "xy9pc9mr5x497c",
+    "jenis": "keluar",
+    "nominal": "7000",
+    "alokasi": "Seabank",
+    "kategori": "di-pinjam",
+    "keterangan": "Doni Alat pijat kayu",
+    "tanggal": "2026-07-04T22:24"
+  },
+  {
+    "id": "mwo58umr77o5g7",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-07-05T10:07"
+  },
+  {
+    "id": "x3wpa0mr7f1gb1",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak mahdan",
+    "tanggal": "2026-07-05T13:33"
+  },
+  {
+    "id": "m0jwplmr7f2qyq",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Galon",
+    "tanggal": "2026-07-04T13:34"
+  },
+  {
+    "id": "rfu94tmr7f4lth",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Ti pak rudy",
+    "tanggal": "2026-07-04T23:35"
+  },
+  {
+    "id": "uvmxhtmr7lo3ea",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Es teler",
+    "tanggal": "2026-07-05T16:39"
+  },
+  {
+    "id": "q0wm9wmr7maxon",
+    "jenis": "transfer",
+    "nominal": "10000",
+    "alokasi": "Krom_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Transit",
+    "tanggal": "2026-07-05T16:57"
+  },
+  {
+    "id": "51a85imr7mbs2i",
+    "jenis": "transfer",
+    "nominal": "10000",
+    "alokasi": "Tunai_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Transit",
+    "tanggal": "2026-07-05T16:58"
+  },
+  {
+    "id": "0hrfejmr7x0kel",
+    "jenis": "masuk",
+    "nominal": "33000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak taufiq",
+    "tanggal": "2026-07-05T21:57"
+  },
+  {
+    "id": "2u1rzpmr7xrqew",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Tahu",
+    "tanggal": "2026-07-05T22:18"
+  },
+  {
+    "id": "x3dkh1mr7xsnnt",
+    "jenis": "transfer",
+    "nominal": "5000",
+    "alokasi": "Tunai_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Transit",
+    "tanggal": "2026-07-05T22:19"
+  },
+  {
+    "id": "vpkeqemr8mqsjz",
+    "jenis": "transfer",
+    "nominal": "4000",
+    "alokasi": "Krom_ke_Transit",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Transit",
+    "tanggal": "2026-07-06T09:57"
+  },
+  {
+    "id": "jl25q3mr8mr5jj",
+    "jenis": "transfer",
+    "nominal": "125000",
+    "alokasi": "Seabank_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Krom",
+    "tanggal": "2026-07-06T09:58"
+  },
+  {
+    "id": "1ton77mr8n24ku",
+    "jenis": "transfer",
+    "nominal": "50000",
+    "alokasi": "Tunai_ke_Warung Makan",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Warung Makan",
+    "tanggal": "2026-07-06T10:06"
+  },
+  {
+    "id": "0kiwoimr8n2zzr",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Makan",
+    "kategori": "makan",
+    "keterangan": "Telor + usus",
+    "tanggal": "2026-07-06T10:06"
+  },
+  {
+    "id": "wmusbtmr8uu4zh",
+    "jenis": "masuk",
+    "nominal": "300",
+    "alokasi": "Seabank",
+    "kategori": "lain-lain",
+    "keterangan": "Bunga tabungan",
+    "tanggal": "2026-07-06T13:43"
+  },
+  {
+    "id": "1zu9plmr8uuq41",
+    "jenis": "keluar",
+    "nominal": "100",
+    "alokasi": "Seabank",
+    "kategori": "jajan",
+    "keterangan": "Seas cokelat halal",
+    "tanggal": "2026-07-06T13:44"
+  },
+  {
+    "id": "eg71xrmr8uv75q",
+    "jenis": "keluar",
+    "nominal": "2000",
+    "alokasi": "Seabank",
+    "kategori": "jajan",
+    "keterangan": "Duosus",
+    "tanggal": "2026-07-06T13:44"
+  },
+  {
+    "id": "31fdxmmr929ugr",
+    "jenis": "masuk",
+    "nominal": "12000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak edo",
+    "tanggal": "2026-07-06T20:12"
+  },
+  {
+    "id": "vfmtplmr9563x9",
+    "jenis": "keluar",
+    "nominal": "11550",
+    "alokasi": "Seabank",
+    "kategori": "makan",
+    "keterangan": "Botol minyak 2",
+    "tanggal": "2026-07-06T18:33"
+  },
+  {
+    "id": "7uvceamr99ydjo",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Es teler",
+    "tanggal": "2026-07-06T20:47"
+  },
+  {
+    "id": "2453apmra0jhfd",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Telur ",
+    "tanggal": "2026-07-07T09:11"
+  },
+  {
+    "id": "pbb3h2mra0jos0",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Ati ayam",
+    "tanggal": "2026-07-07T09:11"
+  },
+  {
+    "id": "xkmt68mraao6w7",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Sing Thai singkong Thailand",
+    "tanggal": "2026-07-07T13:54"
+  },
+  {
+    "id": "pr2umvmral15hv",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-07-07T11:45"
+  },
+  {
+    "id": "u52m2mmral3g6y",
+    "jenis": "masuk",
+    "nominal": "1000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak warsono",
+    "tanggal": "2026-07-07T11:46"
+  },
+  {
+    "id": "i07gpjmras1wug",
+    "jenis": "masuk",
+    "nominal": "50000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Pijat bang Gona ",
+    "tanggal": "2026-07-07T22:01"
+  },
+  {
+    "id": "kddmm8mrauyx3y",
+    "jenis": "keluar",
+    "nominal": "26000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-07-07T23:23"
+  },
+  {
+    "id": "ofkud7mrba3yu6",
+    "jenis": "keluar",
+    "nominal": "22700",
+    "alokasi": "Seabank",
+    "kategori": "lain-lain",
+    "keterangan": "Superthank pria 100%",
+    "tanggal": "2026-07-07T16:26"
+  },
+  {
+    "id": "crzb7gmrbwh4jz",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Makan",
+    "kategori": "makan",
+    "keterangan": "Telor dan oseng tahu",
+    "tanggal": "2026-07-08T16:53"
+  },
+  {
+    "id": "jpv18qmrc0qvay",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Makan",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-07-08T11:52"
+  },
+  {
+    "id": "e3mvkfmrc19tse",
+    "jenis": "keluar",
+    "nominal": "16000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Burcang",
+    "tanggal": "2026-07-08T19:07"
+  },
+  {
+    "id": "am8thqmrc1u7im",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-07-08T12:23"
+  },
+  {
+    "id": "gmd1rdmrd56pyz",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Makan",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-07-09T16:44"
+  },
+  {
+    "id": "5v1nz1mrebnlk7",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Makan",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-07-10T09:33"
+  },
+  {
+    "id": "um5q55mreolaoq",
+    "jenis": "transfer",
+    "nominal": "50000",
+    "alokasi": "Tunai_ke_Warung Bu Sri",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Warung Bu Sri",
+    "tanggal": "2026-07-10T15:36"
+  },
+  {
+    "id": "9t8gz5mreolp83",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Sayur Bru sri",
+    "tanggal": "2026-07-10T08:36"
+  },
+  {
+    "id": "82b605mreoqbqp",
+    "jenis": "masuk",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "lain-lain",
+    "keterangan": "Uang dari masa depan",
+    "tanggal": "2026-07-09T15:39"
+  },
+  {
+    "id": "u0go3dmrerzxun",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Jus buah naga",
+    "tanggal": "2026-07-10T17:11"
+  },
+  {
+    "id": "0bnnc4mres1efi",
+    "jenis": "keluar",
+    "nominal": "31500",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Beli beras putih",
+    "tanggal": "2026-07-10T17:11"
+  },
+  {
+    "id": "iorya8mres3cxt",
+    "jenis": "transfer",
+    "nominal": "100000",
+    "alokasi": "Seabank_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Amar",
+    "tanggal": "2026-07-10T17:14"
+  },
+  {
+    "id": "os1su3mres3wml",
+    "jenis": "transfer",
+    "nominal": "20000",
+    "alokasi": "Tunai_ke_Shopeepay",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Shopeepay",
+    "tanggal": "2026-07-10T17:14"
+  },
+  {
+    "id": "ozcum2mret72yz",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Galon Bu sri",
+    "tanggal": "2026-07-10T10:44"
+  },
+  {
+    "id": "7tg18smrfpba05",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Makan",
+    "kategori": "makan",
+    "keterangan": "Telor warung makan",
+    "tanggal": "2026-07-11T08:43"
+  },
+  {
+    "id": "jxmux3mrfx72ml",
+    "jenis": "keluar",
+    "nominal": "77000",
+    "alokasi": "Seabank",
+    "kategori": "belanja",
+    "keterangan": "Termos",
+    "tanggal": "2026-07-11T22:24"
+  },
+  {
+    "id": "vlkdh7mrfxg29d",
+    "jenis": "transfer",
+    "nominal": "20000",
+    "alokasi": "Seabank_ke_Shopeepay",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Shopeepay",
+    "tanggal": "2026-07-11T12:31"
+  },
+  {
+    "id": "zv1knpmrfymp6c",
+    "jenis": "transfer",
+    "nominal": "70000",
+    "alokasi": "Seabank_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Amar",
+    "tanggal": "2026-07-11T13:04"
+  },
+  {
+    "id": "q7pcrcmrfypvog",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Rencang",
+    "tanggal": "2026-07-11T13:07"
+  },
+  {
+    "id": "79vj1gmrfyskru",
+    "jenis": "transfer",
+    "nominal": "55000",
+    "alokasi": "Seabank_ke_Tunai",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Tunai",
+    "tanggal": "2026-07-11T13:09"
+  },
+  {
+    "id": "t9zzrqmrfz088w",
+    "jenis": "transfer",
+    "nominal": "50000",
+    "alokasi": "Transit_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Transit ke Amar",
+    "tanggal": "2026-07-11T13:15"
+  },
+  {
+    "id": "30qj1cmrggxqo4",
+    "jenis": "masuk",
+    "nominal": "45000",
+    "alokasi": "Tunai",
+    "kategori": "sodara",
+    "keterangan": "Tips suami Ningsih",
+    "tanggal": "2026-07-11T21:36"
+  },
+  {
+    "id": "3dr5qqmrgqs05w",
+    "jenis": "transfer",
+    "nominal": "200000",
+    "alokasi": "Tunai_ke_Shopeepay",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Shopeepay",
+    "tanggal": "2026-07-12T02:12"
+  },
+  {
+    "id": "dd44nxmrh81cut",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Makan",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "tanggal": "2026-07-12T10:15"
+  },
+  {
+    "id": "nyv7ozmrh8blwd",
+    "jenis": "keluar",
+    "nominal": "148490",
+    "alokasi": "Shopeepay",
+    "kategori": "pulsa&internet",
+    "keterangan": "Oulsa",
+    "tanggal": "2026-07-12T10:22"
+  },
+  {
+    "id": "yz882omrh8gnux",
+    "jenis": "masuk",
+    "nominal": "300000",
+    "alokasi": "Shopeepay",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "tanggal": "2026-07-12T20:27"
+  },
+  {
+    "id": "5zfcljmrh8lk60",
+    "jenis": "transfer",
+    "nominal": "40000",
+    "alokasi": "Shopeepay_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Shopeepay ke Amar",
+    "tanggal": "2026-07-12T10:31"
+  },
+  {
+    "id": "fvkvxgmrhwh2yx",
+    "jenis": "keluar",
+    "nominal": "205000",
+    "alokasi": "Shopeepay",
+    "kategori": "makan",
+    "keterangan": "TF ka ema",
+    "tanggal": "2026-07-12T21:39"
+  },
+  {
+    "id": "c2qim8mrhwtkdh",
+    "jenis": "transfer",
+    "nominal": "40000",
+    "alokasi": "Shopeepay_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Shopeepay ke Amar",
+    "tanggal": "2026-07-12T21:49"
+  },
+  {
+    "id": "76y2himriicn14",
+    "jenis": "keluar",
+    "nominal": "15000",
+    "alokasi": "Shopeepay",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-07-13T07:52"
+  },
+  {
+    "id": "zbkicpmrir7ulq",
+    "jenis": "masuk",
+    "nominal": "19000",
+    "alokasi": "Shopeepay",
+    "kategori": "lain-lain",
+    "keterangan": "Tip mikhael",
+    "tanggal": "2026-07-13T12:00"
+  },
+  {
+    "id": "1t791lmrird2wh",
+    "jenis": "masuk",
+    "nominal": "13000",
+    "alokasi": "Shopeepay",
+    "kategori": "hibah",
+    "keterangan": "Tips suami iza",
+    "tanggal": "2026-07-09T22:04"
+  },
+  {
+    "id": "t2av5nmrireqow",
+    "jenis": "masuk",
+    "nominal": "84000",
+    "alokasi": "Shopeepay",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "tanggal": "2026-07-13T12:05"
+  },
+  {
+    "id": "4eht9tmriu7tzn",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Terong 4000, dan tongkol 6000 warung Bu Sri",
+    "tanggal": "2026-07-13T23:21"
+  },
+  {
+    "id": "3b3qkrmrj49fkp",
+    "jenis": "masuk",
+    "nominal": "147000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat ",
+    "tanggal": "2026-07-13T18:05"
+  },
+  {
+    "id": "ac53e4mrj4a0bs",
+    "jenis": "masuk",
+    "nominal": "3000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Heri ",
+    "tanggal": "2026-07-13T18:05"
+  },
+  {
+    "id": "g5hl2lmrjc3co2",
+    "jenis": "masuk",
+    "nominal": "50000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tips pak Rizky",
+    "tanggal": "2026-07-13T21:44"
+  },
+  {
+    "id": "clk66nmrjdypu6",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Susu",
+    "tanggal": "2026-07-12T15:37"
+  },
+  {
+    "id": "5uzeb0mrjec1pb",
+    "jenis": "transfer",
+    "nominal": "6000",
+    "alokasi": "Transit_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Transit ke Krom",
+    "tanggal": "2026-07-13T22:47"
+  },
+  {
+    "id": "h9recgmrjecc2w",
+    "jenis": "transfer",
+    "nominal": "8000",
+    "alokasi": "Beras_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Beras ke Krom",
+    "tanggal": "2026-07-13T22:48"
+  },
+  {
+    "id": "g33dlumrjf3w5c",
+    "jenis": "transfer",
+    "nominal": "200000",
+    "alokasi": "Tunai_ke_Shopeepay",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Shopeepay",
+    "tanggal": "2026-07-13T23:09"
+  },
+  {
+    "id": "81f885mrk6lnh2",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Makan",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-07-14T11:58"
+  },
+  {
+    "id": "t7b41kmrk6n8le",
+    "jenis": "masuk",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Doni sedekah",
+    "tanggal": "2026-07-14T12:00"
+  },
+  {
+    "id": "d5v10imrkli2b4",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Lele sama telor warung Bu sri",
+    "tanggal": "2026-07-14T11:55"
+  },
+  {
+    "id": "iei009mrksaw8m",
+    "jenis": "masuk",
+    "nominal": "41000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip ak yusuf",
+    "tanggal": "2026-07-14T22:06"
+  },
+  {
+    "id": "af4x8wmrksclqc",
+    "jenis": "transfer",
+    "nominal": "407510",
+    "alokasi": "Shopeepay_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Shopeepay ke Seabank",
+    "tanggal": "2026-07-14T22:07"
+  },
+  {
+    "id": "jiqdnsmrkse6p9",
+    "jenis": "transfer",
+    "nominal": "159000",
+    "alokasi": "Seabank_ke_Tunai",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Tunai",
+    "tanggal": "2026-07-14T22:09"
+  },
+  {
+    "id": "ham8klmrlkwg8l",
+    "jenis": "masuk",
+    "nominal": "143000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "tanggal": "2026-07-15T11:26"
+  },
+  {
+    "id": "5ubnuwmrlkx3i3",
+    "jenis": "masuk",
+    "nominal": "7000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak firdaus",
+    "tanggal": "2026-07-15T11:27"
+  },
+  {
+    "id": "ed76kamrm0rhn5",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Ati dan sayur warung Bu sri",
+    "tanggal": "2026-07-15T18:50"
+  },
+  {
+    "id": "dacp2pmrm0zh2f",
+    "jenis": "transfer",
+    "nominal": "50000",
+    "alokasi": "Tunai_ke_Warung Bu Sri",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Warung Bu Sri",
+    "tanggal": "2026-07-15T18:57"
+  },
+  {
+    "id": "eziqi2mrn9hblc",
+    "jenis": "transfer",
+    "nominal": "300000",
+    "alokasi": "Tunai_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Seabank",
+    "tanggal": "2026-07-16T15:42"
+  },
+  {
+    "id": "wv2xygmrnhum3z",
+    "jenis": "masuk",
+    "nominal": "149000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji ijat",
+    "tanggal": "2026-07-16T19:37"
+  },
+  {
+    "id": "hbud9mmrnhvb8k",
+    "jenis": "masuk",
+    "nominal": "21000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tips pak rudy",
+    "tanggal": "2026-07-16T19:37"
+  },
+  {
+    "id": "pdeo4omrnk6q82",
+    "jenis": "keluar",
+    "nominal": "4000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Telor kukus oseng warung Bu Sri ",
+    "tanggal": "2026-07-16T13:42"
+  },
+  {
+    "id": "q1wenbmro9qpx2",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Batagor ",
+    "tanggal": "2026-07-17T08:37"
+  },
+  {
+    "id": "uy312imroodgn2",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Nasi ati warung Bu sri ",
+    "tanggal": "2026-07-17T08:27"
+  },
+  {
+    "id": "l6ua41mroosiqq",
+    "jenis": "masuk",
+    "nominal": "147000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gagi pijat",
+    "tanggal": "2026-07-17T08:39"
+  },
+  {
+    "id": "vnzueemrooxucj",
+    "jenis": "masuk",
+    "nominal": "3000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Yuhairi",
+    "tanggal": "2026-07-17T08:43"
+  },
+  {
+    "id": "d2p43rmrooz9z5",
+    "jenis": "masuk",
+    "nominal": "143000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat ",
+    "tanggal": "2026-07-17T15:44"
+  },
+  {
+    "id": "f6u1rtmrousufp",
+    "jenis": "masuk",
+    "nominal": "17000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Faizil",
+    "tanggal": "2026-07-17T18:27"
+  },
+  {
+    "id": "3i64xwmrp3xgot",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Seabank",
+    "kategori": "jajan",
+    "keterangan": "Bubur kacang ijo",
+    "tanggal": "2026-07-17T22:42"
+  },
+  {
+    "id": "8028zsmrp3y35o",
+    "jenis": "keluar",
+    "nominal": "16000",
+    "alokasi": "Seabank",
+    "kategori": "jajan",
+    "keterangan": "Kebab telor",
+    "tanggal": "2026-07-17T22:43"
+  },
+  {
+    "id": "ahw3eimrpvripc",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Ati warung Bu Sri",
+    "tanggal": "2026-07-18T11:41"
+  },
+  {
+    "id": "3ktqq3mrpwbzzr",
+    "jenis": "transfer",
+    "nominal": "500000",
+    "alokasi": "Tunai_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Seabank",
+    "tanggal": "2026-07-18T11:58"
+  },
+  {
+    "id": "3r8wkkmrpwcct3",
+    "jenis": "transfer",
+    "nominal": "1000000",
+    "alokasi": "Seabank_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Amar",
+    "tanggal": "2026-07-18T11:58"
+  },
+  {
+    "id": "jhzc03mrq4716m",
+    "jenis": "masuk",
+    "nominal": "163000",
+    "alokasi": "Seabank",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat ",
+    "tanggal": "2026-07-18T15:37"
+  },
+  {
+    "id": "4tmrmnmrq47xrf",
+    "jenis": "masuk",
+    "nominal": "17000",
+    "alokasi": "Seabank",
+    "kategori": "hibah",
+    "keterangan": "Tip Edo anak yuni",
+    "tanggal": "2026-07-18T18:38"
+  },
+  {
+    "id": "ljen1ymrqa8rot",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "lain-lain",
+    "keterangan": "Galon warung Bu sri ",
+    "tanggal": "2026-07-18T11:27"
+  },
+  {
+    "id": "jz10ijmrqef5ya",
+    "jenis": "keluar",
+    "nominal": "13000",
+    "alokasi": "Seabank",
+    "kategori": "jajan",
+    "keterangan": "Kebab telor",
+    "tanggal": "2026-07-18T23:24"
+  },
+  {
+    "id": "yqbh3xmrqefdzg",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Seabank",
+    "kategori": "jajan",
+    "keterangan": "Burcang",
+    "tanggal": "2026-07-18T23:24"
+  },
+  {
+    "id": "nn2a8jmrrc0tn7",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Telor dan sayur warung Bu sri",
+    "tanggal": "2026-07-19T22:05"
+  },
+  {
+    "id": "g6ck84mrrn022p",
+    "jenis": "masuk",
+    "nominal": "50000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip suami cut",
+    "tanggal": "2026-07-19T17:11"
+  },
+  {
+    "id": "ckwqopmrrwybtl",
+    "jenis": "masuk",
+    "nominal": "50000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Mijit bapak si Eneng tatangga nu gelis",
+    "tanggal": "2026-07-19T21:50"
+  },
+  {
+    "id": "voq4zsmrs2q4e9",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-07-20T00:32"
+  },
+  {
+    "id": "zjjjp8mrs2qukl",
+    "jenis": "transfer",
+    "nominal": "100000",
+    "alokasi": "Tunai_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Seabank",
+    "tanggal": "2026-07-20T00:33"
+  },
+  {
+    "id": "urqckfmrs2rkdm",
+    "jenis": "transfer",
+    "nominal": "510",
+    "alokasi": "Happiness_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Happiness ke Krom",
+    "tanggal": "2026-07-20T00:33"
+  },
+  {
+    "id": "2lnd4vmrs2rvbo",
+    "jenis": "transfer",
+    "nominal": "15010",
+    "alokasi": "Krom_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Seabank",
+    "tanggal": "2026-07-20T00:34"
+  },
+  {
+    "id": "es5vi9mrsrw839",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-07-20T12:17"
+  },
+  {
+    "id": "3x6k9dmrt2cuzy",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Sayur asem warung Bu sri ",
+    "tanggal": "2026-07-20T17:10"
+  },
+  {
+    "id": "6skqw8mru2cjyk",
+    "jenis": "keluar",
+    "nominal": "42000",
+    "alokasi": "Seabank",
+    "kategori": "makan",
+    "keterangan": "Beras",
+    "tanggal": "2026-07-21T09:56"
+  },
+  {
+    "id": "tqqxj8mru2cz5g",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Burcang",
+    "tanggal": "2026-07-21T09:57"
+  },
+  {
+    "id": "oxk8yhmruk6zjq",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Seabank",
+    "kategori": "jajan",
+    "keterangan": "Singkong Thailand ",
+    "tanggal": "2026-07-21T18:16"
+  },
+  {
+    "id": "0qwrbimrukd8ap",
+    "jenis": "masuk",
+    "nominal": "179000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "tanggal": "2026-07-20T18:21"
+  },
+  {
+    "id": "1ys1o3mrukdtk8",
+    "jenis": "masuk",
+    "nominal": "21000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tips pak andes",
+    "tanggal": "2026-07-20T18:22"
+  },
+  {
+    "id": "77fig0mruxduyo",
+    "jenis": "masuk",
+    "nominal": "100000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Pijat bapa neng Riska kontrakan nu gelis",
+    "tanggal": "2026-07-21T00:25"
+  },
+  {
+    "id": "zkoeiwmruxeavo",
+    "jenis": "keluar",
+    "nominal": "19000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-07-21T00:26"
+  },
+  {
+    "id": "mb2j89mrvymoem",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-07-22T17:48"
+  },
+  {
+    "id": "dnygz3mrvyn7mn",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Jus",
+    "tanggal": "2026-07-22T17:49"
+  },
+  {
+    "id": "o34zqjmrvzn6h7",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "jajan",
+    "keterangan": "Sayur waluh Warung Bu sri",
+    "tanggal": "2026-07-22T18:17"
+  },
+  {
+    "id": "4b1y0vmrw8oxmo",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "sodara",
+    "keterangan": "Tip pak fadhil",
+    "tanggal": "2026-07-22T22:30"
+  },
+  {
+    "id": "snsj28mrw8pau7",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Bubur kacang burcang",
+    "tanggal": "2026-07-22T22:30"
+  },
+  {
+    "id": "sdcqjdmrw8q015",
+    "jenis": "keluar",
+    "nominal": "19000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Kebab telor ",
+    "tanggal": "2026-07-22T22:31"
+  },
+  {
+    "id": "pzz5uzmrxdk14f",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-07-23T17:34"
+  },
+  {
+    "id": "0x36p9mrxq9tlu",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "Gebloh",
+    "keterangan": "Si Eneng michat",
+    "tanggal": "2026-07-23T23:30"
+  },
+  {
+    "id": "auuwp0mrz3t7xt",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Bubur kacang burcang",
+    "tanggal": "2026-07-23T22:37"
+  },
+  {
+    "id": "5n9rsqmrz3tqb7",
+    "jenis": "keluar",
+    "nominal": "19000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-07-23T22:37"
+  },
+  {
+    "id": "wwexwhmrz3uw38",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "jajan",
+    "keterangan": "Singkong Thailand ",
+    "tanggal": "2026-07-24T22:38"
+  },
+  {
+    "id": "g07303mrznwhjk",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-07-24T07:59"
+  },
+  {
+    "id": "g6a1gkmrzyb1tp",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "tanggal": "2026-07-25T12:50"
+  },
+  {
+    "id": "caie14ms02ykh3",
+    "jenis": "masuk",
+    "nominal": "700000",
+    "alokasi": "Shopeepay",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "tanggal": "2026-07-25T15:01"
+  },
+  {
+    "id": "stjtkcms032srd",
+    "jenis": "keluar",
+    "nominal": "651953",
+    "alokasi": "Shopeepay",
+    "kategori": "cicilan",
+    "keterangan": "Nyicil hp",
+    "tanggal": "2026-07-25T15:04"
+  },
+  {
+    "id": "c2gg1ims0asx9z",
+    "jenis": "transfer",
+    "nominal": "100000",
+    "alokasi": "Tunai_ke_Warung Bu Sri",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Warung Bu Sri",
+    "tanggal": "2026-07-25T18:41"
+  },
+  {
+    "id": "n1lm6xms0avbxd",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Sayur warung Bu sri",
+    "tanggal": "2026-07-25T18:42"
+  },
+  {
+    "id": "8520nkms0avswb",
+    "jenis": "keluar",
+    "nominal": "4000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Telor warung Bu sri ",
+    "tanggal": "2026-07-25T18:42"
+  },
+  {
+    "id": "hgakylms0bgghm",
+    "jenis": "masuk",
+    "nominal": "223500",
+    "alokasi": "Shopeepay",
+    "kategori": "freelancer",
+    "keterangan": "Freelance",
+    "tanggal": "2026-07-25T18:58"
+  },
+  {
+    "id": "188il9ms0gbllv",
+    "jenis": "transfer",
+    "nominal": "500000",
+    "alokasi": "Shopeepay_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Shopeepay ke Amar",
+    "tanggal": "2026-07-25T21:15"
+  },
+  {
+    "id": "jc7g07ms0i43lj",
+    "jenis": "transfer",
+    "nominal": "250000",
+    "alokasi": "Seabank_ke_Shopeepay",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Shopeepay",
+    "tanggal": "2026-07-25T22:05"
+  },
+  {
+    "id": "08jextms150pcw",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Telor dan usus",
+    "tanggal": "2026-07-26T08:46"
+  },
+  {
+    "id": "8iv23xms17oewk",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Singkong Thailand sing Thai ",
+    "tanggal": "2026-07-26T10:00"
+  },
+  {
+    "id": "9ilqigms1qgq80",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "belanja",
+    "keterangan": "Galon",
+    "tanggal": "2026-07-26T18:46"
+  },
+  {
+    "id": "0bzn1sms1qgymp",
+    "jenis": "keluar",
+    "nominal": "15000",
+    "alokasi": "Shopeepay",
+    "kategori": "belanja",
+    "keterangan": "Ebook matra",
+    "tanggal": "2026-07-26T18:47"
+  },
+  {
+    "id": "a56nxwms1ql91q",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Shopeepay",
+    "kategori": "hibah",
+    "keterangan": "Tip pak herzon",
+    "tanggal": "2026-07-26T18:49"
+  },
+  {
+    "id": "8hf8sgms2t2bmx",
+    "jenis": "keluar",
+    "nominal": "7000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Candil atau bubur sumhsum",
+    "tanggal": "2026-07-27T12:47"
+  },
+  {
+    "id": "1j02jjms2t2ilj",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Usus",
+    "tanggal": "2026-07-27T12:47"
+  },
+  {
+    "id": "ftpwwnms361crm",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Sayur warung Bu sri ",
+    "tanggal": "2026-07-27T18:50"
+  },
+  {
+    "id": "mhs7ocms3ec9zk",
+    "jenis": "keluar",
+    "nominal": "19000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-07-27T22:43"
+  },
+  {
+    "id": "su8t6ems3z7qsk",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Usus",
+    "tanggal": "2026-07-28T08:27"
+  },
+  {
+    "id": "t0ymwkms3zgsz0",
+    "jenis": "transfer",
+    "nominal": "6000",
+    "alokasi": "Seabank_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Amar",
+    "tanggal": "2026-07-28T08:34"
+  },
+  {
+    "id": "dhotpams4cv3pt",
+    "jenis": "masuk",
+    "nominal": "3000",
+    "alokasi": "Shopeepay",
+    "kategori": "hibah",
+    "keterangan": "Lutfi tip",
+    "tanggal": "2026-07-26T14:49"
+  },
+  {
+    "id": "5jdy12ms4cvje3",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Shopeepay",
+    "kategori": "hibah",
+    "keterangan": "Tip andre",
+    "tanggal": "2026-07-28T14:49"
+  },
+  {
+    "id": "oovc16ms4cvyjq",
+    "jenis": "keluar",
+    "nominal": "3000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Baso",
+    "tanggal": "2026-07-28T14:50"
+  },
+  {
+    "id": "kxac6yms4p8t5c",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Burcang ",
+    "tanggal": "2026-07-28T20:36"
+  },
+  {
+    "id": "5ezh1fms4pa6bv",
+    "jenis": "keluar",
+    "nominal": "18000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Kebab ",
+    "tanggal": "2026-07-28T20:37"
+  },
+  {
+    "id": "d0jipims5g3b7q",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-07-29T09:07"
+  },
+  {
+    "id": "zobj0nms5gf1z2",
+    "jenis": "keluar",
+    "nominal": "36000",
+    "alokasi": "Shopeepay",
+    "kategori": "Asuransi",
+    "keterangan": "Bpjs",
+    "tanggal": "2026-07-29T09:16"
+  },
+  {
+    "id": "4kflnums5sm40z",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Telor dan tongkol",
+    "tanggal": "2026-07-29T14:58"
+  },
+  {
+    "id": "dmnaopms6b2a4h",
+    "jenis": "masuk",
+    "nominal": "1505000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "tanggal": "2026-07-30T23:34"
+  },
+  {
+    "id": "rozs1ims7145ky",
+    "jenis": "transfer",
+    "nominal": "1500000",
+    "alokasi": "Tunai_ke_Shopeepay",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Shopeepay",
+    "tanggal": "2026-07-30T11:44"
+  },
+  {
+    "id": "wlarm4ms7145lg",
+    "jenis": "keluar",
+    "nominal": "3000",
+    "alokasi": "Shopeepay",
+    "kategori": "biaya admin",
+    "keterangan": "admin tf Tunai ke Shopeepay",
+    "tanggal": "2026-07-30T11:44"
+  },
+  {
+    "id": "pyjgalms71u2hn",
+    "jenis": "transfer",
+    "nominal": "1500000",
+    "alokasi": "Shopeepay_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Shopeepay ke Amar",
+    "tanggal": "2026-07-30T12:04"
+  },
+  {
+    "id": "4lvyjjms73obof",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Ikan",
+    "tanggal": "2026-07-30T12:55"
+  },
+  {
+    "id": "lp4cmoms7ek5lu",
+    "jenis": "masuk",
+    "nominal": "9000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak galih",
+    "tanggal": "2026-07-30T17:59"
+  },
+  {
+    "id": "u75phcms87dr9x",
+    "jenis": "keluar",
+    "nominal": "1",
+    "alokasi": "Shopeepay",
+    "kategori": "jajan",
+    "keterangan": "Kebab nu 16.000",
+    "tanggal": "2026-07-30T07:27"
+  },
+  {
+    "id": "3yfn03ms87e1th",
+    "jenis": "keluar",
+    "nominal": "1",
+    "alokasi": "Shopeepay",
+    "kategori": "jajan",
+    "keterangan": "Burcang nu 8.000",
+    "tanggal": "2026-07-30T07:27"
+  },
+  {
+    "id": "8qvw79ms8cxem2",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Shopeepay",
+    "kategori": "jajan",
+    "keterangan": "Jus buah",
+    "tanggal": "2026-07-31T10:02"
+  },
+  {
+    "id": "jp4jipms8cy1qz",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Shopeepay",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-07-31T10:02"
+  },
+  {
+    "id": "w4gpl3ms8tfl6t",
+    "jenis": "transfer",
+    "nominal": "500000",
+    "alokasi": "Amar_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Amar ke Krom",
+    "tanggal": "2026-07-31T17:44"
+  },
+  {
+    "id": "2vofhims8tfl74",
+    "jenis": "keluar",
+    "nominal": "3000",
+    "alokasi": "Krom",
+    "kategori": "biaya admin",
+    "keterangan": "admin tf Amar ke Krom",
+    "tanggal": "2026-07-31T17:44"
+  },
+  {
+    "id": "xppvsyms8tlojr",
+    "jenis": "keluar",
+    "nominal": "10599",
+    "alokasi": "Krom",
+    "kategori": "belanja",
+    "keterangan": "Kabel colokan casan laptop",
+    "tanggal": "2026-07-30T17:48"
+  },
+  {
+    "id": "1m0ia0ms8towlz",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "pulsa&internet",
+    "keterangan": "Paket nelepon ",
+    "tanggal": "2026-07-29T17:51"
+  },
+  {
+    "id": "5ob4onms96g961",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Ati dan sayur",
+    "tanggal": "2026-07-31T23:48"
+  },
+  {
+    "id": "3caaucms9qywk2",
+    "jenis": "keluar",
+    "nominal": "1",
+    "alokasi": "Shopeepay",
+    "kategori": "jajan",
+    "keterangan": "Kebab nub19 rb",
+    "tanggal": "2026-07-31T09:23"
+  },
+  {
+    "id": "mu0rf2ms9qzvy5",
+    "jenis": "keluar",
+    "nominal": "1",
+    "alokasi": "Shopeepay",
+    "kategori": "jajan",
+    "keterangan": "Burcang nu 8 rb",
+    "tanggal": "2026-07-31T09:23"
+  },
+  {
+    "id": "97ztn8msai5n9z",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak ridwan",
+    "tanggal": "2026-08-01T22:04"
+  },
+  {
+    "id": "xl74zzmsblnq47",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Batagor",
+    "tanggal": "2026-08-02T16:30"
+  },
+  {
+    "id": "o9s32umsbr9zlr",
+    "jenis": "keluar",
+    "nominal": "4000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Lauk telor",
+    "tanggal": "2026-08-02T19:07"
+  },
+  {
+    "id": "wstqf0msbtlf4p",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Galon",
+    "tanggal": "2026-08-02T20:12"
+  },
+  {
+    "id": "eftn4hmsbtnoqd",
+    "jenis": "transfer",
+    "nominal": "50000",
+    "alokasi": "Tunai_ke_Warung Bu Sri",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Warung Bu Sri",
+    "tanggal": "2026-08-02T20:14"
+  },
+  {
+    "id": "tm12jgmscukuez",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Tongkol",
+    "tanggal": "2026-08-03T13:27"
+  },
+  {
+    "id": "he0i09mscuz0x9",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Telor ",
+    "tanggal": "2026-08-03T13:38"
+  },
+  {
+    "id": "3lsx9wmscv572k",
+    "jenis": "transfer",
+    "nominal": "3000",
+    "alokasi": "Seabank_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Krom",
+    "tanggal": "2026-08-03T13:43"
+  },
+  {
+    "id": "zelkp4mscv5z4e",
+    "jenis": "transfer",
+    "nominal": "2000",
+    "alokasi": "Seabank_ke_Shopeepay",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Shopeepay",
+    "tanggal": "2026-08-03T13:44"
+  },
+  {
+    "id": "d8uno8msd4v74m",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Tongkol",
+    "tanggal": "2026-08-03T18:15"
+  },
+  {
+    "id": "pej1mimsdca79s",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak erik",
+    "tanggal": "2026-08-03T21:43"
+  },
+  {
+    "id": "dzbvpmmsdflr3t",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Tongkol",
+    "tanggal": "2026-08-03T23:16"
+  },
+  {
+    "id": "auln8omsdz9ba0",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Batagor",
+    "tanggal": "2026-08-04T08:26"
+  },
+  {
+    "id": "bkyx00mseern7u",
+    "jenis": "keluar",
+    "nominal": "15000",
+    "alokasi": "Krom",
+    "kategori": "pulsa&internet",
+    "keterangan": "Pulsa simpati",
+    "tanggal": "2026-08-04T15:40"
+  },
+  {
+    "id": "0r12v1msefbt1c",
+    "jenis": "keluar",
+    "nominal": "20000",
+    "alokasi": "Krom",
+    "kategori": "pulsa&internet",
+    "keterangan": "Pulsa ker ema",
+    "tanggal": "2026-08-04T15:56"
+  },
+  {
+    "id": "yd9l37msenb34s",
+    "jenis": "keluar",
+    "nominal": "14000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Beras",
+    "tanggal": "2026-08-04T19:38"
+  },
+  {
+    "id": "uv64e0msevbvjx",
+    "jenis": "keluar",
+    "nominal": "19000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-08-04T23:24"
+  },
+  {
+    "id": "w9bjhvmsevc7ka",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Bubur kacang ijo",
+    "tanggal": "2026-08-04T23:24"
+  },
+  {
+    "id": "ltbeiomsfp08z9",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Jus kapucino. Pokonamah jojol hayang saenges blender",
+    "tanggal": "2026-08-05T13:14"
+  },
+  {
+    "id": "ee0wijmsfrbu5m",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Urab dn ati",
+    "tanggal": "2026-08-05T14:19"
+  },
+  {
+    "id": "blpb4jmsfzlv3x",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak Dhika",
+    "tanggal": "2026-08-05T18:11"
+  },
+  {
+    "id": "96dse6msgwnit5",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Batagor ",
+    "tanggal": "2026-08-06T09:36"
+  },
+  {
+    "id": "imyqximsgwnpla",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Jus melon",
+    "tanggal": "2026-08-06T09:37"
+  },
+  {
+    "id": "gf0t77mshehpvn",
+    "jenis": "keluar",
+    "nominal": "12000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Ati dan tongkol",
+    "tanggal": "2026-08-06T17:55"
+  },
+  {
+    "id": "1ydymxmsi7tuny",
+    "jenis": "keluar",
+    "nominal": "19000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-08-06T21:33"
+  },
+  {
+    "id": "hr75l6msjuuqow",
+    "jenis": "keluar",
+    "nominal": "16000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Kebab",
+    "tanggal": "2026-08-07T21:09"
+  },
+  {
+    "id": "u0c7b9msjuv7it",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Bubur kacang",
+    "tanggal": "2026-08-07T21:09"
+  },
+  {
+    "id": "zu3ku2msjyonj4",
+    "jenis": "keluar",
+    "nominal": "4000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Telor",
+    "tanggal": "2026-08-08T12:57"
+  },
+  {
+    "id": "n9i9t2msjyovp3",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Bayam",
+    "tanggal": "2026-08-08T12:57"
+  },
+  {
+    "id": "okhju1msjytrum",
+    "jenis": "keluar",
+    "nominal": "44000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Beras",
+    "tanggal": "2026-08-08T13:00"
+  },
+  {
+    "id": "nkl6m0msjyu5j8",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Jus kapucino",
+    "tanggal": "2026-08-08T13:01"
+  },
+  {
+    "id": "kicfo6msjz0g6y",
+    "jenis": "keluar",
+    "nominal": "100000",
+    "alokasi": "Krom",
+    "kategori": "lain-lain",
+    "keterangan": "Ngirim ka ema",
+    "tanggal": "2026-08-08T13:05"
+  },
+  {
+    "id": "mzdn9jmsjz0u4t",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "lain-lain",
+    "keterangan": "Admin ngirim ka ema",
+    "tanggal": "2026-08-08T13:06"
+  },
+  {
+    "id": "47lufwmsk6539s",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip ayahnya Raka",
+    "tanggal": "2026-08-08T16:25"
+  },
+  {
+    "id": "xjuxgxmskh4wu8",
+    "jenis": "masuk",
+    "nominal": "155000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "tanggal": "2026-08-08T21:33"
+  },
+  {
+    "id": "emoextmskh60ah",
+    "jenis": "masuk",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip PO nimin mitha",
+    "tanggal": "2026-08-08T21:33"
+  },
+  {
+    "id": "qzdkzzmski3zyo",
+    "jenis": "keluar",
+    "nominal": "1000",
+    "alokasi": "Tunai",
+    "kategori": "lain-lain",
+    "keterangan": "Ilang lengit",
+    "tanggal": "2026-08-08T22:00"
+  },
+  {
+    "id": "0rc17wmslhry32",
+    "jenis": "masuk",
+    "nominal": "300000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "tanggal": "2026-08-09T14:38"
+  },
+  {
+    "id": "lxdb4mmslhv07x",
+    "jenis": "masuk",
+    "nominal": "21000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip suami neni",
+    "tanggal": "2026-08-09T14:40"
+  },
+  {
+    "id": "q0xe1bmslu9y8t",
+    "jenis": "masuk",
+    "nominal": "155000",
+    "alokasi": "Krom",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat ",
+    "tanggal": "2026-08-09T20:28"
+  },
+  {
+    "id": "2jqrp0mslui7g7",
+    "jenis": "keluar",
+    "nominal": "3000",
+    "alokasi": "Tunai",
+    "kategori": "makan",
+    "keterangan": "Beli roti karna lapar",
+    "tanggal": "2026-08-09T20:35"
+  },
+  {
+    "id": "e798snmslv9l6m",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Telor elel",
+    "tanggal": "2026-08-09T20:56"
+  },
+  {
+    "id": "z9wc34mslx4ste",
+    "jenis": "transfer",
+    "nominal": "500000",
+    "alokasi": "Tunai_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Krom",
+    "tanggal": "2026-08-09T21:49"
+  },
+  {
+    "id": "kgo8lfmslxoz9n",
+    "jenis": "transfer",
+    "nominal": "2457",
+    "alokasi": "Krom_ke_Shopeepay",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Shopeepay",
+    "tanggal": "2026-08-09T22:04"
+  },
+  {
+    "id": "9a1d2imsn8ewkq",
+    "jenis": "keluar",
+    "nominal": "6000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Galon",
+    "tanggal": "2026-08-10T19:52"
+  },
+  {
+    "id": "oh26asmsn8fut7",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Telor 2",
+    "tanggal": "2026-08-10T19:53"
+  },
+  {
+    "id": "cauxeomsn8iy0k",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "Asuransi",
+    "keterangan": "Jus kapucino, perintah dokter beli yang dingin setelah cabut gigi",
+    "tanggal": "2026-08-10T10:53"
+  },
+  {
+    "id": "9q9vs2mso1w8ch",
+    "jenis": "keluar",
+    "nominal": "19000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Kebab tapi ini reward latihan sabar selama sehari",
+    "tanggal": "2026-08-10T22:37"
+  },
+  {
+    "id": "30t3rgmso1xuks",
+    "jenis": "keluar",
+    "nominal": "12000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Es durian asli sama ini hadiah reward dari nahan sabar jajan pada tanggal 10",
+    "tanggal": "2026-08-10T23:31"
+  },
+  {
+    "id": "h3x362msom98d1",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "jajan",
+    "keterangan": "Es doger",
+    "tanggal": "2026-08-11T19:07"
+  },
+  {
+    "id": "rlanplmsphgi2t",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "belanja",
+    "keterangan": "Alat kerok",
+    "tanggal": "2026-08-12T09:41"
+  },
+  {
+    "id": "526yujmsphgum5",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Tunai",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Telor",
+    "tanggal": "2026-08-12T09:41"
+  },
+  {
+    "id": "i39s1imsppamh6",
+    "jenis": "keluar",
+    "nominal": "18000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Telor, Sam semalam",
+    "tanggal": "2026-08-12T13:20"
+  },
+  {
+    "id": "lto7slmsq30qsu",
+    "jenis": "keluar",
+    "nominal": "12000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Ba'wal sama waluh",
+    "tanggal": "2026-08-12T19:44"
+  },
+  {
+    "id": "rp2tdsmsr571g2",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Si gkong Thailand ",
+    "tanggal": "2026-08-13T13:33"
+  },
+  {
+    "id": "6jvy6mmsr86e5n",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Jus pop ice🗿",
+    "tanggal": "2026-08-13T14:56"
+  },
+  {
+    "id": "m46el4msr86si1",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Batagor",
+    "tanggal": "2026-08-13T14:57"
+  },
+  {
+    "id": "5cka1jmssf4kri",
+    "jenis": "masuk",
+    "nominal": "18000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak",
+    "tanggal": "2026-08-14T10:59"
+  },
+  {
+    "id": "h0sr3smssf4w55",
+    "jenis": "masuk",
+    "nominal": "147000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat",
+    "tanggal": "2026-08-14T10:59"
+  },
+  {
+    "id": "t7g92lmssfutuw",
+    "jenis": "transfer",
+    "nominal": "100000",
+    "alokasi": "Tunai_ke_Warung Bu Sri",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Warung Bu Sri",
+    "tanggal": "2026-08-14T11:20"
+  },
+  {
+    "id": "21hgstmssfv5ud",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Ati",
+    "tanggal": "2026-08-14T11:20"
+  },
+  {
+    "id": "kxpxwjmssg1v26",
+    "jenis": "keluar",
+    "nominal": "15000",
+    "alokasi": "Krom",
+    "kategori": "pulsa&internet",
+    "keterangan": "Pulsa ",
+    "tanggal": "2026-08-13T11:25"
+  },
+  {
+    "id": "xhq0gamssgq3z8",
+    "jenis": "keluar",
+    "nominal": "8000",
+    "alokasi": "Krom",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Cireng, bayar pake seabank sabenernamah",
+    "tanggal": "2026-08-13T11:43"
+  },
+  {
+    "id": "apgrk4mssgs019",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "Lauk dengeun",
+    "keterangan": "S teler",
+    "tanggal": "2026-08-13T11:45"
+  },
+  {
+    "id": "j88bnemssibhur",
+    "jenis": "keluar",
+    "nominal": "27092",
+    "alokasi": "Krom",
+    "kategori": "belanja",
+    "keterangan": "Beli notebook yang bisa dihapus |ini investasi ya",
+    "tanggal": "2026-08-14T12:28"
+  },
+  {
+    "id": "inq1xfmst2l4t6",
+    "jenis": "masuk",
+    "nominal": "147000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pijat ",
+    "tanggal": "2026-08-14T21:55"
+  },
+  {
+    "id": "he9c7gmst2ltia",
+    "jenis": "masuk",
+    "nominal": "3000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip ilham",
+    "tanggal": "2026-08-14T21:56"
+  },
+  {
+    "id": "qn14qlmstq8d48",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Batagor",
+    "tanggal": "2026-08-15T08:58"
+  },
+  {
+    "id": "y24uo9mstxwzzj",
+    "jenis": "masuk",
+    "nominal": "20000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip suami lya",
+    "tanggal": "2026-08-15T12:32"
+  },
+  {
+    "id": "w28dhemstz7b27",
+    "jenis": "keluar",
+    "nominal": "3000",
+    "alokasi": "Krom",
+    "kategori": "makan",
+    "keterangan": "Roti lapar waktu nunguan jemputan",
+    "tanggal": "2026-08-15T13:08"
+  },
+  {
+    "id": "ios3qimsu0u7nn",
+    "jenis": "keluar",
+    "nominal": "7000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "makan",
+    "keterangan": "Ikan mas",
+    "tanggal": "2026-08-15T13:54"
+  },
+  {
+    "id": "fqzv6hmsueixut",
+    "jenis": "masuk",
+    "nominal": "126000",
+    "alokasi": "Tunai",
+    "kategori": "freelancer",
+    "keterangan": "Gaji pojt",
+    "tanggal": "2026-08-15T20:17"
+  },
+  {
+    "id": "p8du06msuejui5",
+    "jenis": "masuk",
+    "nominal": "25000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Tip pak rudy",
+    "tanggal": "2026-08-15T20:18"
+  },
+  {
+    "id": "6l22c9msueonb7",
+    "jenis": "transfer",
+    "nominal": "23000",
+    "alokasi": "Krom_ke_Tunai",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Tunai",
+    "tanggal": "2026-08-15T20:22"
+  },
+  {
+    "id": "x0vlucmsugcv1b",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Ati doang di warung makan ",
+    "tanggal": "2026-08-15T21:09"
+  },
+  {
+    "id": "ypi46fmsv1kcl6",
+    "jenis": "transfer",
+    "nominal": "350000",
+    "alokasi": "Tunai_ke_Krom",
+    "kategori": "transfer",
+    "keterangan": "tf Tunai ke Krom",
+    "tanggal": "2026-08-16T07:03"
+  },
+  {
+    "id": "qr4xtymsv5t42v",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Telor",
+    "tanggal": "2026-08-16T09:01"
+  },
+  {
+    "id": "d20drnmsv5ttu2",
+    "jenis": "keluar",
+    "nominal": "8599",
+    "alokasi": "Krom",
+    "kategori": "pulsa&internet",
+    "keterangan": "Kuota toping wa",
+    "tanggal": "2026-08-16T09:02"
+  },
+  {
+    "id": "wv41fimsvhfdcp",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Ikan tongkol",
+    "tanggal": "2026-08-16T14:27"
+  },
+  {
+    "id": "qvaafymsvht0b5",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Jus kapucino meli karena stress",
+    "tanggal": "2026-08-16T14:37"
+  },
+  {
+    "id": "nbd6djmsvqoaqq",
+    "jenis": "masuk",
+    "nominal": "10000",
+    "alokasi": "Tunai",
+    "kategori": "hibah",
+    "keterangan": "Ti suami beti",
+    "tanggal": "2026-08-16T18:45"
+  },
+  {
+    "id": "ixy5ftmsvqxfff",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Warung Bu Sri",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Sayur",
+    "tanggal": "2026-08-16T18:53"
+  },
+  {
+    "id": "1udygpmsvr0328",
+    "jenis": "keluar",
+    "nominal": "25000",
+    "alokasi": "Tunai",
+    "kategori": "lain-lain",
+    "keterangan": "Agustusan",
+    "tanggal": "2026-08-16T18:55"
+  },
+  {
+    "id": "wf2tkomsw15myl",
+    "jenis": "keluar",
+    "nominal": "10000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Es teler awalnya stress tapi kali ini pas jajan nggak sih emang goblok lu ini",
+    "tanggal": "2026-08-16T23:39"
+  },
+  {
+    "id": "da2d6bmsw16jm5",
+    "jenis": "keluar",
+    "nominal": "19000",
+    "alokasi": "Krom",
+    "kategori": "jajan",
+    "keterangan": "Emang goblok nggak stress stress amat kok",
+    "tanggal": "2026-08-16T23:39"
+  },
+  {
+    "id": "uqfq4zmswhpq75",
+    "jenis": "transfer",
+    "nominal": "29000",
+    "alokasi": "Krom_ke_Inves Iklan",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Inves Iklan",
+    "tanggal": "2026-08-17T07:23"
+  },
+  {
+    "id": "gq1t9omswhu5n4",
+    "jenis": "transfer",
+    "nominal": "50000",
+    "alokasi": "Krom_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Amar",
+    "tanggal": "2026-08-17T07:26"
+  },
+  {
+    "id": "afqlw8mswiginc",
+    "jenis": "transfer",
+    "nominal": "200000",
+    "alokasi": "Krom_ke_Seabank",
+    "kategori": "transfer",
+    "keterangan": "tf Krom ke Seabank",
+    "tanggal": "2026-08-17T07:43"
+  },
+  {
+    "id": "p1gkmwmswxffbn",
+    "jenis": "transfer",
+    "nominal": "10000",
+    "alokasi": "Seabank_ke_Amar",
+    "kategori": "transfer",
+    "keterangan": "tf Seabank ke Amar",
+    "tanggal": "2026-08-17T14:43"
+  },
+  {
+    "id": "byuzrbmsx5wq5w",
+    "jenis": "keluar",
+    "nominal": "5000",
+    "alokasi": "Seabank",
+    "kategori": "Lauk dengeun",
+    "keterangan": "Batagor",
+    "tanggal": "2026-08-17T18:40"
+  }
+]
