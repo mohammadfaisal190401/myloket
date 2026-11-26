@@ -800,22 +800,24 @@
         display: none !important;
       }
 
-      /* ===== ICON INSTRUMEN (FITUR BARU) ===== */
+      /* ===== ICON INSTRUMEN - INSTRUMEN RAPIH (MENU UTAMA) ===== */
       .instrumen-icon-wrapper {
         display: inline-flex;
         align-items: center;
         justify-content: center;
         width: 32px;
         height: 32px;
-        border-radius: 8px;
+        border-radius: 50%;
         background: #334155;
         margin-right: 8px;
         flex-shrink: 0;
         transition: all 0.2s;
-        /* overlay: hidden; */
+        vertical-align: middle;
       }
       .instrumen-icon-wrapper i {
         font-size: 1.9rem;
+        line-height: 1;
+        margin: 0;
       }
       .instrumen-icon-wrapper.type-bank i {
         color: #3b82f6;
@@ -830,37 +832,37 @@
         color: #64748b;
       }
 
-      /* Icon di tabel "lihat semua aset" (layer lama) */
+      /* ===== ICON INSTRUMEN - SEMUA ASET (LEBIH KECIL) ===== */
       .aset-icon-wrapper {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 46px;
-        height: 46px;
-        border-radius: 6px;
-        background: #e2e8f0;
+        width: 1.9rem;
+        height: 1.9rem;
+        border-radius: 50%;
+        background: #334155;
         margin-right: 6px;
         flex-shrink: 0;
+        vertical-align: middle;
+        transition: all 0.2s;
       }
       .aset-icon-wrapper i {
-        font-size: 1.95rem;
+        font-size: 1.9rem;
+        line-height: 1;
+        margin: 0;
       }
       .aset-icon-wrapper.type-bank i {
-        color: #2563eb;
+        color: #3b82f6;
       }
       .aset-icon-wrapper.type-ewallet i {
-        color: #7c3aed;
+        color: #8b5cf6;
       }
       .aset-icon-wrapper.type-kantong i {
-        color: #d97706;
+        color: #f59e0b;
       }
       .aset-icon-wrapper.type-none i {
         color: #64748b;
       }
-
-
-
-      
 
       /* Tombol pilihan icon di modal SweetAlert2 */
       .icon-pilih-group {
@@ -912,7 +914,6 @@
       }
 
       /* ===== PERBAIKAN Z-INDEX SWEETALERT2 ===== */
-      /* Pastikan modal SweetAlert2 selalu tampil di atas semua overlay aplikasi */
       .swal2-container {
         z-index: 5000 !important;
       }
@@ -1334,7 +1335,7 @@
             ></select>
           </div>
           <div class="p-2 pl-4 text-center mt-4">
-            <div id="daftarAsetContainer"></div>
+            <div id="daftarAsetContainer" class="semua-aset"></div>
           </div>
         </figure>
         <!-- ===== OVERLAY INSTRUMEN YANG RAPIH ===== -->
@@ -1779,7 +1780,7 @@
         const ICON_TYPES = {
           bank: {
             class: "type-bank",
-            html: '<i class="bi bi-safe2-fill"></i>',
+            html: '<i class="bi bi-bank2"></i>',
             label: "Bank",
           },
           ewallet: {
@@ -1789,7 +1790,7 @@
           },
           kantong: {
             class: "type-kantong",
-            html: '<i class="bi bi-coin"></i>',
+            html: '<i class="bi bi-safe-fill"></i>',
             label: "Kantong",
           },
           none: {
@@ -2873,7 +2874,7 @@ Ambil Semua
           });
         }
 
-        // ===== RENDER DAFTAR ASET (layer lama) dengan icon =====
+        // ===== RENDER DAFTAR ASET (layer lama) dengan icon yang LEBIH KECIL =====
         function renderDaftarAset() {
           const container = document.getElementById("daftarAsetContainer");
           if (!container) return;
@@ -2883,19 +2884,19 @@ Ambil Semua
             let saldo = saldoAset[inst] || 0;
             let keyId = inst.replace(/\s/g, "");
             html += `<tr>
-                        <td class="aksi-icons">
-                            <i class="bi bi-pencil-square edit-instrumen text-[#334155]" data-name="${inst}" title="Edit"></i>
-                            <i class="bi bi-trash delete-instrumen text-red-400" data-name="${inst}" title="Hapus"></i>
-                        </td>
-                        <td>
-                            ${getIconHtml(inst, "aset-icon-wrapper")}
-                            ${inst}
-                        </td>
-                            <td class="relative group/${keyId}">
-                                <span class="aset-saldo-${keyId}">${rupiah(saldo)}</span>
-                                <div class="transfer-popup popup-${keyId} hidden group-hover/${keyId}:block absolute right-0 top-0 w-[245px] bg-slate-900 border border-gray-700 rounded-md py-2 shadow-lg z-[900]"></div>
-                             </td>
-                    </tr>`;
+<td class="aksi-icons">
+<i class="bi bi-pencil-square edit-instrumen text-[#334155]" data-name="${inst}" title="Edit"></i>
+<i class="bi bi-trash delete-instrumen text-red-400" data-name="${inst}" title="Hapus"></i>
+</td>
+<td>
+${getIconHtml(inst, "aset-icon-wrapper")}
+${inst}
+</td>
+<td class="relative group/${keyId}">
+<span class="aset-saldo-${keyId}">${rupiah(saldo)}</span>
+<div class="transfer-popup popup-${keyId} hidden group-hover/${keyId}:block absolute right-0 top-0 w-[245px] bg-slate-900 border border-gray-700 rounded-md py-2 shadow-lg z-[900]"></div>
+</td>
+</tr>`;
           });
           html += `<tr>
 <td></td>
