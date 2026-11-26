@@ -261,10 +261,71 @@
             margin-bottom: 6px;
             color: #f1f5f9;
         }
+        .category-header-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        .category-controls {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px;
+        }
+        .cat-pill-group {
+            display: inline-flex;
+            background-color: #0f172a;
+            border: 1px solid #334155;
+            border-radius: 6px;
+            padding: 2px;
+            gap: 2px;
+        }
+        .cat-pill-btn {
+            background: transparent;
+            color: #94a3b8;
+            border: none;
+            outline: none;
+            font-size: 11px;
+            font-weight: 500;
+            padding: 3px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: all 0.2s ease;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .cat-pill-btn i {
+            pointer-events: none;
+        }
+        .cat-pill-btn:hover {
+            color: #f1f5f9;
+        }
+        .cat-pill-btn.active {
+            background-color: #ea580c;
+            color: #ffffff;
+            font-weight: 600;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+        }
+        .category-subtitle {
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
         #mainChartContainer,
-        #categoryChartContainer {
+        #categoryChartContainer,
+        #categoryIncomeChartContainer,
+        #categoryExpenseChartContainer {
             width: 100%;
-            height: 280px;
+            min-height: 260px;
         }
         .apexcharts-canvas {
             touch-action: pan-x pan-y;
@@ -768,6 +829,26 @@
                                             </select>
                                         </div>
                                     </li>
+                                    <!-- Baris: Mode diagram kategori default -->
+                                    <li class="py-2 border-b-gray-400 w-full flex justify-between items-center" style="border-bottom: 1px solid #8080807e;">
+                                        <div>
+                                            <h5>Mode diagram kategori</h5>
+                                            <select id="catModeSettingSelect" class="text-black bg-gray-200 rounded px-2 py-1 text-xs">
+                                                <option value="combined" selected>Disatukan</option>
+                                                <option value="separated">Dipisahkan</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <!-- Baris: Jenis diagram kategori default -->
+                                    <li class="py-2 border-b-gray-400 w-full flex justify-between items-center" style="border-bottom: 1px solid #8080807e;">
+                                        <div>
+                                            <h5>Jenis diagram kategori</h5>
+                                            <select id="catTypeSettingSelect" class="text-black bg-gray-200 rounded px-2 py-1 text-xs">
+                                                <option value="bar" selected>Diagram Batang</option>
+                                                <option value="donut">Diagram Lingkaran</option>
+                                            </select>
+                                        </div>
+                                    </li>
                                     <li class="py-2 w-full">
                                         <details style="list-style-type: disc;" class="list-disc cursor-pointer">
                                             <summary>tanggal pertama dalam sebulan <br> <span class="text-red-800">1</span></summary>
@@ -1060,9 +1141,45 @@
                 <div class="chart-title">📈 Tren Keuangan (geser untuk lihat data)</div>
                 <div id="mainChartContainer"></div>
             </div>
-            <div class="chart-card">
-                <div class="chart-title">📊 Per Kategori (hijau: pemasukan, merah: pengeluaran)</div>
-                <div id="categoryChartContainer"></div>
+            <div class="chart-card" id="categoryChartCard">
+                <div class="category-header-wrap">
+                    <div class="chart-title" id="categoryChartTitle" style="margin-bottom: 0;">📊 Per Kategori (hijau: pemasukan, merah: pengeluaran)</div>
+                    <div class="category-controls">
+                        <!-- Pilihan Mode: Satukan vs Pisahkan -->
+                        <div class="cat-pill-group" role="group" aria-label="Mode Kategori">
+                            <button type="button" class="cat-pill-btn active" id="btnCatModeCombined" data-mode="combined">Satukan</button>
+                            <button type="button" class="cat-pill-btn" id="btnCatModeSeparated" data-mode="separated">Dipisah</button>
+                        </div>
+                        <!-- Pilihan Jenis Diagram: Batang vs Lingkaran -->
+                        <div class="cat-pill-group" role="group" aria-label="Jenis Diagram">
+                            <button type="button" class="cat-pill-btn active" id="btnCatTypeBar" data-type="bar" title="Diagram Batang">
+                                <i class="bi bi-bar-chart-fill"></i> Batang
+                            </button>
+                            <button type="button" class="cat-pill-btn" id="btnCatTypePie" data-type="donut" title="Diagram Lingkaran">
+                                <i class="bi bi-pie-chart-fill"></i> Lingkaran
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Kontainer Diagram Mode Satukan -->
+                <div id="categoryCombinedContainer">
+                    <div id="categoryChartContainer"></div>
+                </div>
+                <!-- Kontainer Diagram Mode Dipisah -->
+                <div id="categorySeparatedContainer" class="hidden">
+                    <div class="category-subchart mb-4">
+                        <div class="category-subtitle text-emerald-400">
+                            <i class="bi bi-arrow-down-left-circle-fill"></i> Kategori Pemasukan
+                        </div>
+                        <div id="categoryIncomeChartContainer"></div>
+                    </div>
+                    <div class="category-subchart pt-3 border-t border-slate-700">
+                        <div class="category-subtitle text-rose-400">
+                            <i class="bi bi-arrow-up-right-circle-fill"></i> Kategori Pengeluaran
+                        </div>
+                        <div id="categoryExpenseChartContainer"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -2711,6 +2828,18 @@
             // ======================== FUNGSI GRAFIK (tidak diubah) ========================
             let mainChart = null;
             let categoryChart = null;
+            let categoryIncomeChart = null;
+            let categoryExpenseChart = null;
+            let categoryChartMode = localStorage.getItem("categoryChartMode") || "combined"; // 'combined' | 'separated'
+            let categoryChartType = localStorage.getItem("categoryChartType") || "bar"; // 'bar' | 'donut'
+            const PALETTE_INCOME = [
+                '#10b981', '#06b6d4', '#14b8a6', '#3b82f6', '#059669',
+                '#6366f1', '#84cc16', '#0d9488', '#22c55e', '#38bdf8'
+            ];
+            const PALETTE_EXPENSE = [
+                '#ef4444', '#f97316', '#f43f5e', '#ec4899', '#ea580c',
+                '#8b5cf6', '#d97706', '#dc2626', '#e11d48', '#fb7185'
+            ];
             let currentGraphRange = 'thisMonth';
             let currentGranularity = 'daily';
             let graphOffset = 0;
@@ -2996,14 +3125,19 @@
                 const categories = Array.from(allCategories);
                 const incomeData = [];
                 const expenseData = [];
+                const incomeMap = {};
+                const expenseMap = {};
                 categories.forEach(kat => { let totalInc = 0,
                         totalExp = 0;
                     filtered.forEach(t => { if (t.kategori === kat) { const nom = parseInt(t.nominal); if (t
                                 .jenis === 'masuk') totalInc += nom;
                             else if (t.jenis === 'keluar') totalExp += nom; } });
                     incomeData.push(totalInc);
-                    expenseData.push(totalExp); });
-                return { categories, incomeData, expenseData };
+                    expenseData.push(totalExp);
+                    if (totalInc > 0) incomeMap[kat] = totalInc;
+                    if (totalExp > 0) expenseMap[kat] = totalExp;
+                });
+                return { categories, incomeData, expenseData, incomeMap, expenseMap, filteredCount: filtered.length };
             }
 
             function getSmartTickAmount(numPoints) { if (numPoints <= 14) return numPoints; if (numPoints <= 40)
@@ -3129,25 +3263,344 @@
                     series });
                 mainChart.render();
 
-                const optionsCat = {
-                    chart: { type: 'bar', height: 280, background: '#1e293b', foreColor: '#fff',
-                    toolbar: { show: false }, stacked: false },
-                    plotOptions: { bar: { horizontal: false, columnWidth: '60%', borderRadius: 0 } },
-                    dataLabels: { enabled: false },
-                    xaxis: { categories: cat.categories, labels: { rotate: -45, style: { colors: '#fff',
-                                fontSize: '10px' }, hideOverlappingLabels: true } },
-                    yaxis: { labels: { formatter: (val) => rupiah(val), style: { colors: '#fff',
-                            fontSize: '10px' } }, title: { text: 'Total (Rp)', style: { color: '#fff',
-                                fontSize: '10px' } } },
-                    tooltip: { y: { formatter: (val) => rupiah(val) } },
-                    colors: ['#10b981', '#ef4444'],
-                    grid: { borderColor: '#334155' }
-                };
-                if (categoryChart) categoryChart.destroy();
-                categoryChart = new ApexCharts(document.querySelector("#categoryChartContainer"), { ...optionsCat,
-                    series: [{ name: 'Pemasukan', data: cat.incomeData }, { name: 'Pengeluaran',
-                        data: cat.expenseData }] });
-                categoryChart.render();
+                renderCategoryCharts(cat);
+            }
+
+            function destroyCategoryCharts() {
+                if (categoryChart) {
+                    try { categoryChart.destroy(); } catch(e) {}
+                    categoryChart = null;
+                }
+                if (categoryIncomeChart) {
+                    try { categoryIncomeChart.destroy(); } catch(e) {}
+                    categoryIncomeChart = null;
+                }
+                if (categoryExpenseChart) {
+                    try { categoryExpenseChart.destroy(); } catch(e) {}
+                    categoryExpenseChart = null;
+                }
+            }
+
+            function updateCategoryControlButtons() {
+                const btnCombined = document.getElementById('btnCatModeCombined');
+                const btnSeparated = document.getElementById('btnCatModeSeparated');
+                const btnBar = document.getElementById('btnCatTypeBar');
+                const btnPie = document.getElementById('btnCatTypePie');
+                
+                if (btnCombined && btnSeparated) {
+                    if (categoryChartMode === 'combined') {
+                        btnCombined.classList.add('active');
+                        btnSeparated.classList.remove('active');
+                    } else {
+                        btnSeparated.classList.add('active');
+                        btnCombined.classList.remove('active');
+                    }
+                }
+                
+                if (btnBar && btnPie) {
+                    if (categoryChartType === 'bar') {
+                        btnBar.classList.add('active');
+                        btnPie.classList.remove('active');
+                    } else {
+                        btnPie.classList.add('active');
+                        btnBar.classList.remove('active');
+                    }
+                }
+                
+                const selMode = document.getElementById('catModeSettingSelect');
+                if (selMode) selMode.value = categoryChartMode;
+                const selType = document.getElementById('catTypeSettingSelect');
+                if (selType) selType.value = categoryChartType;
+            }
+
+            function renderCategoryCharts(cat) {
+                destroyCategoryCharts();
+                updateCategoryControlButtons();
+
+                const combinedWrapper = document.getElementById('categoryCombinedContainer');
+                const separatedWrapper = document.getElementById('categorySeparatedContainer');
+                const titleEl = document.getElementById('categoryChartTitle');
+
+                if (categoryChartMode === 'combined') {
+                    if (combinedWrapper) combinedWrapper.classList.remove('hidden');
+                    if (separatedWrapper) separatedWrapper.classList.add('hidden');
+
+                    const container = document.querySelector("#categoryChartContainer");
+                    if (!container) return;
+                    container.innerHTML = "";
+
+                    if (categoryChartType === 'bar') {
+                        if (titleEl) titleEl.innerText = "📊 Per Kategori (Batang: Pemasukan & Pengeluaran)";
+
+                        const optionsCat = {
+                            chart: { type: 'bar', height: 280, background: '#1e293b', foreColor: '#fff',
+                            toolbar: { show: false }, stacked: false },
+                            plotOptions: { bar: { horizontal: false, columnWidth: '60%', borderRadius: 0 } },
+                            dataLabels: { enabled: false },
+                            xaxis: { categories: cat.categories, labels: { rotate: -45, style: { colors: '#fff',
+                                        fontSize: '10px' }, hideOverlappingLabels: true } },
+                            yaxis: { labels: { formatter: (val) => rupiah(val), style: { colors: '#fff',
+                                    fontSize: '10px' } }, title: { text: 'Total (Rp)', style: { color: '#fff',
+                                        fontSize: '10px' } } },
+                            tooltip: { y: { formatter: (val) => rupiah(val) } },
+                            colors: ['#10b981', '#ef4444'],
+                            grid: { borderColor: '#334155' }
+                        };
+                        categoryChart = new ApexCharts(container, {
+                            ...optionsCat,
+                            series: [{ name: 'Pemasukan', data: cat.incomeData }, { name: 'Pengeluaran',
+                                data: cat.expenseData }] });
+                        categoryChart.render();
+                    } else {
+                        // Donut Chart Disatukan
+                        if (titleEl) titleEl.innerText = "📊 Per Kategori (Lingkaran: Pemasukan & Pengeluaran)";
+
+                        const combinedLabels = [];
+                        const combinedSeries = [];
+                        const combinedColors = [];
+
+                        const incomeCategories = Object.keys(cat.incomeMap || {});
+                        const expenseCategories = Object.keys(cat.expenseMap || {});
+
+                        incomeCategories.forEach((k, idx) => {
+                            combinedLabels.push(`${k} (Masuk)`);
+                            combinedSeries.push(cat.incomeMap[k]);
+                            combinedColors.push(PALETTE_INCOME[idx % PALETTE_INCOME.length]);
+                        });
+
+                        expenseCategories.forEach((k, idx) => {
+                            combinedLabels.push(`${k} (Keluar)`);
+                            combinedSeries.push(cat.expenseMap[k]);
+                            combinedColors.push(PALETTE_EXPENSE[idx % PALETTE_EXPENSE.length]);
+                        });
+
+                        if (combinedSeries.length === 0) {
+                            container.innerHTML = '<div class="flex flex-col items-center justify-center h-48 text-gray-400 text-xs"><i class="bi bi-pie-chart text-2xl mb-1 text-gray-500"></i><span>Tidak ada data transaksi per kategori pada periode ini</span></div>';
+                        } else {
+                            const optionsDonutCombined = {
+                                chart: { type: 'donut', height: 300, background: '#1e293b', foreColor: '#fff',
+                                toolbar: { show: false } },
+                                series: combinedSeries,
+                                labels: combinedLabels,
+                                colors: combinedColors,
+                                stroke: { colors: ['#1e293b'], width: 2 },
+                                dataLabels: {
+                                    enabled: true,
+                                    formatter: function(val) { return Math.round(val) + "%"; },
+                                    dropShadow: { enabled: false },
+                                    style: { fontSize: '10px' }
+                                },
+                                tooltip: { y: { formatter: (val) => rupiah(val) } },
+                                legend: {
+                                    position: 'bottom',
+                                    fontSize: '11px',
+                                    labels: { colors: '#fff' },
+                                    formatter: function(seriesName, opts) {
+                                        return seriesName + ": " + rupiah(opts.w.globals.series[opts.seriesIndex]);
+                                    }
+                                },
+                                plotOptions: {
+                                    pie: {
+                                        donut: {
+                                            size: '50%',
+                                            labels: {
+                                                show: true,
+                                                name: { show: true, color: '#94a3b8', fontSize: '11px' },
+                                                value: { show: true, color: '#fff', fontSize: '13px', formatter: (val) => rupiah(val) },
+                                                total: {
+                                                    show: true,
+                                                    label: 'Total Transaksi',
+                                                    color: '#94a3b8',
+                                                    fontSize: '11px',
+                                                    formatter: function(w) {
+                                                        const sum = w.globals.seriesTotals.reduce((a, b) => a + b, 0);
+                                                        return rupiah(sum);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            };
+                            categoryChart = new ApexCharts(container, optionsDonutCombined);
+                            categoryChart.render();
+                        }
+                    }
+                } else {
+                    // Mode Dipisah (Separated)
+                    if (combinedWrapper) combinedWrapper.classList.add('hidden');
+                    if (separatedWrapper) separatedWrapper.classList.remove('hidden');
+                    if (titleEl) titleEl.innerText = categoryChartType === 'bar' ? "📊 Per Kategori (Dipisah: Diagram Batang)" : "📊 Per Kategori (Dipisah: Diagram Lingkaran)";
+
+                    const incContainer = document.querySelector("#categoryIncomeChartContainer");
+                    const expContainer = document.querySelector("#categoryExpenseChartContainer");
+
+                    const incomeCategories = Object.keys(cat.incomeMap || {});
+                    const incomeValues = incomeCategories.map(k => cat.incomeMap[k]);
+
+                    const expenseCategories = Object.keys(cat.expenseMap || {});
+                    const expenseValues = expenseCategories.map(k => cat.expenseMap[k]);
+
+                    // 1. Render Pemasukan
+                    if (incContainer) {
+                        incContainer.innerHTML = "";
+                        if (incomeCategories.length === 0) {
+                            incContainer.innerHTML = '<div class="flex flex-col items-center justify-center h-28 text-gray-400 text-xs"><i class="bi bi-info-circle text-lg mb-1 text-teal-500"></i><span>Tidak ada pemasukan pada periode ini</span></div>';
+                        } else if (categoryChartType === 'bar') {
+                            const optionsIncBar = {
+                                chart: { type: 'bar', height: 240, background: '#1e293b', foreColor: '#fff',
+                                toolbar: { show: false } },
+                                plotOptions: { bar: { horizontal: false, columnWidth: '50%', borderRadius: 2 } },
+                                dataLabels: { enabled: false },
+                                xaxis: {
+                                    categories: incomeCategories,
+                                    labels: { rotate: -45, style: { colors: '#fff', fontSize: '10px' }, hideOverlappingLabels: true }
+                                },
+                                yaxis: {
+                                    labels: { formatter: (val) => rupiah(val), style: { colors: '#fff', fontSize: '10px' } },
+                                    title: { text: 'Pemasukan (Rp)', style: { color: '#fff', fontSize: '10px' } }
+                                },
+                                tooltip: { y: { formatter: (val) => rupiah(val) } },
+                                colors: ['#10b981'],
+                                grid: { borderColor: '#334155' }
+                            };
+                            categoryIncomeChart = new ApexCharts(incContainer, {
+                                ...optionsIncBar,
+                                series: [{ name: 'Pemasukan', data: incomeValues }]
+                            });
+                            categoryIncomeChart.render();
+                        } else {
+                            // Donut Pemasukan
+                            const optionsIncDonut = {
+                                chart: { type: 'donut', height: 270, background: '#1e293b', foreColor: '#fff',
+                                toolbar: { show: false } },
+                                series: incomeValues,
+                                labels: incomeCategories,
+                                colors: PALETTE_INCOME,
+                                stroke: { colors: ['#1e293b'], width: 2 },
+                                dataLabels: {
+                                    enabled: true,
+                                    formatter: function(val) { return Math.round(val) + "%"; },
+                                    dropShadow: { enabled: false },
+                                    style: { fontSize: '10px' }
+                                },
+                                tooltip: { y: { formatter: (val) => rupiah(val) } },
+                                legend: {
+                                    position: 'bottom',
+                                    fontSize: '11px',
+                                    labels: { colors: '#fff' },
+                                    formatter: function(seriesName, opts) {
+                                        return seriesName + ": " + rupiah(opts.w.globals.series[opts.seriesIndex]);
+                                    }
+                                },
+                                plotOptions: {
+                                    pie: {
+                                        donut: {
+                                            size: '50%',
+                                            labels: {
+                                                show: true,
+                                                name: { show: true, color: '#94a3b8', fontSize: '11px' },
+                                                value: { show: true, color: '#fff', fontSize: '13px', formatter: (val) => rupiah(val) },
+                                                total: {
+                                                    show: true,
+                                                    label: 'Total Masuk',
+                                                    color: '#94a3b8',
+                                                    fontSize: '11px',
+                                                    formatter: function(w) {
+                                                        const sum = w.globals.seriesTotals.reduce((a, b) => a + b, 0);
+                                                        return rupiah(sum);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            };
+                            categoryIncomeChart = new ApexCharts(incContainer, optionsIncDonut);
+                            categoryIncomeChart.render();
+                        }
+                    }
+
+                    // 2. Render Pengeluaran
+                    if (expContainer) {
+                        expContainer.innerHTML = "";
+                        if (expenseCategories.length === 0) {
+                            expContainer.innerHTML = '<div class="flex flex-col items-center justify-center h-28 text-gray-400 text-xs"><i class="bi bi-info-circle text-lg mb-1 text-rose-500"></i><span>Tidak ada pengeluaran pada periode ini</span></div>';
+                        } else if (categoryChartType === 'bar') {
+                            const optionsExpBar = {
+                                chart: { type: 'bar', height: 240, background: '#1e293b', foreColor: '#fff',
+                                toolbar: { show: false } },
+                                plotOptions: { bar: { horizontal: false, columnWidth: '50%', borderRadius: 2 } },
+                                dataLabels: { enabled: false },
+                                xaxis: {
+                                    categories: expenseCategories,
+                                    labels: { rotate: -45, style: { colors: '#fff', fontSize: '10px' }, hideOverlappingLabels: true }
+                                },
+                                yaxis: {
+                                    labels: { formatter: (val) => rupiah(val), style: { colors: '#fff', fontSize: '10px' } },
+                                    title: { text: 'Pengeluaran (Rp)', style: { color: '#fff', fontSize: '10px' } }
+                                },
+                                tooltip: { y: { formatter: (val) => rupiah(val) } },
+                                colors: ['#ef4444'],
+                                grid: { borderColor: '#334155' }
+                            };
+                            categoryExpenseChart = new ApexCharts(expContainer, {
+                                ...optionsExpBar,
+                                series: [{ name: 'Pengeluaran', data: expenseValues }]
+                            });
+                            categoryExpenseChart.render();
+                        } else {
+                            // Donut Pengeluaran
+                            const optionsExpDonut = {
+                                chart: { type: 'donut', height: 270, background: '#1e293b', foreColor: '#fff',
+                                toolbar: { show: false } },
+                                series: expenseValues,
+                                labels: expenseCategories,
+                                colors: PALETTE_EXPENSE,
+                                stroke: { colors: ['#1e293b'], width: 2 },
+                                dataLabels: {
+                                    enabled: true,
+                                    formatter: function(val) { return Math.round(val) + "%"; },
+                                    dropShadow: { enabled: false },
+                                    style: { fontSize: '10px' }
+                                },
+                                tooltip: { y: { formatter: (val) => rupiah(val) } },
+                                legend: {
+                                    position: 'bottom',
+                                    fontSize: '11px',
+                                    labels: { colors: '#fff' },
+                                    formatter: function(seriesName, opts) {
+                                        return seriesName + ": " + rupiah(opts.w.globals.series[opts.seriesIndex]);
+                                    }
+                                },
+                                plotOptions: {
+                                    pie: {
+                                        donut: {
+                                            size: '50%',
+                                            labels: {
+                                                show: true,
+                                                name: { show: true, color: '#94a3b8', fontSize: '11px' },
+                                                value: { show: true, color: '#fff', fontSize: '13px', formatter: (val) => rupiah(val) },
+                                                total: {
+                                                    show: true,
+                                                    label: 'Total Keluar',
+                                                    color: '#94a3b8',
+                                                    fontSize: '11px',
+                                                    formatter: function(w) {
+                                                        const sum = w.globals.seriesTotals.reduce((a, b) => a + b, 0);
+                                                        return rupiah(sum);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            };
+                            categoryExpenseChart = new ApexCharts(expContainer, optionsExpDonut);
+                            categoryExpenseChart.render();
+                        }
+                    }
+                }
             }
 
             function initGraphEvents() {
@@ -3171,11 +3624,49 @@
                         'all') { graphOffset++;
                         renderGraph(); } });
                 document.getElementById('graphCloseBtn').addEventListener('click', () => { document.getElementById(
-                        'graphOverlay').classList.add('hidden'); if (mainChart) mainChart.destroy(); if (
-                        categoryChart) categoryChart.destroy(); });
+                        'graphOverlay').classList.add('hidden'); if (mainChart) mainChart.destroy();
+                        destroyCategoryCharts(); });
                 document.getElementById('showIncome').addEventListener('change', () => renderGraph());
                 document.getElementById('showExpense').addEventListener('change', () => renderGraph());
                 document.getElementById('showBalance').addEventListener('change', () => renderGraph());
+
+                // Event listener tombol kontrol kategori (Satukan / Dipisah)
+                document.getElementById('btnCatModeCombined')?.addEventListener('click', () => {
+                    categoryChartMode = 'combined';
+                    localStorage.setItem("categoryChartMode", "combined");
+                    renderGraph();
+                });
+                document.getElementById('btnCatModeSeparated')?.addEventListener('click', () => {
+                    categoryChartMode = 'separated';
+                    localStorage.setItem("categoryChartMode", "separated");
+                    renderGraph();
+                });
+
+                // Event listener tombol kontrol jenis diagram (Batang / Lingkaran)
+                document.getElementById('btnCatTypeBar')?.addEventListener('click', () => {
+                    categoryChartType = 'bar';
+                    localStorage.setItem("categoryChartType", "bar");
+                    renderGraph();
+                });
+                document.getElementById('btnCatTypePie')?.addEventListener('click', () => {
+                    categoryChartType = 'donut';
+                    localStorage.setItem("categoryChartType", "donut");
+                    renderGraph();
+                });
+
+                // Event listener setting select di menu pengaturan
+                document.getElementById('catModeSettingSelect')?.addEventListener('change', (e) => {
+                    categoryChartMode = e.target.value;
+                    localStorage.setItem("categoryChartMode", categoryChartMode);
+                    updateCategoryControlButtons();
+                    renderGraph();
+                });
+                document.getElementById('catTypeSettingSelect')?.addEventListener('change', (e) => {
+                    categoryChartType = e.target.value;
+                    localStorage.setItem("categoryChartType", categoryChartType);
+                    updateCategoryControlButtons();
+                    renderGraph();
+                });
             }
 
             // ================== FUNGSI UNTUK MATA ==================
@@ -3595,6 +4086,9 @@
             // Set initial first day of week select
             const firstDaySelect = document.getElementById('firstDayOfWeekSelect');
             if (firstDaySelect) firstDaySelect.value = firstDayOfWeek;
+
+            // Set initial category chart settings and button states
+            updateCategoryControlButtons();
 
             // Set initial modeLintasBulan checkbox dan label
             const modeCheckbox = document.getElementById('modeLintasBulanCheckbox');
