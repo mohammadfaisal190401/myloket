@@ -327,6 +327,29 @@
             width: 100%;
             min-height: 260px;
         }
+        .apexcharts-legend.apx-legend-position-right {
+            max-height: 250px !important;
+            overflow-y: auto !important;
+            padding-left: 6px !important;
+            border-left: 1px solid #334155;
+        }
+        .apexcharts-legend.apx-legend-position-right::-webkit-scrollbar {
+            width: 4px;
+        }
+        .apexcharts-legend.apx-legend-position-right::-webkit-scrollbar-thumb {
+            background-color: #475569;
+            border-radius: 4px;
+        }
+        .apexcharts-legend-series {
+            margin-bottom: 4px !important;
+            display: flex !important;
+            align-items: center !important;
+        }
+        .apexcharts-legend-text {
+            color: #f1f5f9 !important;
+            font-size: 10px !important;
+            line-height: 1.25 !important;
+        }
         .apexcharts-canvas {
             touch-action: pan-x pan-y;
         }
@@ -721,7 +744,7 @@
     </style>
 </head>
 
-<body class="text-sm overflow-x-hidden bg-emerald-800">
+<body class="text-sm overflow-x-hidden">
     <div class="wadah max-w-sm mx-auto relative overflow-x-hidden" id="mainWadah">
         <nav class="bg-orange-500">
             <header class="header tombol-pindah-waktu flex justify-between relative">
@@ -846,6 +869,16 @@
                                             <select id="catTypeSettingSelect" class="text-black bg-gray-200 rounded px-2 py-1 text-xs">
                                                 <option value="bar" selected>Diagram Batang</option>
                                                 <option value="donut">Diagram Lingkaran</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <!-- Baris: Tata letak diagram lingkaran default -->
+                                    <li class="py-2 border-b-gray-400 w-full flex justify-between items-center" style="border-bottom: 1px solid #8080807e;">
+                                        <div>
+                                            <h5>Tata letak diagram lingkaran</h5>
+                                            <select id="donutStyleSettingSelect" class="text-black bg-gray-200 rounded px-2 py-1 text-xs">
+                                                <option value="inside" selected>Label di Dalam</option>
+                                                <option value="side">Daftar di Samping (3:1)</option>
                                             </select>
                                         </div>
                                     </li>
@@ -1157,6 +1190,15 @@
                             </button>
                             <button type="button" class="cat-pill-btn" id="btnCatTypePie" data-type="donut" title="Diagram Lingkaran">
                                 <i class="bi bi-pie-chart-fill"></i> Lingkaran
+                            </button>
+                        </div>
+                        <!-- Pilihan Gaya Diagram Lingkaran (hanya tampil saat jenis Lingkaran aktif) -->
+                        <div class="cat-pill-group hidden" id="catDonutStyleGroup" role="group" aria-label="Gaya Lingkaran">
+                            <button type="button" class="cat-pill-btn active" id="btnDonutInside" data-style="inside" title="Nama kategori di dalam irisan diagram">
+                                <i class="bi bi-pie-chart"></i> Di Dalam
+                            </button>
+                            <button type="button" class="cat-pill-btn" id="btnDonutSide" data-style="side" title="Daftar kategori di samping diagram (3:1)">
+                                <i class="bi bi-layout-sidebar-inset-reverse"></i> Di Samping
                             </button>
                         </div>
                     </div>
