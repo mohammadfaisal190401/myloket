@@ -7,6 +7,62 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
     />
+    <meta name="theme-color" content="#f97316" id="metaThemeColor" />
+    <script>
+      /* ===== TEMA: dibaca lebih awal agar tidak berkedip saat dibuka ===== */
+      var TEMA_PALET = {
+        orange: { n: "Oranye", g: "pop", a: "#f97316", s: "#ea580c", soft: "#fed7aa", faint: "#fff7ed" },
+        blue: { n: "Biru", g: "pop", a: "#3b82f6", s: "#2563eb", soft: "#bfdbfe", faint: "#eff6ff" },
+        green: { n: "Hijau", g: "pop", a: "#16a34a", s: "#15803d", soft: "#bbf7d0", faint: "#f0fdf4" },
+        red: { n: "Merah", g: "pop", a: "#ef4444", s: "#dc2626", soft: "#fecaca", faint: "#fef2f2" },
+        purple: { n: "Ungu", g: "pop", a: "#8b5cf6", s: "#7c3aed", soft: "#ddd6fe", faint: "#f5f3ff" },
+        pink: { n: "Merah muda", g: "pop", a: "#ec4899", s: "#db2777", soft: "#fbcfe8", faint: "#fdf2f8" },
+        teal: { n: "Toska", g: "pop", a: "#0d9488", s: "#0f766e", soft: "#99f6e4", faint: "#f0fdfa" },
+        yellow: { n: "Kuning", g: "pop", a: "#ca8a04", s: "#a16207", soft: "#fde68a", faint: "#fefce8" },
+        sky: { n: "Biru langit", g: "pop", a: "#0284c7", s: "#0369a1", soft: "#bae6fd", faint: "#f0f9ff" },
+        indigo: { n: "Indigo", g: "pop", a: "#4f46e5", s: "#4338ca", soft: "#c7d2fe", faint: "#eef2ff" },
+        slate: { n: "Abu-abu", g: "pop", a: "#64748b", s: "#475569", soft: "#cbd5e1", faint: "#f8fafc" },
+        sage: { n: "Sage", g: "aes", a: "#6b8f71", s: "#55745b", soft: "#cfe0d1", faint: "#f3f8f4" },
+        mint: { n: "Mint", g: "aes", a: "#2fa88c", s: "#228a71", soft: "#bfe9de", faint: "#f1fbf8" },
+        olive: { n: "Zaitun", g: "aes", a: "#6b7a2f", s: "#56631f", soft: "#d9e0b5", faint: "#f7f9ec" },
+        mocha: { n: "Mocha", g: "aes", a: "#a47551", s: "#8a5e3c", soft: "#e6d3c0", faint: "#faf5ef" },
+        terracotta: { n: "Terakota", g: "aes", a: "#c2553a", s: "#a3442d", soft: "#f3cdbf", faint: "#fdf3ef" },
+        peach: { n: "Peach", g: "aes", a: "#e2825f", s: "#c96a48", soft: "#fbd5c3", faint: "#fff4ee" },
+        mustard: { n: "Mustard", g: "aes", a: "#c08a14", s: "#9a6c0c", soft: "#f1deaa", faint: "#fcf7e6" },
+        dustyrose: { n: "Dusty rose", g: "aes", a: "#c0737f", s: "#a85a67", soft: "#f0cfd3", faint: "#fcf3f4" },
+        rosegold: { n: "Rose gold", g: "aes", a: "#b76e79", s: "#9c5560", soft: "#ecd0d4", faint: "#fbf4f5" },
+        burgundy: { n: "Marun", g: "aes", a: "#9f1d3f", s: "#7f1734", soft: "#f3c1cf", faint: "#fdf1f4" },
+        lavender: { n: "Lavender", g: "aes", a: "#8b7bc8", s: "#7263b3", soft: "#dcd6f2", faint: "#f6f4fc" },
+        navy: { n: "Navy", g: "aes", a: "#1e40af", s: "#1e3a8a", soft: "#bfd0f5", faint: "#eff4ff" },
+      };
+      var TEMA_MODE_NAMA = { terang: "Terang", gelap: "Gelap", sistem: "Ikuti sistem" };
+      function themeColor(v) {
+        return getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+      }
+      function temaBaca(k, d) {
+        try { return localStorage.getItem(k) || d; } catch (e) { return d; }
+      }
+      function temaTerapkan(warna, mode) {
+        var p = TEMA_PALET[warna] || TEMA_PALET.orange;
+        var r = document.documentElement;
+        r.style.setProperty("--accent", p.a);
+        r.style.setProperty("--accent-strong", p.s);
+        r.style.setProperty("--accent-soft", p.soft);
+        r.style.setProperty("--accent-faint", p.faint);
+        var gelap = mode === "gelap" ||
+          (mode === "sistem" && window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches);
+        r.setAttribute("data-mode", gelap ? "dark" : "light");
+        var m = document.getElementById("metaThemeColor");
+        if (m) m.setAttribute("content", gelap ? "#0f172a" : p.a);
+      }
+      (function () {
+        var w = temaBaca("temaWarna", "orange");
+        var m = temaBaca("temaMode", "terang");
+        if (!TEMA_PALET[w]) w = "orange";
+        if (!TEMA_MODE_NAMA[m]) m = "terang";
+        temaTerapkan(w, m);
+      })();
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Program Pengelolaan Uang + Grafik Interaktif</title>
     <link rel="stylesheet" href="style.css" />
@@ -20,10 +76,10 @@
       /* semua style tetap sama seperti asli */
       .text-black span,
       .text-black a span:first-child {
-        color: black !important;
+        color: var(--ink) !important;
       }
       .saldo-nominal {
-        color: black !important;
+        color: var(--ink) !important;
       }
       .transfer-submenu {
         z-index: 1000 !important;
@@ -66,7 +122,7 @@
       }
       .table-aset td {
         padding: 8px 4px;
-        border-bottom: 1px solid #334155;
+        border-bottom: 1px solid var(--ov-card2);
         vertical-align: middle;
       }
       .table-aset td:first-child {
@@ -103,14 +159,14 @@
         cursor: pointer;
       }
       .table tr[data-id]:hover {
-        background-color: #f3f4f6;
+        background-color: var(--row-hover);
       }
       .summary-table td {
         padding: 10px 8px;
         border-bottom: 1px solid #e2e8f0;
       }
       .summary-table th {
-        background-color: #f97316;
+        background-color: var(--accent);
         color: white;
         padding: 8px;
         font-weight: 600;
@@ -140,13 +196,13 @@
         border-radius: 20px;
         outline: none;
         font-size: 12px;
-        color: black !important;
+        color: var(--ink) !important;
         background-color: white;
         border: 1px solid #cbd5e1;
       }
       .search-inline input:focus {
-        border-color: #f97316;
-        box-shadow: 0 0 0 1px #f97316;
+        border-color: var(--accent);
+        box-shadow: 0 0 0 1px var(--accent);
       }
       .nominal,
       .table td.nominal,
@@ -163,10 +219,10 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-color: #0f172a;
+        background-color: var(--ov-bg0);
         z-index: 1200;
         overflow-y: auto;
-        color: white;
+        color: var(--ov-text);
       }
       .graph-container {
         max-width: 100%;
@@ -178,8 +234,8 @@
         justify-content: space-between;
         align-items: center;
         padding: 8px 12px;
-        background-color: #1e293b;
-        border-bottom: 1px solid #334155;
+        background-color: var(--ov-card);
+        border-bottom: 1px solid var(--ov-card2);
         gap: 6px;
       }
       .graph-header > i {
@@ -213,13 +269,13 @@
         gap: 12px;
         align-items: center;
         padding: 8px 12px;
-        background-color: #1e293b;
-        border-bottom: 1px solid #334155;
+        background-color: var(--ov-card);
+        border-bottom: 1px solid var(--ov-card2);
       }
       .filter-row select,
       .filter-row .granularity-group {
-        background-color: #334155;
-        color: white;
+        background-color: var(--ov-card2);
+        color: var(--ov-text);
         border: none;
         padding: 4px 8px;
         border-radius: 16px;
@@ -242,8 +298,8 @@
         display: flex;
         gap: 14px;
         padding: 8px 12px;
-        background-color: #1e293b;
-        border-bottom: 1px solid #334155;
+        background-color: var(--ov-card);
+        border-bottom: 1px solid var(--ov-card2);
       }
       .checkbox-group label {
         display: flex;
@@ -252,7 +308,7 @@
         font-size: 12px;
       }
       .chart-card {
-        background-color: #1e293b;
+        background-color: var(--ov-card);
         border-radius: 12px;
         padding: 8px 12px;
         margin: 0 0 10px 0;
@@ -262,7 +318,7 @@
         font-size: 13px;
         font-weight: bold;
         margin-bottom: 6px;
-        color: #f1f5f9;
+        color: var(--ov-text);
       }
       .category-header-wrap {
         display: flex;
@@ -280,15 +336,15 @@
       }
       .cat-pill-group {
         display: inline-flex;
-        background-color: #0f172a;
-        border: 1px solid #334155;
+        background-color: var(--ov-bg0);
+        border: 1px solid var(--ov-card2);
         border-radius: 6px;
         padding: 2px;
         gap: 2px;
       }
       .cat-pill-btn {
         background: transparent;
-        color: #94a3b8;
+        color: var(--ov-muted);
         border: none;
         outline: none;
         font-size: 11px;
@@ -307,10 +363,10 @@
         pointer-events: none;
       }
       .cat-pill-btn:hover {
-        color: #f1f5f9;
+        color: var(--ov-text);
       }
       .cat-pill-btn.active {
-        background-color: #ea580c;
+        background-color: var(--accent-strong);
         color: #ffffff;
         font-weight: 600;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -334,7 +390,7 @@
         max-height: 250px !important;
         overflow-y: auto !important;
         padding-left: 6px !important;
-        border-left: 1px solid #334155;
+        border-left: 1px solid var(--ov-card2);
       }
       .apexcharts-legend.apx-legend-position-right::-webkit-scrollbar {
         width: 4px;
@@ -349,7 +405,7 @@
         align-items: center !important;
       }
       .apexcharts-legend-text {
-        color: #f1f5f9 !important;
+        color: var(--ov-text) !important;
         font-size: 10px !important;
         line-height: 1.25 !important;
       }
@@ -411,7 +467,7 @@
         border-radius: 50%;
       }
       input:checked + .slider {
-        background-color: #f97316;
+        background-color: var(--accent);
       }
       input:checked + .slider:before {
         transform: translateX(18px);
@@ -427,14 +483,14 @@
       }
       /* Style untuk kategori overlay */
       #kategoriOverlay {
-        background-color: rgba(15, 23, 42, 0.95);
+        background-color: var(--ov-scrim);
         z-index: 1300;
       }
       .kategori-item {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background: #1e293b;
+        background: var(--ov-card);
         padding: 6px 12px;
         border-radius: 6px;
         margin-bottom: 4px;
@@ -467,7 +523,7 @@
       }
       /* Style untuk overlay instrumen yang lebih rapih */
       #instrumenOverlay {
-        background-color: rgba(15, 23, 42, 0.97);
+        background-color: var(--ov-scrim);
         z-index: 1250;
       }
       .instrumen-item {
@@ -475,7 +531,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        background: #1e293b;
+        background: var(--ov-card);
         padding: 10px 14px;
         border-radius: 8px;
         margin-bottom: 6px;
@@ -483,11 +539,11 @@
         transition: background 0.2s;
       }
       .instrumen-item:hover {
-        background: #2d3b52;
+        background: var(--ov-hover);
       }
       .instrumen-item .nama-instrumen {
         font-weight: 500;
-        color: #f1f5f9;
+        color: var(--ov-text);
         flex: 1;
       }
       .instrumen-item .saldo-instrumen {
@@ -513,7 +569,7 @@
         transform: scale(1.1);
       }
       .instrumen-total {
-        background: #0f172a;
+        background: var(--ov-bg0);
         padding: 12px 16px;
         border-radius: 8px;
         border: 2px solid #f59e0b;
@@ -525,7 +581,7 @@
         font-size: 1.1rem;
       }
       .instrumen-total .label {
-        color: #94a3b8;
+        color: var(--ov-muted);
       }
       .instrumen-total .total-nominal {
         color: #f59e0b;
@@ -536,13 +592,13 @@
         justify-content: space-between;
         align-items: center;
         padding: 12px 16px;
-        background: #1e293b;
-        border-bottom: 1px solid #334155;
+        background: var(--ov-card);
+        border-bottom: 1px solid var(--ov-card2);
       }
       .instrumen-header .title {
         font-size: 1.1rem;
         font-weight: bold;
-        color: white;
+        color: var(--ov-text);
       }
       .instrumen-header .btn-tambah-instrumen {
         background: #3b82f6;
@@ -563,8 +619,8 @@
       }
       .instrumen-setting {
         padding: 10px 16px;
-        background: #1e293b;
-        border-bottom: 1px solid #334155;
+        background: var(--ov-card);
+        border-bottom: 1px solid var(--ov-card2);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -572,12 +628,12 @@
         gap: 8px;
       }
       .instrumen-setting label {
-        color: #94a3b8;
+        color: var(--ov-muted);
         font-size: 0.8rem;
       }
       .instrumen-setting select {
-        background: #334155;
-        color: white;
+        background: var(--ov-card2);
+        color: var(--ov-text);
         border: none;
         padding: 4px 10px;
         border-radius: 16px;
@@ -600,19 +656,19 @@
         padding: 4px 0;
       }
       .instrumen-item .transfer-wrapper .tf-row .tf-label {
-        color: #94a3b8;
+        color: var(--ov-muted);
         font-size: 0.7rem;
         cursor: pointer;
         padding: 2px 8px;
         border-radius: 12px;
-        background: #2d3b52;
+        background: var(--ov-hover);
         transition: background 0.2s;
       }
       .instrumen-item .transfer-wrapper .tf-row .tf-label:hover {
-        background: #3d4b62;
+        background: var(--ov-hover2);
       }
       .instrumen-item .transfer-wrapper .tf-row .tf-label .tf-arrow {
-        color: #64748b;
+        color: var(--ov-muted2);
         margin: 0 2px;
       }
       .instrumen-item .transfer-wrapper .tf-row .tf-label .tf-to-name {
@@ -624,16 +680,16 @@
         cursor: pointer;
         padding: 2px 10px;
         border-radius: 12px;
-        background: #2d3b52;
+        background: var(--ov-hover);
         transition: background 0.2s;
         border: 1px solid #f87171;
       }
       .instrumen-item .transfer-wrapper .tf-row .tf-label-keluar:hover {
-        background: #3d1a1a;
+        background: var(--ov-hover-red);
       }
       .instrumen-item .expand-icon {
         cursor: pointer;
-        color: #64748b;
+        color: var(--ov-muted2);
         transition: transform 0.3s;
         font-size: 0.9rem;
       }
@@ -641,7 +697,7 @@
         transform: rotate(180deg);
       }
       .transfer-submenu-inline {
-        background: #1e293b;
+        background: var(--ov-card);
         border-radius: 6px;
         padding: 6px 10px;
         margin-top: 4px;
@@ -652,8 +708,8 @@
       }
       .transfer-submenu-inline input[type="number"],
       .transfer-submenu-inline input[type="text"] {
-        background: #334155;
-        color: white;
+        background: var(--ov-card2);
+        color: var(--ov-text);
         border: none;
         border-radius: 4px;
         padding: 2px 6px;
@@ -691,11 +747,11 @@
         background: #dc2626;
       }
       .transfer-submenu-inline label {
-        color: #94a3b8;
+        color: var(--ov-muted);
         font-size: 0.7rem;
       }
       .transfer-submenu-inline .ambil-semua-label {
-        color: #94a3b8;
+        color: var(--ov-muted);
         font-size: 0.7rem;
         cursor: pointer;
       }
@@ -733,7 +789,7 @@
         border-radius: 50%;
         display: grid;
         place-items: center;
-        background: conic-gradient(var(--storage-fill) 0%, #e5e7eb 0);
+        background: conic-gradient(var(--storage-fill) 0%, var(--st-track) 0);
         position: relative;
       }
       .storage-donut::before {
@@ -741,7 +797,7 @@
         position: absolute;
         inset: 9px;
         border-radius: 50%;
-        background: #fff;
+        background: var(--st-surface);
       }
       .storage-donut-center {
         position: relative;
@@ -750,7 +806,7 @@
         flex-direction: column;
         align-items: center;
         line-height: 1.2;
-        color: #111827;
+        color: var(--st-ink);
       }
       .storage-donut-center strong {
         font-size: 17px;
@@ -758,7 +814,7 @@
       }
       .storage-donut-center span {
         font-size: 10px;
-        color: #6b7280;
+        color: var(--st-muted);
       }
       .storage-meter-info {
         min-width: 0;
@@ -766,14 +822,14 @@
         flex-direction: column;
         gap: 3px;
         font-size: 11px;
-        color: #374151;
+        color: var(--st-text);
       }
       .storage-meter-info strong {
         font-size: 12px;
-        color: #111827;
+        color: var(--st-ink);
       }
       .storage-free {
-        color: #6b7280;
+        color: var(--st-muted);
       }
       .storage-status {
         font-weight: 700;
@@ -793,7 +849,7 @@
       .storage-footnote {
         font-size: 9px;
         line-height: 1.45;
-        color: #6b7280;
+        color: var(--st-muted);
         margin-top: 8px;
       }
       #storageEmergencyRow[hidden] {
@@ -808,7 +864,7 @@
         width: 32px;
         height: 32px;
         border-radius: 50%;
-        background: #334155;
+        background: var(--ov-card2);
         margin-right: 8px;
         flex-shrink: 0;
         transition: all 0.2s;
@@ -840,7 +896,7 @@
         width: 1.9rem;
         height: 1.9rem;
         border-radius: 50%;
-        background: #334155;
+        background: var(--ov-card2);
         margin-right: 6px;
         flex-shrink: 0;
         vertical-align: middle;
@@ -877,7 +933,7 @@
         height: 52px;
         border: 2px solid #cbd5e1;
         border-radius: 10px;
-        background: #f8fafc;
+        background: var(--pick-bg);
         cursor: pointer;
         display: flex;
         flex-direction: column;
@@ -889,27 +945,27 @@
       }
       .icon-pilih-btn i {
         font-size: 1.3rem;
-        color: #334155;
+        color: var(--pick-ink);
       }
       .icon-pilih-btn span {
         font-size: 9px;
-        color: #64748b;
+        color: var(--pick-muted);
         font-weight: 500;
       }
       .icon-pilih-btn:hover {
-        border-color: #f97316;
-        background: #fff7ed;
+        border-color: var(--accent);
+        background: var(--accent-faint);
       }
       .icon-pilih-btn.selected {
-        border-color: #f97316;
-        background: #fed7aa;
+        border-color: var(--accent);
+        background: var(--accent-soft);
         box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.2);
       }
       .icon-pilih-btn.selected i {
-        color: #ea580c;
+        color: var(--accent-strong);
       }
       .icon-pilih-btn.selected span {
-        color: #ea580c;
+        color: var(--accent-strong);
         font-weight: 700;
       }
 
@@ -920,6 +976,148 @@
       .swal2-backdrop-show {
         z-index: 4999 !important;
       }
+    </style>
+    <style id="tema-css">
+      /* ===== TEMA: variabel (terang = bawaan) ===== */
+      :root {
+        --accent: #f97316; --accent-strong: #ea580c; --accent-soft: #fed7aa; --accent-faint: #fff7ed;
+        --bg: #ffffff; --surface: #ffffff; --surface2: #f3f4f6; --border: #e5e7eb;
+        --text: #1f2937; --text-muted: #6b7280; --ink: #000000; --row-hover: #f3f4f6;
+        --ov-bg0: #e2e8f0; --ov-card: #ffffff; --ov-card2: #e2e8f0; --ov-hover: #f1f5f9;
+        --ov-hover2: #e2e8f0; --ov-hover-red: #fee2e2; --ov-text: #0f172a; --ov-muted: #64748b;
+        --ov-muted2: #64748b; --ov-scrim: rgba(241, 245, 249, 0.98); --ov-grid: #cbd5e1;
+        --st-track: #e5e7eb; --st-surface: #ffffff; --st-ink: #111827; --st-muted: #6b7280; --st-text: #374151;
+        --pick-bg: #f8fafc; --pick-ink: #334155; --pick-muted: #64748b;
+      }
+      html[data-mode="dark"] {
+        color-scheme: dark;
+        --bg: #0f172a; --surface: #1e293b; --surface2: #334155; --border: #334155;
+        --text: #e2e8f0; --text-muted: #94a3b8; --ink: #f1f5f9; --row-hover: #1e293b;
+        --ov-bg0: #0f172a; --ov-card: #1e293b; --ov-card2: #334155; --ov-hover: #2d3b52;
+        --ov-hover2: #3d4b62; --ov-hover-red: #3d1a1a; --ov-text: #f1f5f9; --ov-muted: #94a3b8;
+        --ov-muted2: #64748b; --ov-scrim: rgba(15, 23, 42, 0.97); --ov-grid: #334155;
+        --st-track: #334155; --st-surface: #1e293b; --st-ink: #f1f5f9; --st-muted: #94a3b8; --st-text: #cbd5e1;
+        --pick-bg: #334155; --pick-ink: #e2e8f0; --pick-muted: #94a3b8;
+      }
+
+      /* ===== TEMA: warna aksen (menggantikan oranye bawaan Tailwind) ===== */
+      html .bg-orange-500 { background-color: var(--accent) !important; }
+      html .bg-orange-600 { background-color: var(--accent-strong) !important; }
+      html .text-orange-600 { color: var(--accent-strong); }
+      .ringkasan-beranda { color: var(--ink); }
+
+      /* ===== TEMA: overlay (grafik, instrumen, kategori, semua aset) mengikuti mode ===== */
+      .elm-semua-aset { background-color: var(--ov-bg0) !important; color: var(--ov-text) !important; }
+      #instrumenOverlay, #kategoriOverlay { background-color: var(--ov-scrim) !important; color: var(--ov-text) !important; }
+
+      /* ===== TEMA: mode gelap untuk halaman utama ===== */
+      html[data-mode="dark"] body,
+      html[data-mode="dark"] .wadah { background-color: var(--bg) !important; color: var(--text); }
+      html[data-mode="dark"] .bg-white { background-color: var(--surface) !important; }
+      html[data-mode="dark"] .bg-stone-200 { background-color: var(--bg) !important; }
+      html[data-mode="dark"] .bg-gray-100,
+      html[data-mode="dark"] .bg-gray-200 { background-color: var(--surface2) !important; color: var(--text) !important; }
+      html[data-mode="dark"] .text-gray-800,
+      html[data-mode="dark"] .text-gray-700 { color: var(--text) !important; }
+      html[data-mode="dark"] .text-gray-600,
+      html[data-mode="dark"] .text-gray-500 { color: var(--text-muted) !important; }
+      html[data-mode="dark"] .text-red-800 { color: #fca5a5 !important; }
+      html[data-mode="dark"] .seting { color: var(--text) !important; }
+      html[data-mode="dark"] .side-bar,
+      html[data-mode="dark"] .side-bar li { color: var(--text); }
+      html[data-mode="dark"] nav ul.ringkasan-beranda,
+      html[data-mode="dark"] nav ul.ringkasan-beranda > a { background-color: var(--surface) !important; }
+      html[data-mode="dark"] input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+      html[data-mode="dark"] select:not(#jenis),
+      html[data-mode="dark"] textarea {
+        background-color: var(--surface2) !important; color: var(--text) !important; border-color: var(--border);
+      }
+      html[data-mode="dark"] ::placeholder { color: var(--text-muted); }
+      html[data-mode="dark"] .layoting,
+      html[data-mode="dark"] .layoting .form { background-color: var(--bg) !important; color: var(--text); }
+      html[data-mode="dark"] .layoting label,
+      html[data-mode="dark"] .layoting td { color: var(--text); }
+      html[data-mode="dark"] .table,
+      html[data-mode="dark"] .table tr,
+      html[data-mode="dark"] .table td { background-color: transparent !important; }
+      html[data-mode="dark"] .table th { background-color: var(--surface2) !important; }
+      html[data-mode="dark"] .table tr[data-id]:hover { background-color: var(--row-hover) !important; }
+      html[data-mode="dark"] .table td:not(.nominal):not([class*="text-"]) { color: var(--text); }
+      html[data-mode="dark"] .table th:not(.pemasukan):not(.pengeluaran) { color: var(--text); }
+      html[data-mode="dark"] .confir-data-kosong { color: var(--text-muted); }
+      html[data-mode="dark"] .swal2-popup { background: var(--surface) !important; color: var(--text) !important; }
+      html[data-mode="dark"] .swal2-title,
+      html[data-mode="dark"] .swal2-html-container { color: var(--text) !important; }
+
+      .tema-grup { grid-column: 1 / -1; font-size: 11px; font-weight: 600; color: var(--text-muted);
+        text-transform: uppercase; letter-spacing: 0.04em; margin-top: 4px; }
+      .tema-warna .tema-grup:first-child { margin-top: 0; }
+
+      /* ===== TEMA: mode gelap, bagian yang sebelumnya terlewat (panel pengaturan & teks umum) ===== */
+      html[data-mode="dark"] :is(.wadah, .seting) :is(h3, h4, h5, h6, p, li, summary, details) { color: var(--text); }
+      html[data-mode="dark"] .seting .shadow-lg,
+      html[data-mode="dark"] .seting .bg-white { background-color: var(--surface) !important; }
+      html[data-mode="dark"] .seting :is(ul, li, details) { background-color: transparent; }
+      html[data-mode="dark"] .seting [style*="border-bottom"] { border-bottom-color: var(--border) !important; }
+      html[data-mode="dark"] .seting .text-red-800 { color: #fca5a5 !important; }
+      html[data-mode="dark"] .seting .text-gray-500 { color: var(--text-muted) !important; }
+      html[data-mode="dark"] .seting summary { color: var(--text); }
+      html[data-mode="dark"] .seting ul i.bi { color: var(--text-muted); }
+      html[data-mode="dark"] .seting .toggle-switch .slider { background-color: #475569; }
+      html[data-mode="dark"] .seting input:checked + .slider { background-color: var(--accent); }
+
+      /* ===== TEMA: tanggal & warna uang per jenis di tabel ===== */
+      /* terang: warna keluar di tabel ringkasan tetap oranye (bukan mengikuti warna aksen) */
+      html td.text-orange-600 { color: #ea580c; }
+      /* gelap: tanggal putih */
+      html[data-mode="dark"] .table th .tgl,
+      html[data-mode="dark"] .table th .tgl span,
+      html[data-mode="dark"] .table th .bulan-tahun,
+      html[data-mode="dark"] .table th .dinten { color: #f8fafc !important; }
+      /* gelap: warna per jenis, hue tetap, hanya lebih terang */
+      html[data-mode="dark"] .table tr.pemasukan td.nominal,
+      html[data-mode="dark"] .table tr.pemasukan td.nominal *,
+      html[data-mode="dark"] .table th.pemasukan,
+      html[data-mode="dark"] .table th.pemasukan .nominal { color: #4ade80 !important; }
+      html[data-mode="dark"] .table tr.pengeluaran td.nominal,
+      html[data-mode="dark"] .table tr.pengeluaran td.nominal *,
+      html[data-mode="dark"] .table th.pengeluaran,
+      html[data-mode="dark"] .table th.pengeluaran .nominal { color: #f87171 !important; }
+      html[data-mode="dark"] .table tr.transfer td.nominal,
+      html[data-mode="dark"] .table tr.transfer td.nominal * { color: #c084fc !important; }
+      /* gelap: tabel ringkasan mingguan/bulanan/tahunan */
+      html[data-mode="dark"] .table td.text-teal-600 { color: #2dd4bf !important; }
+      html[data-mode="dark"] .table td.text-orange-600 { color: #fb923c !important; }
+      /* gelap: angka & ikon mata di ringkasan beranda (warna inline) dibuat lebih terang */
+      html[data-mode="dark"] .ringkasan-beranda .nominal-masuk,
+      html[data-mode="dark"] .ringkasan-beranda #eyeMasuk { filter: brightness(1.6); }
+      html[data-mode="dark"] .ringkasan-beranda .nominal-keluar,
+      html[data-mode="dark"] .ringkasan-beranda #eyeKeluar { filter: brightness(1.3); }
+
+      /* ===== TEMA: panel pilihan tema ===== */
+      .tema-overlay { position: fixed; inset: 0; z-index: 1400; background: rgba(0, 0, 0, 0.5);
+        display: none; align-items: flex-end; justify-content: center; }
+      .tema-overlay.open { display: flex; }
+      .tema-sheet { width: 100%; max-width: 24rem; background: var(--surface); color: var(--text);
+        border-radius: 16px 16px 0 0; padding: 16px 16px 24px; max-height: 85vh; overflow-y: auto; }
+      .tema-head { display: flex; justify-content: space-between; align-items: center;
+        font-weight: 600; font-size: 14px; margin-bottom: 12px; text-transform: capitalize; }
+      .tema-head i { cursor: pointer; font-size: 16px; }
+      .tema-sheet h6 { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;
+        color: var(--text-muted); margin: 14px 0 8px; }
+      .tema-mode { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+      .tema-mode button { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 10px 4px;
+        border-radius: 10px; border: 2px solid var(--border); background: var(--surface2); color: var(--text);
+        font-size: 12px; cursor: pointer; }
+      .tema-mode button i { font-size: 18px; }
+      .tema-mode button.aktif { border-color: var(--accent); background: var(--accent-faint); color: var(--accent-strong); }
+      html[data-mode="dark"] .tema-mode button.aktif { background: var(--surface2); color: var(--accent); }
+      .tema-warna { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px 8px; }
+      .tema-warna button { display: flex; flex-direction: column; align-items: center; gap: 4px;
+        background: none; border: 0; color: var(--text); font-size: 11px; cursor: pointer; }
+      .tema-warna .bulatan { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center;
+        justify-content: center; color: #fff; border: 3px solid transparent; box-shadow: 0 0 0 1px var(--border); }
+      .tema-warna button.aktif .bulatan { border-color: var(--surface); box-shadow: 0 0 0 2px var(--text); }
     </style>
   </head>
   <body class="text-sm overflow-x-hidden">
@@ -1027,12 +1225,24 @@
                   </h4>
                   <ul class="block text-xs">
                     <li
-                      class="py-2 border-b-gray-400 w-full flex justify-between items-center"
+                      id="btnTemaWarna"
+                      class="py-2 border-b-gray-400 w-full flex justify-between items-center cursor-pointer"
                       style="border-bottom: 1px solid #8080807e"
                     >
                       <div>
                         <h5>atur warna tema</h5>
-                        <p class="text-red-800">orange</p>
+                        <p class="text-red-800" id="temaWarnaLabel">oranye</p>
+                      </div>
+                      <i class="bi bi-chevron-compact-right"></i>
+                    </li>
+                    <li
+                      id="btnTemaMode"
+                      class="py-2 border-b-gray-400 w-full flex justify-between items-center cursor-pointer"
+                      style="border-bottom: 1px solid #8080807e"
+                    >
+                      <div>
+                        <h5>mode tampilan</h5>
+                        <p class="text-red-800" id="temaModeLabel">terang</p>
                       </div>
                       <i class="bi bi-chevron-compact-right"></i>
                     </li>
@@ -1381,7 +1591,7 @@
           <a href="#" data-period="tahunan" class="px-3 py-1">tahunan</a>
         </ul>
         <!-- ===== AREA HEADER DENGAN 3 MATA ===== -->
-        <ul class="text-black" style="color: black !important">
+        <ul class="text-black ringkasan-beranda">
           <a class="pemasukan">
             <span>pemasukan</span>
             <div class="flex gap-1 items-center justify-center">
@@ -1590,6 +1800,22 @@
       </div>
     </div>
     <!-- ===== AKHIR OVERLAY KATEGORI ===== -->
+    <div id="temaOverlay" class="tema-overlay">
+      <div class="tema-sheet">
+        <div class="tema-head">
+          <span>tampilan &amp; tema</span>
+          <i class="bi bi-x-lg" id="temaTutup"></i>
+        </div>
+        <h6>Mode tampilan</h6>
+        <div class="tema-mode" id="temaModeList">
+          <button type="button" data-mode="terang"><i class="bi bi-sun"></i>Terang</button>
+          <button type="button" data-mode="gelap"><i class="bi bi-moon-stars"></i>Gelap</button>
+          <button type="button" data-mode="sistem"><i class="bi bi-circle-half"></i>Ikuti sistem</button>
+        </div>
+        <h6>Warna tema</h6>
+        <div class="tema-warna" id="temaWarnaList"></div>
+      </div>
+    </div>
     <div id="graphOverlay" class="graph-overlay hidden">
       <div class="graph-container">
         <div class="graph-header">
@@ -2327,7 +2553,7 @@
             showCancelButton: true,
             confirmButtonText: "Simpan",
             cancelButtonText: "Batal",
-            confirmButtonColor: "#f97316",
+            confirmButtonColor: themeColor("--accent"),
             focusConfirm: false,
             didOpen: () => {
               const popup = Swal.getPopup();
@@ -4598,6 +4824,7 @@ Hapus nama kategori
             },
           };
         }
+        window.__renderGraph = function () { return renderGraph.apply(this, arguments); };
         function renderGraph() {
           const { startDate, endDate } = getDateRangeForGraph();
           const displayText = getGraphDisplayText(
@@ -4693,8 +4920,8 @@ Hapus nama kategori
               toolbar: { show: false },
               zoom: { enabled: false },
               pan: { enabled: true },
-              background: "#1e293b",
-              foreColor: "#fff",
+              background: themeColor("--ov-card"),
+              foreColor: themeColor("--ov-text"),
               animations: { enabled: false },
             },
             stroke: { curve: "straight", width: 2 },
@@ -4716,7 +4943,7 @@ Hapus nama kategori
             yaxis: {
               labels: {
                 formatter: (val) => rupiah(val),
-                style: { colors: "#fff", fontSize: "10px" },
+                style: { colors: themeColor("--ov-text"), fontSize: "10px" },
               },
               title: {
                 text: "Jumlah (Rp)",
@@ -4741,11 +4968,11 @@ Hapus nama kategori
               },
             },
             legend: {
-              labels: { colors: "#fff" },
+              labels: { colors: themeColor("--ov-text") },
               position: "top",
               fontSize: "11px",
             },
-            grid: { borderColor: "#334155" },
+            grid: { borderColor: themeColor("--ov-grid") },
             markers: { size: 0 },
           };
           if (mainChart) mainChart.destroy();
@@ -4828,8 +5055,8 @@ Hapus nama kategori
                 chart: {
                   type: "bar",
                   height: 280,
-                  background: "#1e293b",
-                  foreColor: "#fff",
+                  background: themeColor("--ov-card"),
+                  foreColor: themeColor("--ov-text"),
                   toolbar: { show: false },
                   stacked: false,
                 },
@@ -4845,14 +5072,14 @@ Hapus nama kategori
                   categories: cat.categories,
                   labels: {
                     rotate: -45,
-                    style: { colors: "#fff", fontSize: "10px" },
+                    style: { colors: themeColor("--ov-text"), fontSize: "10px" },
                     hideOverlappingLabels: true,
                   },
                 },
                 yaxis: {
                   labels: {
                     formatter: (val) => rupiah(val),
-                    style: { colors: "#fff", fontSize: "10px" },
+                    style: { colors: themeColor("--ov-text"), fontSize: "10px" },
                   },
                   title: {
                     text: "Total (Rp)",
@@ -4861,7 +5088,7 @@ Hapus nama kategori
                 },
                 tooltip: { y: { formatter: (val) => rupiah(val) } },
                 colors: ["#10b981", "#ef4444"],
-                grid: { borderColor: "#334155" },
+                grid: { borderColor: themeColor("--ov-grid") },
               };
               categoryChart = new ApexCharts(container, {
                 ...optionsCat,
@@ -4903,14 +5130,14 @@ Hapus nama kategori
                   chart: {
                     type: "donut",
                     height: 300,
-                    background: "#1e293b",
-                    foreColor: "#fff",
+                    background: themeColor("--ov-card"),
+                    foreColor: themeColor("--ov-text"),
                     toolbar: { show: false },
                   },
                   series: combinedSeries,
                   labels: combinedLabels,
                   colors: combinedColors,
-                  stroke: { colors: ["#1e293b"], width: 2 },
+                  stroke: { colors: [themeColor("--ov-card")], width: 2 },
                   dataLabels: {
                     enabled: true,
                     formatter: function (val) {
@@ -4923,7 +5150,7 @@ Hapus nama kategori
                   legend: {
                     position: "bottom",
                     fontSize: "11px",
-                    labels: { colors: "#fff" },
+                    labels: { colors: themeColor("--ov-text") },
                     formatter: function (seriesName, opts) {
                       return (
                         seriesName +
@@ -4940,7 +5167,7 @@ Hapus nama kategori
                           show: true,
                           name: {
                             show: true,
-                            color: "#94a3b8",
+                            color: themeColor("--ov-muted"),
                             fontSize: "11px",
                           },
                           value: {
@@ -4952,7 +5179,7 @@ Hapus nama kategori
                           total: {
                             show: true,
                             label: "Total Transaksi",
-                            color: "#94a3b8",
+                            color: themeColor("--ov-muted"),
                             fontSize: "11px",
                             formatter: function (w) {
                               const sum = w.globals.seriesTotals.reduce(
@@ -5003,8 +5230,8 @@ Hapus nama kategori
                   chart: {
                     type: "bar",
                     height: 240,
-                    background: "#1e293b",
-                    foreColor: "#fff",
+                    background: themeColor("--ov-card"),
+                    foreColor: themeColor("--ov-text"),
                     toolbar: { show: false },
                   },
                   plotOptions: {
@@ -5019,14 +5246,14 @@ Hapus nama kategori
                     categories: incomeCategories,
                     labels: {
                       rotate: -45,
-                      style: { colors: "#fff", fontSize: "10px" },
+                      style: { colors: themeColor("--ov-text"), fontSize: "10px" },
                       hideOverlappingLabels: true,
                     },
                   },
                   yaxis: {
                     labels: {
                       formatter: (val) => rupiah(val),
-                      style: { colors: "#fff", fontSize: "10px" },
+                      style: { colors: themeColor("--ov-text"), fontSize: "10px" },
                     },
                     title: {
                       text: "Pemasukan (Rp)",
@@ -5035,7 +5262,7 @@ Hapus nama kategori
                   },
                   tooltip: { y: { formatter: (val) => rupiah(val) } },
                   colors: ["#10b981"],
-                  grid: { borderColor: "#334155" },
+                  grid: { borderColor: themeColor("--ov-grid") },
                 };
                 categoryIncomeChart = new ApexCharts(incContainer, {
                   ...optionsIncBar,
@@ -5048,14 +5275,14 @@ Hapus nama kategori
                   chart: {
                     type: "donut",
                     height: 270,
-                    background: "#1e293b",
-                    foreColor: "#fff",
+                    background: themeColor("--ov-card"),
+                    foreColor: themeColor("--ov-text"),
                     toolbar: { show: false },
                   },
                   series: incomeValues,
                   labels: incomeCategories,
                   colors: PALETTE_INCOME,
-                  stroke: { colors: ["#1e293b"], width: 2 },
+                  stroke: { colors: [themeColor("--ov-card")], width: 2 },
                   dataLabels: {
                     enabled: true,
                     formatter: function (val) {
@@ -5068,7 +5295,7 @@ Hapus nama kategori
                   legend: {
                     position: "bottom",
                     fontSize: "11px",
-                    labels: { colors: "#fff" },
+                    labels: { colors: themeColor("--ov-text") },
                     formatter: function (seriesName, opts) {
                       return (
                         seriesName +
@@ -5085,7 +5312,7 @@ Hapus nama kategori
                           show: true,
                           name: {
                             show: true,
-                            color: "#94a3b8",
+                            color: themeColor("--ov-muted"),
                             fontSize: "11px",
                           },
                           value: {
@@ -5097,7 +5324,7 @@ Hapus nama kategori
                           total: {
                             show: true,
                             label: "Total Masuk",
-                            color: "#94a3b8",
+                            color: themeColor("--ov-muted"),
                             fontSize: "11px",
                             formatter: function (w) {
                               const sum = w.globals.seriesTotals.reduce(
@@ -5130,8 +5357,8 @@ Hapus nama kategori
                   chart: {
                     type: "bar",
                     height: 240,
-                    background: "#1e293b",
-                    foreColor: "#fff",
+                    background: themeColor("--ov-card"),
+                    foreColor: themeColor("--ov-text"),
                     toolbar: { show: false },
                   },
                   plotOptions: {
@@ -5146,14 +5373,14 @@ Hapus nama kategori
                     categories: expenseCategories,
                     labels: {
                       rotate: -45,
-                      style: { colors: "#fff", fontSize: "10px" },
+                      style: { colors: themeColor("--ov-text"), fontSize: "10px" },
                       hideOverlappingLabels: true,
                     },
                   },
                   yaxis: {
                     labels: {
                       formatter: (val) => rupiah(val),
-                      style: { colors: "#fff", fontSize: "10px" },
+                      style: { colors: themeColor("--ov-text"), fontSize: "10px" },
                     },
                     title: {
                       text: "Pengeluaran (Rp)",
@@ -5162,7 +5389,7 @@ Hapus nama kategori
                   },
                   tooltip: { y: { formatter: (val) => rupiah(val) } },
                   colors: ["#ef4444"],
-                  grid: { borderColor: "#334155" },
+                  grid: { borderColor: themeColor("--ov-grid") },
                 };
                 categoryExpenseChart = new ApexCharts(expContainer, {
                   ...optionsExpBar,
@@ -5175,14 +5402,14 @@ Hapus nama kategori
                   chart: {
                     type: "donut",
                     height: 270,
-                    background: "#1e293b",
-                    foreColor: "#fff",
+                    background: themeColor("--ov-card"),
+                    foreColor: themeColor("--ov-text"),
                     toolbar: { show: false },
                   },
                   series: expenseValues,
                   labels: expenseCategories,
                   colors: PALETTE_EXPENSE,
-                  stroke: { colors: ["#1e293b"], width: 2 },
+                  stroke: { colors: [themeColor("--ov-card")], width: 2 },
                   dataLabels: {
                     enabled: true,
                     formatter: function (val) {
@@ -5195,7 +5422,7 @@ Hapus nama kategori
                   legend: {
                     position: "bottom",
                     fontSize: "11px",
-                    labels: { colors: "#fff" },
+                    labels: { colors: themeColor("--ov-text") },
                     formatter: function (seriesName, opts) {
                       return (
                         seriesName +
@@ -5212,7 +5439,7 @@ Hapus nama kategori
                           show: true,
                           name: {
                             show: true,
-                            color: "#94a3b8",
+                            color: themeColor("--ov-muted"),
                             fontSize: "11px",
                           },
                           value: {
@@ -5224,7 +5451,7 @@ Hapus nama kategori
                           total: {
                             show: true,
                             label: "Total Keluar",
-                            color: "#94a3b8",
+                            color: themeColor("--ov-muted"),
                             fontSize: "11px",
                             formatter: function (w) {
                               const sum = w.globals.seriesTotals.reduce(
@@ -5902,6 +6129,68 @@ Hapus nama kategori
         document.getElementById("instrumenOverlay").classList.add("hidden");
         // ===== PASTIKAN SIDEBAR TERTUTUP SAAT LOAD =====
         closeSidebar();
+      })();
+    </script>
+    <script>
+      /* ===== TEMA: panel pilihan warna & mode ===== */
+      (function () {
+        var warna = temaBaca("temaWarna", "orange");
+        var mode = temaBaca("temaMode", "terang");
+        if (!TEMA_PALET[warna]) warna = "orange";
+        if (!TEMA_MODE_NAMA[mode]) mode = "terang";
+        var ov = document.getElementById("temaOverlay");
+        var listWarna = document.getElementById("temaWarnaList");
+        var listMode = document.getElementById("temaModeList");
+
+        var GRUP = { pop: "Populer", aes: "Aesthetic" };
+        function tombolWarna(k) {
+          return '<button type="button" data-warna="' + k + '"><span class="bulatan" style="background:' +
+            TEMA_PALET[k].a + '"><i class="bi bi-check-lg"></i></span>' + TEMA_PALET[k].n + "</button>";
+        }
+        listWarna.innerHTML = Object.keys(GRUP).map(function (g) {
+          return '<div class="tema-grup">' + GRUP[g] + "</div>" +
+            Object.keys(TEMA_PALET).filter(function (k) { return TEMA_PALET[k].g === g; }).map(tombolWarna).join("");
+        }).join("");
+
+        function simpan() {
+          try { localStorage.setItem("temaWarna", warna); localStorage.setItem("temaMode", mode); } catch (e) {}
+        }
+        function segarkan() {
+          temaTerapkan(warna, mode);
+          document.getElementById("temaWarnaLabel").textContent = TEMA_PALET[warna].n.toLowerCase();
+          document.getElementById("temaModeLabel").textContent = TEMA_MODE_NAMA[mode].toLowerCase();
+          listWarna.querySelectorAll("button").forEach(function (b) {
+            var on = b.getAttribute("data-warna") === warna;
+            b.classList.toggle("aktif", on);
+            b.querySelector("i").style.visibility = on ? "visible" : "hidden";
+          });
+          listMode.querySelectorAll("button").forEach(function (b) {
+            b.classList.toggle("aktif", b.getAttribute("data-mode") === mode);
+          });
+          var g = document.getElementById("graphOverlay");
+          if (g && !g.classList.contains("hidden") && window.__renderGraph) window.__renderGraph();
+        }
+        listWarna.addEventListener("click", function (e) {
+          var b = e.target.closest("button[data-warna]"); if (!b) return;
+          warna = b.getAttribute("data-warna"); simpan(); segarkan();
+        });
+        listMode.addEventListener("click", function (e) {
+          var b = e.target.closest("button[data-mode]"); if (!b) return;
+          mode = b.getAttribute("data-mode"); simpan(); segarkan();
+        });
+        function buka() { ov.classList.add("open"); }
+        function tutup() { ov.classList.remove("open"); }
+        document.getElementById("btnTemaWarna").addEventListener("click", buka);
+        document.getElementById("btnTemaMode").addEventListener("click", buka);
+        document.getElementById("temaTutup").addEventListener("click", tutup);
+        ov.addEventListener("click", function (e) { if (e.target === ov) tutup(); });
+        if (window.matchMedia) {
+          var mq = matchMedia("(prefers-color-scheme: dark)");
+          var onChg = function () { if (mode === "sistem") segarkan(); };
+          if (mq.addEventListener) mq.addEventListener("change", onChg);
+          else if (mq.addListener) mq.addListener(onChg);
+        }
+        segarkan();
       })();
     </script>
   </body>
