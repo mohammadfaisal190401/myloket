@@ -932,12 +932,10 @@
           class="header tombol-pindah-waktu flex justify-between relative"
         >
           <figure>
-            <span
-              ><i
-                class="bi bi-chevron-left cursor-pointer"
-                id="prevMonthBtn"
-              ></i
-            ></span>
+            <span>
+              <i class="bi bi-chevron-left cursor-pointer" id="prevMonthBtn"
+              ></i>
+            </span>
             <span class="sm:text-[15px] cursor-pointer" id="currentMonthDisplay"
               >BULAN</span
             >
@@ -1310,6 +1308,8 @@
             </div>
           </div>
         </figure>
+
+
         <figure
           class="elm-semua-aset max-w-sm mx-auto figure-darurat fixed top-0 right-0 bottom-0 left-0 bg-slate-900 hidden text-white overflow-auto"
         >
@@ -2534,9 +2534,9 @@
           return ns;
         }
         function hitungSaldoBulanIni() {
-          const now = new Date();
-          const th = now.getFullYear(),
-            bl = now.getMonth();
+          // Ikuti bulan & tahun yang sedang dipilih di navigasi (bukan tanggal hari ini)
+          const th = currentYear,
+            bl = currentMonth - 1;
           let p = 0,
             k = 0;
           dataUang.forEach((d) => {
@@ -3445,6 +3445,7 @@ ${inst}
           } else tampilkanData(filtered);
         }
         function refreshByPeriod() {
+          updateHeaderSaldo(); // saldo beranda ikut berubah saat bulan digeser
           if (isSearchActive && lastSearchKeyword) {
             performSearch(lastSearchKeyword);
             return;
